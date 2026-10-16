@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r1_20260918T051127Z_budget_and_climate_preference_episodic_only_hot_path",
+  "user_id": 85,
+  "thread_ids": [
+    "d277c3da-03c8-4e5d-82fa-15c81fa9c093",
+    "35ee7448-f7b0-4172-9678-ac97cf5f3c59"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some towns that are sunny and have relatively low prices, although they may have higher humidity levels than you prefer:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 20 km\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Rainy Days: **10**\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Hospitals Nearby: 6 within 100 km\n   - Schools Nearby: 1 High School within 20 km\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Rainy Days: **12**\n\n3. **Zephyr Cove, Nevada**\n   - Average Price: **$2,496,508** (not within budget)\n   - Average Temperature: **16.6 \u00b0C**\n   - Hospitals Nearby: 1 within 100 km\n   - Schools Nearby: 19 Elementary Schools within 100 km\n   - Humidity: **88%**\n   - Sunny Days: **319**\n   - Rainy Days: **4**\n\n4. **Youngtown, Arizona**\n   - Average Price: **$351,891** (not within budget)\n   - Average Temperature: **23.9 \u00b0C**\n   - Hospitals Nearby: 3 within 5 km, 11 within 20 km\n   - Schools Nearby: 41 Elementary Schools within 20 km\n   - Humidity: **92%**\n   - Sunny Days: **316**\n   - Rainy Days: **22**\n\n5. **Yucca Valley, California**\n   - Average Price: **$349,158** (not within budget)\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary Schools within 10 km\n   - Humidity: **93%**\n   - Sunny Days: **296**\n   - Rainy Days: **20**\n\nWhile the prices for some towns exceed your budget, Yermo and Yucca are quite affordable options. However, please note that the humidity levels are higher than you specified. If you would like to refine your search further or explore other options, let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with more details about your preferences? For example, are you looking for specific price ranges, weather conditions, proximity to hospitals or schools, or any other factors that are important to you?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 3.983738699999776,
+    "per_turn_latency_seconds": [
+      6.74904129999959,
+      1.2184360999999626
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.5561224999996739
+  }
+}

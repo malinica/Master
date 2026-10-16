@@ -1,0 +1,71 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "baseline",
+  "username": "eval_type_r1_20261012T055746Z_distractor_relevant_vs_irrelevant_baseline",
+  "user_id": 1374,
+  "thread_ids": [
+    "5ec63984-6cb0-498c-9e73-0095d78e68b2",
+    "a2100e3e-76fa-4f9d-b578-df41e3a96e70"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Weather: Humidity 88%, Wind Speed 23.7 m/s, Rainy Days 1.0\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Weather: Humidity 91%, Wind Speed 18.8 m/s, Rainy Days 0.0\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Weather: Humidity 95%, Wind Speed 10.5 m/s, Sunny Days 1.0\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Weather: Humidity 92%, Wind Speed 15.8 m/s, Sunny Days 109.5\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Weather: Humidity 93%, Wind Speed 14.7 m/s, Rainy Days 1.0\n\nIf you need more information or have specific preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns for you, could you please provide me with some specific preferences? For example, what are your ideal price range, weather preferences (like temperature or climate), proximity to hospitals, and school quality? Any additional details will help narrow down the options!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Weather: Humidity 88%, Wind Speed 23.7 m/s, Rainy Days 1.0\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Weather: Humidity 91%, Wind Speed 18.8 m/s, Rainy Days 0.0\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Weather: Humidity 95%, Wind Speed 10.5 m/s, Sunny Days 1.0\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Weather: Humidity 92%, Wind Speed 15.8 m/s, Sunny Days 109.5\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Weather: Humidity 93%, Wind Speed 14.7 m/s, Rainy Days 1.0\n\nIf you need more information or have specific preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "reply": "To help you find the best towns for you, could you please provide me with some specific preferences? For example, what are your ideal price range, weather preferences (like temperature or climate), proximity to hospitals, and school quality? Any additional details will help narrow down the options!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.1232299499970395,
+    "per_turn_latency_seconds": [
+      7.040743099991232,
+      1.2057168000028469
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

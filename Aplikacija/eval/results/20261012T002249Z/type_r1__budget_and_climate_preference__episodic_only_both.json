@@ -1,0 +1,108 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_both",
+  "username": "eval_type_r1_20261012T002249Z_budget_and_climate_preference_episodic_only_both",
+  "user_id": 859,
+  "thread_ids": [
+    "3835c4dc-6660-4221-8d5e-549a2c398825",
+    "08777ac9-92f7-4160-8319-062a4b0f11a1"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "I found some towns that are affordable and sunny, but they do have higher humidity levels than you might prefer. Here are the options:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 elementary, 2 high schools within 20 km\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Hospitals nearby: 6 within 100 km\n   - Schools nearby: 1 high school within 20 km\n\n3. **Zephyr Cove, Nevada**\n   - Average Price: **$2,496,508** (not within your budget)\n   - Average Temperature: **16.6 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **319**\n   - Hospitals nearby: 1 within 100 km\n\n4. **Youngtown, Arizona**\n   - Average Price: **$351,891** (above your budget)\n   - Average Temperature: **23.9 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **316**\n   - Hospitals nearby: 3 within 5 km, 11 within 20 km\n\n5. **Yucca Valley, California**\n   - Average Price: **$349,158** (above your budget)\n   - Average Temperature: **20.6 \u00b0C**\n   - Humidity: **93%**\n   - Sunny Days: **296**\n   - Hospitals nearby: 5 within 20 km, 187 within 100 km\n\nWhile these towns are sunny and affordable, they do have higher humidity levels. If you have any other preferences or want to adjust your criteria, let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some specific preferences or criteria you have in mind for the places you'd like to live? For example, are you looking for a certain budget, climate, proximity to hospitals or schools, or any other features?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns with low humidity and a budget around $200,000"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "cheap sunny towns with low humidity and a budget around $200,000",
+              "summary": "User requested affordable sunny towns with low humidity, budget around $200,000. Found towns with average prices below $200,000 but high humidity levels.",
+              "top_result_towns": [
+                "Yermo, California",
+                "Yucca, Arizona",
+                "Zephyr Cove, Nevada",
+                "Youngtown, Arizona",
+                "Yucca Valley, California"
+              ]
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  No results for your query, showing best available options:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yermo</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>California</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,914</b><br>Average temperature: <b>21.3 \u00b0C</b><br>Hospitals nearby"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory c1c98018-b806-4b71-9d89-fc0ee314cd21"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns with low humidity and a budget around $200,000",
+          "summary": "User requested affordable sunny towns with low humidity, budget around $200,000. Found towns with average prices below $200,000 but high humidity levels.",
+          "score": 0.659054121345594
+        }
+      ],
+      "reply": "I found some towns that are affordable and sunny, but they do have higher humidity levels than you might prefer. Here are the options:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 elementary, 2 high schools within 20 km\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Hospitals nearby: 6 within 100 km\n   - Schools nearby: 1 high school within 20 km\n\n3. **Zephyr Cove, Nevada**\n   - Average Price: **$2,496,508** (not within your budget)\n   - Average Temperature: **16.6 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **319**\n   - Hospitals nearby: 1 within 100 km\n\n4. **Youngtown, Arizona**\n   - Average Price: **$351,891** (above your budget)\n   - Average Temperature: **23.9 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **316**\n   - Hospitals nearby: 3 within 5 km, 11 within 20 km\n\n5. **Yucca Valley, California**\n   - Average Price: **$349,158** (above your budget)\n   - Average Temperature: **20.6 \u00b0C**\n   - Humidity: **93%**\n   - Sunny Days: **296**\n   - Hospitals nearby: 5 within 20 km, 187 within 100 km\n\nWhile these towns are sunny and affordable, they do have higher humidity levels. If you have any other preferences or want to adjust your criteria, let me know!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns with low humidity and a budget around $200,000",
+          "summary": "User requested affordable sunny towns with low humidity, budget around $200,000. Found towns with average prices below $200,000 but high humidity levels.",
+          "score": 0.3540549746310524
+        }
+      ],
+      "reply": "Could you please provide me with some specific preferences or criteria you have in mind for the places you'd like to live? For example, are you looking for a certain budget, climate, proximity to hospitals or schools, or any other features?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 5.208279699989362,
+    "per_turn_latency_seconds": [
+      8.903023999999277,
+      1.513535399979446
+    ],
+    "latency_overhead_vs_baseline_seconds": 1.1532890000089537
+  }
+}

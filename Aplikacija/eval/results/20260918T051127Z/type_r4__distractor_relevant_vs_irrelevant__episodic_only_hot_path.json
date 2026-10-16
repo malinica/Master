@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r4_20260918T051127Z_distractor_relevant_vs_irrelevant_episodic_only_hot_path",
+  "user_id": 196,
+  "thread_ids": [
+    "0288493a-b74e-452e-afb0-babd5079a568",
+    "70d6a4c1-f837-421e-8d6f-61716a92c810"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby: 4 Elementary, 2 High (within 10 km)\n   - Overall Score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools nearby: 7 Elementary, 2 High (within 20 km)\n   - Overall Score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools nearby: 2 Elementary, 2 High (within 20 km)\n   - Overall Score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools nearby: 1 Elementary, 1 High (within 10 km)\n   - Overall Score: **3.00**\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby: 1 Elementary, 1 High (within 10 km)\n   - Overall Score: **3.00**\n\nIf you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some preferences? For example, what is your budget for housing? Are there specific weather conditions you prefer? How important are hospitals and schools in your decision? Any other factors you'd like me to consider?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 4.235507600000346,
+    "per_turn_latency_seconds": [
+      7.366390400000455,
+      1.1046248000002379
+    ],
+    "latency_overhead_vs_baseline_seconds": -0.13285604999873613
+  }
+}

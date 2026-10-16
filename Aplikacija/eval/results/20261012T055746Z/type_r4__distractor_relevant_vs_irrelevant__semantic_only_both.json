@@ -1,0 +1,132 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "semantic_only_both",
+  "username": "eval_type_r4_20261012T055746Z_distractor_relevant_vs_irrelevant_semantic_only_both",
+  "user_id": 1575,
+  "thread_ids": [
+    "bfbbc355-4dd3-42e8-a92a-5459575e27a3",
+    "f1c57464-50e0-4d68-bb19-8c84bb86fba5"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 9 Elementary, 7 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n   - Overall score: **3.00**\n\nIf you need more information or have specific preferences regarding schools or hospitals, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are five towns in Oregon that fit your criteria of a maximum price of $250,000, with schools and hospitals nearby:\n\n1. **Johnson City, Oregon**\n   - **Average Price:** $69,900\n   - **Average Temperature:** 10.8 \u00b0C\n   - **Hospitals Nearby:** 3 within 20 km, 16 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 18 within 10 km, 38 within 20 km\n     - High: 16 within 10 km, 25 within 20 km\n   - **Weather Conditions:** Humidity 92%, Wind Speed 15.3 m/s, Rainy Days 1.0\n\n2. **Prescott, Oregon**\n   - **Average Price:** $20,000\n   - **Average Temperature:** 12.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 32 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 2 within 10 km, 18 within 20 km\n     - High: 2 within 10 km, 11 within 20 km\n   - **Weather Conditions:** Humidity 91%, Wind Speed 17.9 m/s, Rainy Days 1.0\n\n3. **Westport, Oregon**\n   - **Average Price:** $195,000\n   - **Average Temperature:** 13.8 \u00b0C\n   - **Hospitals Nearby:** 28 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 2 within 10 km, 6 within 20 km\n     - High: 0 within 10 km, 1 within 20 km\n   - **Weather Conditions:** Humidity 89%, Wind Speed 21.6 m/s, Rainy Days 1.0\n\n4. **Helix, Oregon**\n   - **Average Price:** $207,500\n   - **Average Temperature:** 9.5 \u00b0C\n   - **Hospitals Nearby:** 14 within 100 km\n   - **Schools Nearby:** \n     - High: 1 within 10 km, 1 within 20 km\n   - **Weather Conditions:** Humidity 88%, Wind Speed 23.4 m/s, Rainy Days 0.0\n\n5. **Frenchglen, Oregon**\n   - **Average Price:** $184,900\n   - **Average Temperature:** 5.7 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 1 within 10 km, 1 within 20 km\n   - **Weather Conditions:** Humidity 92%, Wind Speed 16.1 m/s, Rainy Days 0.0\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Oregon"
+              ],
+              "price_max": 250000
+            },
+            "action": "create"
+          }
+        },
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 5c4231c6-a7e8-4706-a63d-7342a2654003"
+        },
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 9 Elementary, 7 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n   - Overall score: **3.00**\n\nIf you need more information or have specific preferences regarding schools or hospitals, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a maximum price of $250,000, looking for schools and hospitals nearby."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Johnson City</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$69,900</b><br>Average temperature: <b>10.8 \u00b0C</b><br>Hospitals "
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "humidity"
+        ],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [
+          "elementary",
+          "high"
+        ],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": true
+      },
+      "reply": "Here are five towns in Oregon that fit your criteria of a maximum price of $250,000, with schools and hospitals nearby:\n\n1. **Johnson City, Oregon**\n   - **Average Price:** $69,900\n   - **Average Temperature:** 10.8 \u00b0C\n   - **Hospitals Nearby:** 3 within 20 km, 16 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 18 within 10 km, 38 within 20 km\n     - High: 16 within 10 km, 25 within 20 km\n   - **Weather Conditions:** Humidity 92%, Wind Speed 15.3 m/s, Rainy Days 1.0\n\n2. **Prescott, Oregon**\n   - **Average Price:** $20,000\n   - **Average Temperature:** 12.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 32 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 2 within 10 km, 18 within 20 km\n     - High: 2 within 10 km, 11 within 20 km\n   - **Weather Conditions:** Humidity 91%, Wind Speed 17.9 m/s, Rainy Days 1.0\n\n3. **Westport, Oregon**\n   - **Average Price:** $195,000\n   - **Average Temperature:** 13.8 \u00b0C\n   - **Hospitals Nearby:** 28 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 2 within 10 km, 6 within 20 km\n     - High: 0 within 10 km, 1 within 20 km\n   - **Weather Conditions:** Humidity 89%, Wind Speed 21.6 m/s, Rainy Days 1.0\n\n4. **Helix, Oregon**\n   - **Average Price:** $207,500\n   - **Average Temperature:** 9.5 \u00b0C\n   - **Hospitals Nearby:** 14 within 100 km\n   - **Schools Nearby:** \n     - High: 1 within 10 km, 1 within 20 km\n   - **Weather Conditions:** Humidity 88%, Wind Speed 23.4 m/s, Rainy Days 0.0\n\n5. **Frenchglen, Oregon**\n   - **Average Price:** $184,900\n   - **Average Temperature:** 5.7 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** \n     - Elementary: 1 within 10 km, 1 within 20 km\n   - **Weather Conditions:** Humidity 92%, Wind Speed 16.1 m/s, Rainy Days 0.0\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 8.665213350002887,
+    "per_turn_latency_seconds": [
+      9.321765100001357,
+      8.008661600004416
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.679734750010539
+  }
+}

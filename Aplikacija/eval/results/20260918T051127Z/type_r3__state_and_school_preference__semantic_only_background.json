@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "semantic_only_background",
+  "username": "eval_type_r3_20260918T051127Z_state_and_school_preference_semantic_only_background",
+  "user_id": 153,
+  "thread_ids": [
+    "d9f9ece6-35f8-45dc-90ef-1406b9869ef8",
+    "170ab886-d55b-4f26-842f-b70d65ccbd85"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona that have good schools nearby, suitable for families with children:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 25\n     - Within 100 km: 56\n   - **Schools Nearby:**\n     - Within 10 km: 4 Prekindergarten, 121 Elementary, 63 High\n     - Within 20 km: 6 Prekindergarten, 322 Elementary, 134 High\n     - Within 100 km: 16 Prekindergarten, 772 Elementary, 310 High\n   - **Weather Conditions:** Humidity: 85%, Wind Speed: 30.5 m/s, Sunny Days: 1.0\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 5\n     - Within 20 km: 41\n     - Within 100 km: 108\n   - **Schools Nearby:**\n     - Within 10 km: 4 Prekindergarten, 98 Elementary, 40 High\n     - Within 20 km: 8 Prekindergarten, 309 Elementary, 123 High\n     - Within 100 km: 27 Prekindergarten, 933 Elementary, 420 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 23.6 m/s, Sunny Days: 1.0\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:**\n     - Within 10 km: 3 Prekindergarten, 90 Elementary, 48 High\n     - Within 20 km: 8 Prekindergarten, 298 Elementary, 139 High\n     - Within 100 km: 27 Prekindergarten, 927 Elementary, 416 High\n   - **Weather Conditions:** Humidity: 92%, Wind Speed: 15.4 m/s, Sunny Days: 67.5\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 37\n     - Within 100 km: 107\n   - **Schools Nearby:**\n     - Within 10 km: 3 Prekindergarten, 97 Elementary, 39 High\n     - Within 20 km: 9 Prekindergarten, 314 Elementary, 127 High\n     - Within 100 km: 27 Prekindergarten, 928 Elementary, 417 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 24.0 m/s, Sunny Days: 1.0\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 30\n     - Within 100 km: 56\n   - **Schools Nearby:**\n     - Within 10 km: 2 Prekindergarten, 125 Elementary, 49 High\n     - Within 20 km: 5 Prekindergarten, 329 Elementary, 137 High\n     - Within 100 km: 16 Prekindergarten, 774 Elementary, 311 High\n   - **Weather Conditions:** Humidity: 95%, Wind Speed: 10.2 m/s, Sunny Days: 1.0\n\nIf you would like more information about any of these locations or have specific preferences regarding price or climate, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona that match your preferences for having prekindergarten, elementary, and high schools nearby:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** 4 Prekindergarten, 121 Elementary, 63 High\n   - **Humidity:** 85%\n   - **Wind Speed:** 30.5 m/s\n   - **Sunny Days:** 1.0\n\n2. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** 3 Prekindergarten, 90 Elementary, 48 High\n   - **Humidity:** 92%\n   - **Wind Speed:** 15.4 m/s\n   - **Sunny Days:** 67.5\n\n3. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** 2 Prekindergarten, 125 Elementary, 49 High\n   - **Humidity:** 95%\n   - **Wind Speed:** 10.2 m/s\n   - **Sunny Days:** 1.0\n\n4. **Sun City West, Arizona**\n   - **Average Price:** $431,079\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** 2 Prekindergarten, 125 Elementary, 47 High\n   - **Humidity:** 95%\n   - **Wind Speed:** 10.2 m/s\n   - **Sunny Days:** 1.0\n\n5. **Mesa, Arizona**\n   - **Average Price:** $439,151\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 1 within 5 km, 24 within 20 km\n   - **Schools Nearby:** 4 Prekindergarten, 91 Elementary, 47 High\n   - **Humidity:** 94%\n   - **Wind Speed:** 11.0 m/s\n   - **Sunny Days:** 1.0\n\nIf you need more information or have specific criteria to adjust, let me know!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 9.51237305000086,
+    "per_turn_latency_seconds": [
+      9.044439000001148,
+      9.980307100000573
+    ],
+    "latency_overhead_vs_baseline_seconds": 5.037065250001433
+  }
+}

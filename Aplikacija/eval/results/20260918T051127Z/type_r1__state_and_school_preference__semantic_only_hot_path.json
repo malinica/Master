@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r1_20260918T051127Z_state_and_school_preference_semantic_only_hot_path",
+  "user_id": 88,
+  "thread_ids": [
+    "a316a7fb-fce5-4e53-8b21-46ab73081a3c",
+    "55e38448-4cd4-4557-aab0-cb75ff02efa3"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "I've noted that you're interested in living in Texas or Arizona and that you need a place with good schools nearby for your kids. How can I assist you further? Are there any specific preferences regarding price or other amenities?"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, proximity to schools and hospitals, and any dislikes you may have?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.3333333333333333,
+    "behavioral_consistency": 0.3333333333333333,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 1.7525488999999652,
+    "per_turn_latency_seconds": [
+      2.4576704999999492,
+      1.0474272999999812
+    ],
+    "latency_overhead_vs_baseline_seconds": -2.799699949999649
+  }
+}

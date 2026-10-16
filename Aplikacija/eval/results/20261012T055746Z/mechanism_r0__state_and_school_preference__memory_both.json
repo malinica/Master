@@ -1,0 +1,164 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_both",
+  "username": "eval_mechanism_r0_20261012T055746Z_state_and_school_preference_memory_both",
+  "user_id": 1256,
+  "thread_ids": [
+    "a7089873-bc0c-488f-afce-b2e7bd93258d",
+    "cd49987f-c694-43cf-b0c2-bbc9b07356a7"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n   - **Humidity:** 85%\n   - **Overall Score:** 1.08\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** 5 within 5 km, 41 within 20 km\n   - **Schools Nearby:** 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n   - **Humidity:** 88%\n   - **Overall Score:** 1.02\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n   - **Humidity:** 92%\n   - **Overall Score:** 0.99\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 37 within 20 km\n   - **Schools Nearby:** 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n   - **Humidity:** 88%\n   - **Overall Score:** 0.99\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** 2 Prekindergarten, 125 Elementary, 49 High Schools within 10 km\n   - **Humidity:** 95%\n   - **Overall Score:** 0.96\n\nIf you need more information about any of these places or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona that have schools and hospitals nearby:\n\n1. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n\n2. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 37 within 20 km\n   - Schools Nearby: 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n\n3. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: 5 within 5 km, 41 within 20 km\n   - Schools Nearby: 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n\n4. **Phoenix, Arizona**\n   - Average Price: **$0** (not specified)\n   - Average Temperature: **26.4 \u00b0C**\n   - Hospitals Nearby: 10 within 5 km, 24 within 20 km\n   - Schools Nearby: 2 Prekindergarten, 110 Elementary, 40 High Schools within 10 km\n\n5. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: 2 within 5 km, 25 within 20 km\n   - Schools Nearby: 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n\nLet me know if you need more information about any of these towns!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns or cities in Texas or Arizona with good schools nearby"
+          }
+        },
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        },
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 276b20ba-e3a2-4356-ae79-245685ea1927"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n   - **Humidity:** 85%\n   - **Overall Score:** 1.08\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** 5 within 5 km, 41 within 20 km\n   - **Schools Nearby:** 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n   - **Humidity:** 88%\n   - **Overall Score:** 1.02\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n   - **Humidity:** 92%\n   - **Overall Score:** 0.99\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 37 within 20 km\n   - **Schools Nearby:** 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n   - **Humidity:** 88%\n   - **Overall Score:** 0.99\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** 2 Prekindergarten, 125 Elementary, 49 High Schools within 10 km\n   - **Humidity:** 95%\n   - **Overall Score:** 0.96\n\nIf you need more information about any of these places or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Texas and Arizona with schools and hospitals nearby"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns in Texas and Arizona with schools and hospitals nearby",
+              "summary": "Recommended towns based on criteria of having schools and hospitals nearby in Texas and Arizona.",
+              "top_result_towns": [
+                "Dawn, Texas",
+                "Houston, Texas",
+                "LaCoste, Texas",
+                "Phoenix, Arizona",
+                "Glendale, Arizona"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Dawn</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Texas</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$786,147</b><br>Average temperature: <b>22.6 \u00b0C</b><br>Hospitals"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 80678799-ef76-4fd8-a7f0-2a3ee5ed2454"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns in Texas and Arizona with schools and hospitals nearby",
+          "summary": "Recommended towns based on criteria of having schools and hospitals nearby in Texas and Arizona.",
+          "score": 0.3924605243163751
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 888562.0,
+        "price_min": 475386.0,
+        "school_types": [
+          "Prekindergarten",
+          "Elementary",
+          "High"
+        ],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": "warm",
+        "wants_hospitals_nearby": true
+      },
+      "reply": "Here are some towns in Texas and Arizona that have schools and hospitals nearby:\n\n1. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n\n2. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 37 within 20 km\n   - Schools Nearby: 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n\n3. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: 5 within 5 km, 41 within 20 km\n   - Schools Nearby: 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n\n4. **Phoenix, Arizona**\n   - Average Price: **$0** (not specified)\n   - Average Temperature: **26.4 \u00b0C**\n   - Hospitals Nearby: 10 within 5 km, 24 within 20 km\n   - Schools Nearby: 2 Prekindergarten, 110 Elementary, 40 High Schools within 10 km\n\n5. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: 2 within 5 km, 25 within 20 km\n   - Schools Nearby: 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n\nLet me know if you need more information about any of these towns!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 11.519770499988226,
+    "per_turn_latency_seconds": [
+      11.782241299981251,
+      11.257299699995201
+    ],
+    "latency_overhead_vs_baseline_seconds": 6.576610099960817
+  }
+}

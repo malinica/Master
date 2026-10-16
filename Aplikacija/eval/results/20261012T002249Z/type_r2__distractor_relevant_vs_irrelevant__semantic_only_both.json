@@ -1,0 +1,103 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "semantic_only_both",
+  "username": "eval_type_r2_20261012T002249Z_distractor_relevant_vs_irrelevant_semantic_only_both",
+  "user_id": 957,
+  "thread_ids": [
+    "a839a3a7-7e8f-46d4-a911-9eb434a3081a",
+    "a9e56cb1-b9b4-4195-9305-f82e0a96b99f"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "I've noted that your budget is around $250,000 and that you're only interested in towns in Oregon. If you have any other preferences or requirements, feel free to let me know! \n\nNow, would you like me to search for towns in Oregon that fit your budget?"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share more about your preferences? Specifically, it would be helpful to know:\n\n1. Your budget range (minimum and maximum price).\n2. Any specific states you're interested in besides Oregon.\n3. Your preferences regarding weather (e.g., warm, cold, mild).\n4. Whether you want schools or hospitals nearby.\n5. Any dislikes (e.g., humidity, snow).\n\nWith this information, I can find towns that match your criteria!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Oregon"
+              ],
+              "price_max": 250000
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory b6fdecb5-3b3a-4788-b811-6fbf5472fab4"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "I've noted that your budget is around $250,000 and that you're only interested in towns in Oregon. If you have any other preferences or requirements, feel free to let me know! \n\nNow, would you like me to search for towns in Oregon that fit your budget?"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "To provide you with the best recommendations, could you please share more about your preferences? Specifically, it would be helpful to know:\n\n1. Your budget range (minimum and maximum price).\n2. Any specific states you're interested in besides Oregon.\n3. Your preferences regarding weather (e.g., warm, cold, mild).\n4. Whether you want schools or hospitals nearby.\n5. Any dislikes (e.g., humidity, snow).\n\nWith this information, I can find towns that match your criteria!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.5,
+    "behavioral_consistency": 0.5,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 1.9794238000176847,
+    "per_turn_latency_seconds": [
+      2.2070770999998786,
+      1.7517705000354908
+    ],
+    "latency_overhead_vs_baseline_seconds": -2.327897099981783
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "semantic_only_background",
+  "username": "eval_type_r1_20260918T051127Z_state_and_school_preference_semantic_only_background",
+  "user_id": 89,
+  "thread_ids": [
+    "9aab59db-0346-411b-b804-431fa1ebec2f",
+    "e3a43df3-29c3-4159-a9b3-9c1336dea84a"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby, making them suitable for families with children:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 25\n     - Within 100 km: 56\n   - **Schools Nearby:** \n     - Within 10 km: 4 Prekindergarten, 121 Elementary, 63 High\n     - Within 20 km: 6 Prekindergarten, 322 Elementary, 134 High\n     - Within 100 km: 16 Prekindergarten, 772 Elementary, 310 High\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 5\n     - Within 20 km: 41\n     - Within 100 km: 108\n   - **Schools Nearby:** \n     - Within 10 km: 4 Prekindergarten, 98 Elementary, 40 High\n     - Within 20 km: 8 Prekindergarten, 309 Elementary, 123 High\n     - Within 100 km: 27 Prekindergarten, 933 Elementary, 420 High\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: 3 Prekindergarten, 90 Elementary, 48 High\n     - Within 20 km: 8 Prekindergarten, 298 Elementary, 139 High\n     - Within 100 km: 27 Prekindergarten, 927 Elementary, 416 High\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 37\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: 3 Prekindergarten, 97 Elementary, 39 High\n     - Within 20 km: 9 Prekindergarten, 314 Elementary, 127 High\n     - Within 100 km: 27 Prekindergarten, 928 Elementary, 417 High\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 30\n     - Within 100 km: 56\n   - **Schools Nearby:** \n     - Within 10 km: 2 Prekindergarten, 125 Elementary, 49 High\n     - Within 20 km: 5 Prekindergarten, 329 Elementary, 137 High\n     - Within 100 km: 16 Prekindergarten, 774 Elementary, 311 High\n\nIf you have any specific preferences regarding price range or other factors, let me know, and I can refine the search further!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona that meet your criteria of having nearby prekindergarten, elementary, and high schools:\n\n1. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **25**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **121**, High **63**\n   - Overall Score: **1.08**\n\n2. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **22**\n     - Within 20 km: **38**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **90**, High **48**\n   - Overall Score: **0.99**\n\n3. **Winslow West, Arizona**\n   - Average Price: **$79,630**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **2**\n     - Within 20 km: **30**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **2**, Elementary **125**, High **49**\n   - Overall Score: **0.96**\n\n4. **Sun City West, Arizona**\n   - Average Price: **$431,079**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **2**\n     - Within 20 km: **30**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **2**, Elementary **125**, High **47**\n   - Overall Score: **0.95**\n\n5. **Mesa, Arizona**\n   - Average Price: **$439,151**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **1**\n     - Within 20 km: **24**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **91**, High **47**\n   - Overall Score: **0.92**\n\nIf you need more information or have specific preferences regarding price or other factors, feel free to ask!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 7.943849599999794,
+    "per_turn_latency_seconds": [
+      8.364942100000007,
+      7.5227570999995805
+    ],
+    "latency_overhead_vs_baseline_seconds": 3.3916007500001797
+  }
+}

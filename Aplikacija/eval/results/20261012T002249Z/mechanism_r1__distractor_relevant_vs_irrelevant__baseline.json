@@ -1,0 +1,71 @@
+{
+  "axis": "mechanism",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "baseline",
+  "username": "eval_mechanism_r1_20261012T002249Z_distractor_relevant_vs_irrelevant_baseline",
+  "user_id": 849,
+  "thread_ids": [
+    "25235900-385b-40f7-ad65-83bbeb532d72",
+    "9d0d43cc-c182-4035-a906-8dcad4b47ea1"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Preschool, 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n   - Overall score: **3.00**\n\nIf you need more information or have specific preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, I need to know more about your preferences. Could you please provide details on the following:\n\n1. **Price Range**: What is your budget for housing?\n2. **Weather Preferences**: Do you prefer warm, cold, or moderate climates?\n3. **Temperature**: Are there specific temperature ranges you enjoy?\n4. **Healthcare**: Is access to hospitals and healthcare important to you?\n5. **Schools**: Are you looking for areas with good schools, and if so, what age group are you interested in?\n\nFeel free to add any other preferences or requirements you have!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Preschool, 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n   - Overall score: **3.00**\n\nIf you need more information or have specific preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "reply": "To help you find the best towns, I need to know more about your preferences. Could you please provide details on the following:\n\n1. **Price Range**: What is your budget for housing?\n2. **Weather Preferences**: Do you prefer warm, cold, or moderate climates?\n3. **Temperature**: Are there specific temperature ranges you enjoy?\n4. **Healthcare**: Is access to hospitals and healthcare important to you?\n5. **Schools**: Are you looking for areas with good schools, and if so, what age group are you interested in?\n\nFeel free to add any other preferences or requirements you have!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.201698449993273,
+    "per_turn_latency_seconds": [
+      6.771597999962978,
+      1.6317989000235684
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

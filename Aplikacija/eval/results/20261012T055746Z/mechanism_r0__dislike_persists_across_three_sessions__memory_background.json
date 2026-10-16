@@ -1,0 +1,190 @@
+{
+  "axis": "mechanism",
+  "scenario": "dislike_persists_across_three_sessions",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r0_20261012T055746Z_dislike_persists_across_three_sessions_memory_background",
+  "user_id": 1259,
+  "thread_ids": [
+    "6d18b60d-4c65-4a43-a69a-aaeae32edd38",
+    "463abc37-91d4-4dd7-bfc1-ddfc717b96f3",
+    "5f43f721-6b83-418f-a444-6402ceba1dd2"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I hate snow and cold winters, keep that in mind for future searches."
+      ],
+      "replies": [
+        "Here are some towns and cities in the US that have warm weather and minimal snow during winter, based on your preference:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 10 km\n   - Weather: 329 sunny days, 10 rainy days, 0.5 snowy days\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary, 1 High School within 10 km\n   - Weather: 296 sunny days, 20.5 rainy days, 1 snowy day\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 26 within 100 km\n   - Schools Nearby: 5 Elementary, 3 High Schools within 10 km\n   - Weather: 307 sunny days, 31 rainy days, 1 snowy day\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals Nearby: Various\n   - Schools Nearby: 87 Elementary, 35 High Schools within 10 km\n   - Weather: 292.5 sunny days, 22.5 rainy days, 0 snowy days\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 52 within 20 km\n   - Schools Nearby: 116 Elementary, 62 High Schools within 10 km\n   - Weather: 291.5 sunny days, 22.5 rainy days, 0 snowy days\n\nIf you have any specific preferences regarding price, hospitals, or schools, let me know, and I can refine the search further!"
+      ]
+    },
+    {
+      "messages": [
+        "Any good towns for me this week?"
+      ],
+      "replies": [
+        "Here are some great towns in the US that have warm weather and no snow during winter:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 Elementary, 2 High Schools within 10 km\n   - Sunny Days: **329**, Rainy Days: **10**, Snowy Days: **0.5**\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals nearby: 5 within 20 km, 187 within 100 km\n   - Schools nearby: 3 Elementary, 1 High School within 10 km\n   - Sunny Days: **296**, Rainy Days: **20.5**, Snowy Days: **1**\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals nearby: 2 within 20 km, 26 within 100 km\n   - Schools nearby: 5 Elementary, 3 High Schools within 10 km\n   - Sunny Days: **307**, Rainy Days: **31**, Snowy Days: **1**\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals nearby: Various options\n   - Schools nearby: 87 Elementary, 35 High Schools within 10 km\n   - Sunny Days: **292.5**, Rainy Days: **22.5**, Snowy Days: **0**\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 52 within 20 km\n   - Schools nearby: 116 Elementary, 62 High Schools within 10 km\n   - Sunny Days: **291.5**, Rainy Days: **22.5**, Snowy Days: **0**\n\nThese towns offer a warm climate and are free from snow during winter, making them ideal for your preferences! Let me know if you need more information on any of these locations."
+      ]
+    },
+    {
+      "messages": [
+        "What about now, anything new you'd suggest?"
+      ],
+      "replies": [
+        "Here are some towns in California that have warm weather and no snow, based on your preferences:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 10 km\n   - Sunny Days: **329**\n   - Rainy Days: **10**\n   - Snowy Days: **0.5**\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary, 1 High School within 10 km\n   - Sunny Days: **296**\n   - Rainy Days: **20.5**\n   - Snowy Days: **1**\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 26 within 100 km\n   - Schools Nearby: 5 Elementary, 3 High Schools within 10 km\n   - Sunny Days: **307**\n   - Rainy Days: **31**\n   - Snowy Days: **1**\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals Nearby: Numerous schools nearby\n   - Schools Nearby: 3 Elementary, 35 High Schools within 10 km\n   - Sunny Days: **292.5**\n   - Rainy Days: **22.5**\n   - Snowy Days: **0**\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 52 within 20 km\n   - Schools Nearby: 3 Elementary, 62 High Schools within 10 km\n   - Sunny Days: **291.5**\n   - Rainy Days: **22.5**\n   - Snowy Days: **0**\n\nIf any of these towns catch your interest or if you need more information, feel free to ask!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I hate snow and cold winters, keep that in mind for future searches.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find towns or cities in the US with warm weather and no snow during winter."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in California, Texas, Florida. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yermo</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>California</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,914</b><br>Average temperature: <b>21.3 \u00b0C<"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "snow",
+          "cold winters"
+        ],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": "warm",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns and cities in the US that have warm weather and minimal snow during winter, based on your preference:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 10 km\n   - Weather: 329 sunny days, 10 rainy days, 0.5 snowy days\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary, 1 High School within 10 km\n   - Weather: 296 sunny days, 20.5 rainy days, 1 snowy day\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 26 within 100 km\n   - Schools Nearby: 5 Elementary, 3 High Schools within 10 km\n   - Weather: 307 sunny days, 31 rainy days, 1 snowy day\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals Nearby: Various\n   - Schools Nearby: 87 Elementary, 35 High Schools within 10 km\n   - Weather: 292.5 sunny days, 22.5 rainy days, 0 snowy days\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 52 within 20 km\n   - Schools Nearby: 116 Elementary, 62 High Schools within 10 km\n   - Weather: 291.5 sunny days, 22.5 rainy days, 0 snowy days\n\nIf you have any specific preferences regarding price, hospitals, or schools, let me know, and I can refine the search further!"
+    },
+    {
+      "message": "Any good towns for me this week?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find towns or cities in the US with warm weather and no snow during winter."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in California, Texas, Florida. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yermo</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>California</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,914</b><br>Average temperature: <b>21.3 \u00b0C<"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Find towns or cities in the US with warm weather and no snow during winter.",
+          "summary": "User searched for locations in the US that have warm weather and minimal snow during winter, leading to a list of suitable towns.",
+          "score": 0.36669574066226773
+        },
+        {
+          "query": "I hate snow and cold winters, keep that in mind for future searches.",
+          "summary": "User expressed a strong dislike for snow and cold winters, indicating a preference for warm weather.",
+          "score": 0.24113993797565159
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "snow",
+          "cold winters"
+        ],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "California"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": "warm",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some great towns in the US that have warm weather and no snow during winter:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 Elementary, 2 High Schools within 10 km\n   - Sunny Days: **329**, Rainy Days: **10**, Snowy Days: **0.5**\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals nearby: 5 within 20 km, 187 within 100 km\n   - Schools nearby: 3 Elementary, 1 High School within 10 km\n   - Sunny Days: **296**, Rainy Days: **20.5**, Snowy Days: **1**\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals nearby: 2 within 20 km, 26 within 100 km\n   - Schools nearby: 5 Elementary, 3 High Schools within 10 km\n   - Sunny Days: **307**, Rainy Days: **31**, Snowy Days: **1**\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals nearby: Various options\n   - Schools nearby: 87 Elementary, 35 High Schools within 10 km\n   - Sunny Days: **292.5**, Rainy Days: **22.5**, Snowy Days: **0**\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 52 within 20 km\n   - Schools nearby: 116 Elementary, 62 High Schools within 10 km\n   - Sunny Days: **291.5**, Rainy Days: **22.5**, Snowy Days: **0**\n\nThese towns offer a warm climate and are free from snow during winter, making them ideal for your preferences! Let me know if you need more information on any of these locations."
+    },
+    {
+      "message": "What about now, anything new you'd suggest?",
+      "session_index": 2,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find towns or cities in California with warm weather and no snow."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in California. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yermo</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>California</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,914</b><br>Average temperature: <b>21.3 \u00b0C</b><br>Hospitals"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Any good towns for me this week?",
+          "summary": "User inquired about towns with warm weather and no snow for the week, indicating a preference for such locations.",
+          "score": 0.31395809294845434
+        },
+        {
+          "query": "Find towns or cities in the US with warm weather and no snow during winter.",
+          "summary": "User searched for locations in the US that have warm weather and minimal snow during winter, leading to a list of suitable towns.",
+          "score": 0.25120837661824924
+        },
+        {
+          "query": "I hate snow and cold winters, keep that in mind for future searches.",
+          "summary": "User expressed a strong dislike for snow and cold winters, indicating a preference for warm weather.",
+          "score": 0.23602500476209964
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "snow",
+          "cold winters"
+        ],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "California"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": "warm",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in California that have warm weather and no snow, based on your preferences:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 10 km\n   - Sunny Days: **329**\n   - Rainy Days: **10**\n   - Snowy Days: **0.5**\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary, 1 High School within 10 km\n   - Sunny Days: **296**\n   - Rainy Days: **20.5**\n   - Snowy Days: **1**\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 26 within 100 km\n   - Schools Nearby: 5 Elementary, 3 High Schools within 10 km\n   - Sunny Days: **307**\n   - Rainy Days: **31**\n   - Snowy Days: **1**\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals Nearby: Numerous schools nearby\n   - Schools Nearby: 3 Elementary, 35 High Schools within 10 km\n   - Sunny Days: **292.5**\n   - Rainy Days: **22.5**\n   - Snowy Days: **0**\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 52 within 20 km\n   - Schools Nearby: 3 Elementary, 62 High Schools within 10 km\n   - Sunny Days: **291.5**\n   - Rainy Days: **22.5**\n   - Snowy Days: **0**\n\nIf any of these towns catch your interest or if you need more information, feel free to ask!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 9.0583120000083,
+    "per_turn_latency_seconds": [
+      10.653713800013065,
+      8.690639000036754,
+      7.830583199975081
+    ],
+    "latency_overhead_vs_baseline_seconds": 8.006535166680502
+  }
+}

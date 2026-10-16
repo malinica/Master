@@ -1,0 +1,87 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_background",
+  "username": "eval_type_r4_20261011T000048Z_budget_and_climate_preference_episodic_only_background",
+  "user_id": 691,
+  "thread_ids": [
+    "89625ef4-0025-4337-850f-8efd2ede1b6a",
+    "b6f572f5-2952-435e-a28d-c6e413c60370"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "keyword",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that might fit your preferences, although the humidity levels are higher than you might prefer:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Hospitals Nearby:** 1 within 20 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High School\n\n3. **Yerington, Nevada**\n   - **Average Price:** $191,031\n   - **Average Temperature:** 14.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 287.5\n   - **Hospitals Nearby:** 1 within 5 km\n   - **Schools Nearby:** 2 Elementary, 1 High School\n\n4. **Yarnell, Arizona**\n   - **Average Price:** $216,352 (slightly above budget)\n   - **Average Temperature:** 16.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 278\n   - **Hospitals Nearby:** 21 within 100 km\n   - **Schools Nearby:** 1 Elementary\n\n5. **Yatahey, New Mexico**\n   - **Average Price:** $81,333\n   - **Average Temperature:** 13.9 \u00b0C\n   - **Humidity:** 87%\n   - **Sunny Days:** 249\n   - **Hospitals Nearby:** 12 within 100 km\n   - **Schools Nearby:** 6 Elementary, 58 High Schools\n\nIf you would like to explore more options or need additional information, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some specific preferences or criteria you have in mind? For example, your budget, desired weather conditions, proximity to hospitals or schools, or any other factors that are important to you."
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in California, Texas, Florida, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        }
+      ],
+      "episodes_found": [],
+      "reply": "Here are some affordable sunny towns in the US that might fit your preferences, although the humidity levels are higher than you might prefer:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Hospitals Nearby:** 1 within 20 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High School\n\n3. **Yerington, Nevada**\n   - **Average Price:** $191,031\n   - **Average Temperature:** 14.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 287.5\n   - **Hospitals Nearby:** 1 within 5 km\n   - **Schools Nearby:** 2 Elementary, 1 High School\n\n4. **Yarnell, Arizona**\n   - **Average Price:** $216,352 (slightly above budget)\n   - **Average Temperature:** 16.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 278\n   - **Hospitals Nearby:** 21 within 100 km\n   - **Schools Nearby:** 1 Elementary\n\n5. **Yatahey, New Mexico**\n   - **Average Price:** $81,333\n   - **Average Temperature:** 13.9 \u00b0C\n   - **Humidity:** 87%\n   - **Sunny Days:** 249\n   - **Hospitals Nearby:** 12 within 100 km\n   - **Schools Nearby:** 6 Elementary, 58 High Schools\n\nIf you would like to explore more options or need additional information, feel free to ask!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+          "summary": "User dislikes humid weather and has a budget of around $200,000, searching for affordable sunny towns.",
+          "score": null
+        },
+        {
+          "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity",
+          "summary": "User requested a search for affordable sunny towns in the US, with a focus on low humidity.",
+          "score": null
+        }
+      ],
+      "reply": "Could you please provide me with some specific preferences or criteria you have in mind? For example, your budget, desired weather conditions, proximity to hospitals or schools, or any other factors that are important to you."
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 5.020736499980558,
+    "per_turn_latency_seconds": [
+      9.08829429995967,
+      0.9531787000014447
+    ],
+    "latency_overhead_vs_baseline_seconds": -0.3627710500441026
+  }
+}

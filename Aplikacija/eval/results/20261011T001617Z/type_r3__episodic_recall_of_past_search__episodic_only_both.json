@@ -1,0 +1,105 @@
+{
+  "axis": "type",
+  "scenario": "episodic_recall_of_past_search",
+  "variant": "episodic_only_both",
+  "username": "eval_type_r3_20261011T001617Z_episodic_recall_of_past_search_episodic_only_both",
+  "user_id": 741,
+  "thread_ids": [
+    "86cb055e-e80f-456b-959e-5270a45bbfe1",
+    "e1d581e2-5b42-4f88-b7aa-d1386f94d8f5"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "hybrid",
+  "sessions": [
+    {
+      "messages": [
+        "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter is starting college near Phoenix this fall:\n\n1. **Yucca, Arizona**\n   - Average price: **$65,056**\n   - Average temperature: **22.8 \u00b0C**\n   - Hospitals nearby: **6** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 10 km)\n   - Sunny days: **315.0**\n   - Rainy days: **12.0**\n\n2. **Ehrenberg, Arizona**\n   - Average price: **$139,600**\n   - Average temperature: **24.8 \u00b0C**\n   - Hospitals nearby: **3** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 10 km)\n   - Sunny days: **168.5**\n   - Rainy days: **3.5**\n\n3. **Dome Valley, Arizona**\n   - Average price: **$60,000**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: **2** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 20 km)\n   - Sunny days: **167.0**\n   - Rainy days: **7.0**\n\n4. **Concho Valley, Arizona**\n   - Average price: **$19,035**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: **2** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 20 km)\n   - Sunny days: **167.0**\n   - Rainy days: **7.0**\n\n5. **Dateland, Arizona**\n   - Average price: **$73,043**\n   - Average temperature: **24.0 \u00b0C**\n   - Schools nearby: \n     - High schools: **0** (within 10 km)\n   - Sunny days: **164.5**\n   - Rainy days: **5.0**\n\nThese towns offer a combination of affordability and sunny weather, which could be ideal for your situation. If you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What did I mention was the reason I was looking in Arizona, last time we talked?"
+      ],
+      "replies": [
+        "You mentioned that you were looking for affordable sunny towns in Arizona because your daughter is starting college near Phoenix this fall."
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in Arizona"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "cheap sunny towns in Arizona",
+              "summary": "User is looking for affordable sunny towns in Arizona, especially since their daughter is starting college near Phoenix this fall.",
+              "top_result_towns": []
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yucca</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$65,056</b><br>Average temperature: <b>22.8 \u00b0C</b><br>Hospitals nearb"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory f4e38855-6606-4020-8e7b-6074ba64a343"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona, especially since their daughter is starting college near Phoenix this fall.",
+          "score": null
+        }
+      ],
+      "reply": "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter is starting college near Phoenix this fall:\n\n1. **Yucca, Arizona**\n   - Average price: **$65,056**\n   - Average temperature: **22.8 \u00b0C**\n   - Hospitals nearby: **6** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 10 km)\n   - Sunny days: **315.0**\n   - Rainy days: **12.0**\n\n2. **Ehrenberg, Arizona**\n   - Average price: **$139,600**\n   - Average temperature: **24.8 \u00b0C**\n   - Hospitals nearby: **3** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 10 km)\n   - Sunny days: **168.5**\n   - Rainy days: **3.5**\n\n3. **Dome Valley, Arizona**\n   - Average price: **$60,000**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: **2** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 20 km)\n   - Sunny days: **167.0**\n   - Rainy days: **7.0**\n\n4. **Concho Valley, Arizona**\n   - Average price: **$19,035**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: **2** (within 100 km)\n   - Schools nearby: \n     - High schools: **1** (within 20 km)\n   - Sunny days: **167.0**\n   - Rainy days: **7.0**\n\n5. **Dateland, Arizona**\n   - Average price: **$73,043**\n   - Average temperature: **24.0 \u00b0C**\n   - Schools nearby: \n     - High schools: **0** (within 10 km)\n   - Sunny days: **164.5**\n   - Rainy days: **5.0**\n\nThese towns offer a combination of affordability and sunny weather, which could be ideal for your situation. If you need more information or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What did I mention was the reason I was looking in Arizona, last time we talked?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona, especially since their daughter is starting college near Phoenix this fall.",
+          "score": null
+        }
+      ],
+      "reply": "You mentioned that you were looking for affordable sunny towns in Arizona because your daughter is starting college near Phoenix this fall."
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": 1.0,
+    "avg_latency_seconds": 4.964786900032777,
+    "per_turn_latency_seconds": [
+      8.80791540001519,
+      1.1216584000503644
+    ],
+    "latency_overhead_vs_baseline_seconds": -0.11206709998077713
+  }
+}

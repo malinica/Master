@@ -1,0 +1,41 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r3_20260918T051127Z_state_and_school_preference_memory_hot_path",
+  "user_id": 138,
+  "thread_ids": [
+    "5ce5371c-0445-4ea1-add7-5977093bf84e",
+    "e4aa828d-76bc-4f33-a5b7-d5c931c8d1a6"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **25**\n     - Within 100 km: **56**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **121**, High **63**\n     - Within 20 km: Prekindergarten **6**, Elementary **322**, High **134**\n   - Overall Score: **1.08**\n\n2. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **5**\n     - Within 20 km: **41**\n     - Within 100 km: **108**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **98**, High **40**\n     - Within 20 km: Prekindergarten **8**, Elementary **309**, High **123**\n   - Overall Score: **1.02**\n\n3. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **22**\n     - Within 20 km: **38**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **90**, High **48**\n     - Within 20 km: Prekindergarten **8**, Elementary **298**, High **139**\n   - Overall Score: **0.99**\n\n4. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **8**\n     - Within 20 km: **37**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **97**, High **39**\n     - Within 20 km: Prekindergarten **9**, Elementary **314**, High **127**\n   - Overall Score: **0.99**\n\n5. **Winslow West, Arizona**\n   - Average Price: **$79,630**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **30**\n     - Within 100 km: **56**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **2**, Elementary **125**, High **49**\n     - Within 20 km: Prekindergarten **5**, Elementary **329**, High **137**\n   - Overall Score: **0.96**\n\nIf you need more information or have specific preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share more about your preferences? Specifically, it would be helpful to know:\n\n1. Your budget (price range).\n2. Any specific temperature preferences (e.g., warm, mild, cold).\n3. Any dislikes (e.g., humidity, snow).\n4. The types of schools you are interested in (e.g., elementary, high school).\n5. Whether you want hospitals nearby.\n\nThis information will help me find towns that match your needs!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.3333333333333333,
+    "behavioral_consistency": 0.3333333333333333,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 5.913089349999609,
+    "per_turn_latency_seconds": [
+      10.455877499998678,
+      1.3703012000005401
+    ],
+    "latency_overhead_vs_baseline_seconds": 2.0186039000000164
+  }
+}

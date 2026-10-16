@@ -1,0 +1,51 @@
+{
+  "axis": "mechanism",
+  "scenario": "dislike_persists_across_three_sessions",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r1_20260918T051127Z_dislike_persists_across_three_sessions_memory_background",
+  "user_id": 78,
+  "thread_ids": [
+    "2c8b151f-8309-4ec2-93c8-54102a5a24a8",
+    "76e41243-46c3-4152-a3c8-77913283ae9d",
+    "edd25b58-a46f-4cbf-bcf6-a2f0cc485680"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I hate snow and cold winters, keep that in mind for future searches."
+      ],
+      "replies": [
+        "Got it! I'll make sure to focus on warmer locations with minimal snow and cold winters in future searches. If you have any specific preferences regarding price, weather, hospitals, or schools, feel free to share!"
+      ]
+    },
+    {
+      "messages": [
+        "Any good towns for me this week?"
+      ],
+      "replies": [
+        "Here are some great towns for you to consider this week, all of which are warm and have no snow or cold winters:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 10 km\n   - **Sunny Days:** 329, Rainy Days: 10, Snowy Days: 0.5\n\n2. **Yucca Valley, California**\n   - **Average Price:** $349,158\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Hospitals Nearby:** 5 within 20 km, 187 within 100 km\n   - **Schools Nearby:** 3 Elementary, 1 High School within 10 km\n   - **Sunny Days:** 296, Rainy Days: 20.5, Snowy Days: 1\n\n3. **Yettem, California**\n   - **Average Price:** $800,000\n   - **Average Temperature:** 19.5 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 26 within 100 km\n   - **Schools Nearby:** 5 Elementary, 3 High Schools within 10 km\n   - **Sunny Days:** 307, Rainy Days: 31, Snowy Days: 1\n\n4. **Yuba City, California**\n   - **Average Price:** $446,766\n   - **Average Temperature:** 18.7 \u00b0C\n   - **Hospitals Nearby:** Various\n   - **Schools Nearby:** 3 Elementary, 35 High Schools within 10 km\n   - **Sunny Days:** 292.5, Rainy Days: 22.5, Snowy Days: 0\n\n5. **Yosemite West, California**\n   - **Average Price:** $1,147,500\n   - **Average Temperature:** 18.0 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 52 within 20 km\n   - **Schools Nearby:** 3 Elementary, 62 High Schools within 10 km\n   - **Sunny Days:** 291.5, Rainy Days: 22.5, Snowy Days: 0\n\nLet me know if you need more information about any of these towns!"
+      ]
+    },
+    {
+      "messages": [
+        "What about now, anything new you'd suggest?"
+      ],
+      "replies": [
+        "Here are some towns and cities in California that match your preferences for warm weather, no snow or cold winters, a price range up to $1,147,500, and nearby schools and hospitals:\n\n1. **West Los Angeles, California**\n   - Average Price: **$1,016,500**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals Nearby: **14** within 5 km\n   - Schools Nearby: **182 Elementary** and **100 High Schools** within 10 km\n   - Overall Score: **2.48**\n\n2. **Lake Los Angeles, California**\n   - Average Price: **$115,670**\n   - Average Temperature: **19.8 \u00b0C**\n   - Hospitals Nearby: **14** within 5 km\n   - Schools Nearby: **182 Elementary** and **99 High Schools** within 10 km\n   - Overall Score: **2.46**\n\n3. **East Los Angeles, California**\n   - Average Price: **$695,998**\n   - Average Temperature: **18.8 \u00b0C**\n   - Hospitals Nearby: **14** within 5 km\n   - Schools Nearby: **182 Elementary** and **99 High Schools** within 10 km\n   - Overall Score: **2.43**\n\n4. **County Los Angeles, California**\n   - Average Price: **$596,393**\n   - Average Temperature: **18.8 \u00b0C**\n   - Hospitals Nearby: **14** within 5 km\n   - Schools Nearby: **182 Elementary** and **99 High Schools** within 10 km\n   - Overall Score: **2.43**\n\n5. **Wofford Heights, California**\n   - Average Price: **$156,787**\n   - Average Temperature: **21.2 \u00b0C**\n   - Hospitals Nearby: **9** within 5 km\n   - Schools Nearby: **141 Elementary** and **74 High Schools** within 10 km\n   - Overall Score: **2.42**\n\nLet me know if you would like more information about any of these locations!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 8.975438333333537,
+    "per_turn_latency_seconds": [
+      3.597993299999871,
+      12.359155600000122,
+      10.96916610000062
+    ],
+    "latency_overhead_vs_baseline_seconds": 7.991228266667045
+  }
+}

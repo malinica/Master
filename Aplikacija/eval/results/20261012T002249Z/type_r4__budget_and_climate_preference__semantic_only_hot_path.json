@@ -1,0 +1,91 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r4_20261012T002249Z_budget_and_climate_preference_semantic_only_hot_path",
+  "user_id": 1052,
+  "thread_ids": [
+    "2809001c-c0a6-4705-8236-9265cd625b32",
+    "a16906fd-0823-4c91-9c21-9cbc3e397ca5"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that generally have low humidity, although the humidity levels in some of these towns may still be higher than your preference:\n\n1. **Yerington, Nevada**\n   - Average Price: **$191,031**\n   - Average Temperature: **14.0 \u00b0C**\n   - Hospitals Nearby: 1 within 5 km\n   - Schools Nearby: 2 Elementary, 1 High School\n   - Sunny Days: **287.5**\n   - Humidity: **92%**\n\n2. **Yarnell, Arizona**\n   - Average Price: **$216,352**\n   - Average Temperature: **16.0 \u00b0C**\n   - Hospitals Nearby: 21 within 100 km\n   - Schools Nearby: 1 Elementary\n   - Sunny Days: **278.0**\n   - Humidity: **92%**\n\n3. **Yuma, Colorado**\n   - Average Price: **$235,869**\n   - Average Temperature: **12.7 \u00b0C**\n   - Hospitals Nearby: 10 within 100 km\n   - Schools Nearby: 1 Elementary\n   - Sunny Days: **229.0**\n   - Humidity: **88%**\n\n4. **Yale, Oklahoma**\n   - Average Price: **$228,741**\n   - Average Temperature: **17.5 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km\n   - Schools Nearby: 4 Elementary, 3 High Schools\n   - Sunny Days: **224.5**\n   - Humidity: **90%**\n\n5. **Zena, Oklahoma**\n   - Average Price: **$210,000**\n   - Average Temperature: **16.8 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km\n   - Schools Nearby: 9 Elementary, 3 High Schools\n   - Sunny Days: **217.0**\n   - Humidity: **91%**\n\nPlease note that while these towns are sunny and affordable, the humidity levels are still relatively high. If you have any other preferences or need further assistance, feel free to let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "To help you find the best places to live, could you please provide me with some preferences? For example, do you have a budget in mind, preferred states, climate preferences (like warm or cold), or any specific needs such as nearby hospitals or schools?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity"
+          }
+        },
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "dislikes": [
+                "humidity"
+              ],
+              "price_max": 200000
+            },
+            "action": "update",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in Florida, Texas, California, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        },
+        {
+          "name": "update_user_profile",
+          "status": "error",
+          "content": "Profile not updated (missing or invalid memory id) \u2014 continuing without saving this preference."
+        }
+      ],
+      "profile_after_write": null,
+      "reply": "Here are some affordable sunny towns in the US that generally have low humidity, although the humidity levels in some of these towns may still be higher than your preference:\n\n1. **Yerington, Nevada**\n   - Average Price: **$191,031**\n   - Average Temperature: **14.0 \u00b0C**\n   - Hospitals Nearby: 1 within 5 km\n   - Schools Nearby: 2 Elementary, 1 High School\n   - Sunny Days: **287.5**\n   - Humidity: **92%**\n\n2. **Yarnell, Arizona**\n   - Average Price: **$216,352**\n   - Average Temperature: **16.0 \u00b0C**\n   - Hospitals Nearby: 21 within 100 km\n   - Schools Nearby: 1 Elementary\n   - Sunny Days: **278.0**\n   - Humidity: **92%**\n\n3. **Yuma, Colorado**\n   - Average Price: **$235,869**\n   - Average Temperature: **12.7 \u00b0C**\n   - Hospitals Nearby: 10 within 100 km\n   - Schools Nearby: 1 Elementary\n   - Sunny Days: **229.0**\n   - Humidity: **88%**\n\n4. **Yale, Oklahoma**\n   - Average Price: **$228,741**\n   - Average Temperature: **17.5 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km\n   - Schools Nearby: 4 Elementary, 3 High Schools\n   - Sunny Days: **224.5**\n   - Humidity: **90%**\n\n5. **Zena, Oklahoma**\n   - Average Price: **$210,000**\n   - Average Temperature: **16.8 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km\n   - Schools Nearby: 9 Elementary, 3 High Schools\n   - Sunny Days: **217.0**\n   - Humidity: **91%**\n\nPlease note that while these towns are sunny and affordable, the humidity levels are still relatively high. If you have any other preferences or need further assistance, feel free to let me know!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "profile_after_write": null,
+      "reply": "To help you find the best places to live, could you please provide me with some preferences? For example, do you have a budget in mind, preferred states, climate preferences (like warm or cold), or any specific needs such as nearby hospitals or schools?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.946505400002934,
+    "per_turn_latency_seconds": [
+      8.778581799997482,
+      1.1144290000083856
+    ],
+    "latency_overhead_vs_baseline_seconds": -0.12252549998811446
+  }
+}

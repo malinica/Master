@@ -1,0 +1,123 @@
+{
+  "axis": "mechanism",
+  "scenario": "budget_and_climate_preference",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r0_20261012T055746Z_budget_and_climate_preference_memory_background",
+  "user_id": 1251,
+  "thread_ids": [
+    "ef3ab807-273a-4294-9a07-70bfb843ab84",
+    "51a0df1e-8020-49e7-9d78-8795e7472ad9"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that may fit your preferences, although please note that the humidity levels are relatively high in some of these locations:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Hospitals Nearby:** 1 within 20 km\n   - **Schools Nearby:** 1 elementary school, 2 high schools\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 high school\n\n3. **Yerington, Nevada**\n   - **Average Price:** $191,031\n   - **Average Temperature:** 14.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 287.5\n   - **Hospitals Nearby:** 1 within 5 km\n   - **Schools Nearby:** 2 elementary schools, 1 high school\n\n4. **Yarnell, Arizona**\n   - **Average Price:** $216,352 (slightly above budget)\n   - **Average Temperature:** 16.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 278\n   - **Hospitals Nearby:** 21 within 100 km\n   - **Schools Nearby:** 1 elementary school\n\n5. **Yatahey, New Mexico**\n   - **Average Price:** $81,333\n   - **Average Temperature:** 13.9 \u00b0C\n   - **Humidity:** 87%\n   - **Sunny Days:** 249\n   - **Hospitals Nearby:** 12 within 100 km\n   - **Schools Nearby:** 6 preschools, 149 elementary schools\n\nIf you have any other preferences or need more information about these towns, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Here are some towns that might be good places for you to live, based on your preferences for sunny weather, low humidity, and a budget around $200,000:\n\n1. **Runge, Texas**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 26.0 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 26 within 100 km\n   - **Schools Nearby:** 1 high school within 10 km, 2 elementary schools within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 0.0\n   - **Overall Score:** 3.00\n\n2. **Lakeland, Louisiana**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 23.1 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 75 within 100 km\n   - **Schools Nearby:** 1 elementary school within 10 km, 5 elementary schools within 20 km\n   - **Humidity:** 93%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n3. **Eatonville, Florida**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 23.0 \u00b0C\n   - **Hospitals Nearby:** 1 within 5 km, 15 within 20 km\n   - **Schools Nearby:** 45 elementary schools within 10 km, 132 within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 66.5\n   - **Overall Score:** 3.00\n\n4. **Stidham, Oklahoma**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 19.8 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 elementary schools within 20 km\n   - **Humidity:** 91%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n5. **Garden City, Colorado**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 18.6 \u00b0C\n   - **Hospitals Nearby:** 14 within 20 km, 48 within 100 km\n   - **Schools Nearby:** 28 elementary schools within 10 km, 149 within 20 km\n   - **Humidity:** 84%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\nPlease note that while these towns have some appealing features, they also have high humidity levels. If you'd like to explore more options or refine your search further, just let me know!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in Florida, Texas, California, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "humid weather"
+        ],
+        "price_max": 200000.0,
+        "price_min": 0.0,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": "sunny",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some affordable sunny towns in the US that may fit your preferences, although please note that the humidity levels are relatively high in some of these locations:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Hospitals Nearby:** 1 within 20 km\n   - **Schools Nearby:** 1 elementary school, 2 high schools\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 high school\n\n3. **Yerington, Nevada**\n   - **Average Price:** $191,031\n   - **Average Temperature:** 14.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 287.5\n   - **Hospitals Nearby:** 1 within 5 km\n   - **Schools Nearby:** 2 elementary schools, 1 high school\n\n4. **Yarnell, Arizona**\n   - **Average Price:** $216,352 (slightly above budget)\n   - **Average Temperature:** 16.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 278\n   - **Hospitals Nearby:** 21 within 100 km\n   - **Schools Nearby:** 1 elementary school\n\n5. **Yatahey, New Mexico**\n   - **Average Price:** $81,333\n   - **Average Temperature:** 13.9 \u00b0C\n   - **Humidity:** 87%\n   - **Sunny Days:** 249\n   - **Hospitals Nearby:** 12 within 100 km\n   - **Schools Nearby:** 6 preschools, 149 elementary schools\n\nIf you have any other preferences or need more information about these towns, feel free to ask!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "affordable sunny towns in the US with a budget around $200,000 and low humidity"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in California, Texas, Florida, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+          "summary": "User dislikes humid weather and has a budget of around $200,000, searching for affordable sunny towns.",
+          "score": 0.37899613806435895
+        },
+        {
+          "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity",
+          "summary": "Found several affordable towns with sunny weather, but humidity levels are high in some.",
+          "score": 0.34806588661830307
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "humid weather"
+        ],
+        "price_max": 200000.0,
+        "price_min": 0.0,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": "sunny",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns that might be good places for you to live, based on your preferences for sunny weather, low humidity, and a budget around $200,000:\n\n1. **Runge, Texas**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 26.0 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 26 within 100 km\n   - **Schools Nearby:** 1 high school within 10 km, 2 elementary schools within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 0.0\n   - **Overall Score:** 3.00\n\n2. **Lakeland, Louisiana**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 23.1 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 75 within 100 km\n   - **Schools Nearby:** 1 elementary school within 10 km, 5 elementary schools within 20 km\n   - **Humidity:** 93%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n3. **Eatonville, Florida**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 23.0 \u00b0C\n   - **Hospitals Nearby:** 1 within 5 km, 15 within 20 km\n   - **Schools Nearby:** 45 elementary schools within 10 km, 132 within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 66.5\n   - **Overall Score:** 3.00\n\n4. **Stidham, Oklahoma**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 19.8 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 elementary schools within 20 km\n   - **Humidity:** 91%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n5. **Garden City, Colorado**\n   - **Average Price:** $240,000\n   - **Average Temperature:** 18.6 \u00b0C\n   - **Hospitals Nearby:** 14 within 20 km, 48 within 100 km\n   - **Schools Nearby:** 28 elementary schools within 10 km, 149 within 20 km\n   - **Humidity:** 84%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\nPlease note that while these towns have some appealing features, they also have high humidity levels. If you'd like to explore more options or refine your search further, just let me know!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 9.89157575002173,
+    "per_turn_latency_seconds": [
+      9.912567100021988,
+      9.870584400021471
+    ],
+    "latency_overhead_vs_baseline_seconds": 2.806353149993811
+  }
+}

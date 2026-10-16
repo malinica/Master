@@ -1,0 +1,41 @@
+{
+  "axis": "mechanism",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r3_20260918T051127Z_distractor_relevant_vs_irrelevant_memory_background",
+  "user_id": 145,
+  "thread_ids": [
+    "8911daa2-737a-458a-8228-6bba0b13b749",
+    "1321a8b3-68c6-4cf1-920d-46eaf3f75264"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Hospitals Nearby: Not specified\n   - Schools Nearby:\n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Weather: Humidity 88%, Wind Speed 23.7 m/s, 1 Rainy Day\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Hospitals Nearby: Not specified\n   - Schools Nearby:\n     - Within 10 km: 0 Elementary, 0 High\n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 0 Prekindergarten, 67 Elementary, 37 High\n   - Weather: Humidity 91%, Wind Speed 18.8 m/s, 0 Rainy Days\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Hospitals Nearby: Not specified\n   - Schools Nearby:\n     - Within 10 km: 0 Elementary, 0 High\n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Weather: Humidity 95%, Wind Speed 10.5 m/s, 1 Sunny Day\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Hospitals Nearby: Not specified\n   - Schools Nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 1 Elementary, 1 High\n     - Within 100 km: 0 Prekindergarten, 51 Elementary, 26 High\n   - Weather: Humidity 92%, Wind Speed 15.8 m/s, 8.5 Rainy Days\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Hospitals Nearby: Not specified\n   - Schools Nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 9 Elementary, 7 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Weather: Humidity 93%, Wind Speed 14.7 m/s, 1 Rainy Day\n\nIf you need more information or have specific preferences regarding schools or hospitals, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "It seems there are no towns in Oregon that match your exact price range of $250,000. However, here are some towns in Oregon with average prices around that range:\n\n1. **Deer Island, Oregon**\n   - Average Price: **$357,891**\n   - Average Temperature: **9.3 \u00b0C**\n   - Schools nearby: 0 Prkindergarten, 0 Elementary, 0 High within 10 km; 11 Prkindergarten, 450 Elementary, 212 High within 100 km.\n   - Overall Score: **3.00**\n\n2. **Sweet Home, Oregon**\n   - Average Price: **$356,003**\n   - Average Temperature: **13.9 \u00b0C**\n   - Schools nearby: 2 Prkindergarten, 55 Elementary, 32 High within 10 km; 12 Prkindergarten, 450 Elementary, 213 High within 100 km.\n   - Overall Score: **3.00**\n\n3. **Klamath Falls, Oregon**\n   - Average Price: **$353,149**\n   - Average Temperature: **5.7 \u00b0C**\n   - Schools nearby: 0 Prkindergarten, 0 Elementary, 0 High within 10 km; 0 Prkindergarten, 69 Elementary, 42 High within 100 km.\n   - Overall Score: **3.00**\n\n4. **Paisley, Oregon**\n   - Average Price: **$352,500**\n   - Average Temperature: **13.0 \u00b0C**\n   - Schools nearby: 0 Prkindergarten, 0 Elementary, 0 High within 10 km; 0 Prkindergarten, 9 Elementary, 0 High within 100 km.\n   - Overall Score: **3.00**\n\n5. **Coos Bay, Oregon**\n   - Average Price: **$352,029**\n   - Average Temperature: **9.6 \u00b0C**\n   - Schools nearby: 0 Prkindergarten, 0 Elementary, 0 High within 10 km; 0 Prkindergarten, 38 Elementary, 22 High within 100 km.\n   - Overall Score: **3.00**\n\nIf you're open to adjusting your price range or have other preferences, let me know!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 13.196094149999226,
+    "per_turn_latency_seconds": [
+      10.719548299999587,
+      15.672639999998864
+    ],
+    "latency_overhead_vs_baseline_seconds": 9.420771949999107
+  }
+}

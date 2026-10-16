@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "baseline",
+  "username": "eval_type_r4_20260918T051127Z_budget_and_climate_preference_baseline",
+  "user_id": 178,
+  "thread_ids": [
+    "72170e75-f6cc-4f6d-a5ba-df7848a1ee8c",
+    "d6461a08-9936-4043-9c62-a8abe224607a"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some towns that match your criteria for being sunny and relatively inexpensive, although they do have higher humidity levels than you might prefer:\n\n1. **Runge, Texas**\n   - Average Price: **$240,000**\n   - Average Temperature: **26.0 \u00b0C**\n   - Humidity: **92%**\n   - Hospitals nearby: 1 within 20 km, 26 within 100 km\n   - Schools: 1 high school within 10 km, 2 elementary schools within 20 km\n   - Sunny Days: **0.0**\n\n2. **Lakeland, Louisiana**\n   - Average Price: **$240,000**\n   - Average Temperature: **23.1 \u00b0C**\n   - Humidity: **93%**\n   - Hospitals nearby: 1 within 20 km, 75 within 100 km\n   - Schools: 1 elementary school within 10 km, 5 elementary schools within 20 km\n   - Sunny Days: **1.0**\n\n3. **Eatonville, Florida**\n   - Average Price: **$240,000**\n   - Average Temperature: **23.0 \u00b0C**\n   - Humidity: **92%**\n   - Hospitals nearby: 1 within 5 km, 15 within 20 km\n   - Schools: 45 elementary schools within 10 km\n   - Sunny Days: **66.5**\n\n4. **Stidham, Oklahoma**\n   - Average Price: **$240,000**\n   - Average Temperature: **19.8 \u00b0C**\n   - Humidity: **91%**\n   - Hospitals nearby: 1 within 20 km, 39 within 100 km\n   - Schools: 2 elementary schools within 20 km\n   - Sunny Days: **1.0**\n\n5. **Garden City, Colorado**\n   - Average Price: **$240,000**\n   - Average Temperature: **18.6 \u00b0C**\n   - Humidity: **84%**\n   - Hospitals nearby: 14 within 20 km, 48 within 100 km\n   - Schools: 28 elementary schools within 10 km\n   - Sunny Days: **1.0**\n\nWhile these towns are sunny, they do have higher humidity levels. If you're looking for alternatives with lower humidity, please let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some specific preferences or criteria you have in mind for your ideal place to live? For example, you might want to consider factors like price range, weather, temperature, proximity to hospitals, quality of schools, or any other preferences you have."
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 4.6779359499996644,
+    "per_turn_latency_seconds": [
+      8.35250520000045,
+      1.0033666999988782
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

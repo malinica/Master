@@ -1,0 +1,119 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r3_20261012T055746Z_state_and_school_preference_semantic_only_hot_path",
+  "user_id": 1479,
+  "thread_ids": [
+    "581b2ad5-e413-45d2-8af4-4739bec78cce",
+    "ae8a316b-5db7-48e4-8687-3e7ba37e806d"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "I've updated your profile to reflect your preference for living in Texas or Arizona and your need for good schools nearby for your kids. \n\nWould you like to specify any budget or other preferences, or should I search for towns and cities in Texas and Arizona that meet your criteria?"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas that I recommend based on your preference for schools and hospitals nearby:\n\n1. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 90 Elementary, 48 High within 10 km\n   - Humidity: **92%**\n   - Overall Score: **2.00**\n\n2. **Indian Gap, Texas**\n   - Average Price: **$800,000**\n   - Average Temperature: **25.7 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **86%**\n   - Overall Score: **1.75**\n\n3. **Cranfills Gap, Texas**\n   - Average Price: **$608,843**\n   - Average Temperature: **20.3 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **92%**\n   - Overall Score: **1.75**\n\n4. **Pecan Gap, Texas**\n   - Average Price: **$402,500**\n   - Average Temperature: **23.9 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **94%**\n   - Overall Score: **1.75**\n\n5. **Buffalo Gap, Texas**\n   - Average Price: **$297,988**\n   - Average Temperature: **20.3 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **92%**\n   - Overall Score: **1.75**\n\nLet me know if you need more information about any of these towns!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 02ce051f-5680-4743-bdd1-473910966842"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "I've updated your profile to reflect your preference for living in Texas or Arizona and your need for good schools nearby for your kids. \n\nWould you like to specify any budget or other preferences, or should I search for towns and cities in Texas and Arizona that meet your criteria?"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Texas and Arizona with schools and hospitals nearby"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 1533 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Dawn</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Texas</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$786,147</b><br>Average temperature: <b>22.6 \u00b0C</b><br>Hospita"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Texas that I recommend based on your preference for schools and hospitals nearby:\n\n1. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 90 Elementary, 48 High within 10 km\n   - Humidity: **92%**\n   - Overall Score: **2.00**\n\n2. **Indian Gap, Texas**\n   - Average Price: **$800,000**\n   - Average Temperature: **25.7 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **86%**\n   - Overall Score: **1.75**\n\n3. **Cranfills Gap, Texas**\n   - Average Price: **$608,843**\n   - Average Temperature: **20.3 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **92%**\n   - Overall Score: **1.75**\n\n4. **Pecan Gap, Texas**\n   - Average Price: **$402,500**\n   - Average Temperature: **23.9 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **94%**\n   - Overall Score: **1.75**\n\n5. **Buffalo Gap, Texas**\n   - Average Price: **$297,988**\n   - Average Temperature: **20.3 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n   - Humidity: **92%**\n   - Overall Score: **1.75**\n\nLet me know if you need more information about any of these towns!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.5,
+    "behavioral_consistency": 0.5,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.695023850013968,
+    "per_turn_latency_seconds": [
+      2.373456100001931,
+      7.016591600026004
+    ],
+    "latency_overhead_vs_baseline_seconds": -0.23520394999650307
+  }
+}

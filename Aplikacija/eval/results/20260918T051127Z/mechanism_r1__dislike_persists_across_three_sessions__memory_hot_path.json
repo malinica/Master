@@ -1,0 +1,51 @@
+{
+  "axis": "mechanism",
+  "scenario": "dislike_persists_across_three_sessions",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r1_20260918T051127Z_dislike_persists_across_three_sessions_memory_hot_path",
+  "user_id": 77,
+  "thread_ids": [
+    "27f82ac3-d46d-4e6b-abe9-7768374ace64",
+    "cdd50ab8-06d9-414b-8c6f-6181034c6d22",
+    "1714a98f-9eaf-443c-a8f3-6283c070112b"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I hate snow and cold winters, keep that in mind for future searches."
+      ],
+      "replies": [
+        "I've noted that you dislike snow and cold winters for future searches. If you have any other preferences or requirements, feel free to share!"
+      ]
+    },
+    {
+      "messages": [
+        "Any good towns for me this week?"
+      ],
+      "replies": [
+        "To help you find suitable towns, could you please provide me with your preferences regarding price range, climate (like temperature preferences), and whether you need schools or hospitals nearby? Additionally, if there are any specific states you're interested in or any dislikes (like humidity or snow), please let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "What about now, anything new you'd suggest?"
+      ],
+      "replies": [
+        "Could you please provide me with your preferences or any specific criteria you're considering for your next search? This could include budget, preferred states, climate preferences, or any other factors that are important to you."
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.5,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 1.3856263666666564,
+    "per_turn_latency_seconds": [
+      1.9628771999996388,
+      1.203614799999741,
+      0.9903871000005893
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.4014163000001645
+  }
+}

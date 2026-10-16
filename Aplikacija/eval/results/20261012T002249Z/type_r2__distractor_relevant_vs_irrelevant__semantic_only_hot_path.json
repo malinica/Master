@@ -1,0 +1,103 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r2_20261012T002249Z_distractor_relevant_vs_irrelevant_semantic_only_hot_path",
+  "user_id": 955,
+  "thread_ids": [
+    "fccaf7ba-1eb3-4682-beb5-37786fd348ba",
+    "b7f45a2c-2d8e-4a0b-98aa-09f6cee9948b"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "I've noted that your budget is around $250,000 and that you're only interested in towns in Oregon. How can I assist you further? Would you like to know about specific towns, schools, hospitals, or something else?"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share any specific preferences you have regarding price, weather, hospitals, schools, or any other factors that are important to you?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Oregon"
+              ],
+              "price_max": 250000
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory af71946b-9287-436f-b102-ac57aaa1bdd7"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "I've noted that your budget is around $250,000 and that you're only interested in towns in Oregon. How can I assist you further? Would you like to know about specific towns, schools, hospitals, or something else?"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "To provide you with the best recommendations, could you please share any specific preferences you have regarding price, weather, hospitals, schools, or any other factors that are important to you?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 1.8457944999681786,
+    "per_turn_latency_seconds": [
+      2.288516599975992,
+      1.4030723999603651
+    ],
+    "latency_overhead_vs_baseline_seconds": -2.461526400031289
+  }
+}

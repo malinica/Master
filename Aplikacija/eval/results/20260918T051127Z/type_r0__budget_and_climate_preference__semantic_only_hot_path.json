@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r0_20260918T051127Z_budget_and_climate_preference_semantic_only_hot_path",
+  "user_id": 51,
+  "thread_ids": [
+    "6fdf4688-500b-48aa-bbe8-f005a82e4d2a",
+    "f32c20c8-954e-4471-8186-bc41ca14a0c1"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that generally have low humidity, all under your budget of $200,000:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Hospitals Nearby:** 1 within 20 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 10 km\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High School within 10 km\n\n3. **Yerington, Nevada**\n   - **Average Price:** $191,031\n   - **Average Temperature:** 14.0 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 287.5\n   - **Hospitals Nearby:** 1 within 5 km\n   - **Schools Nearby:** 2 Elementary, 1 High School within 10 km\n\n4. **Yatahey, New Mexico**\n   - **Average Price:** $81,333\n   - **Average Temperature:** 13.9 \u00b0C\n   - **Humidity:** 87%\n   - **Sunny Days:** 249\n   - **Hospitals Nearby:** 12 within 100 km\n   - **Schools Nearby:** None within 10 km\n\n5. **Zapata, Texas**\n   - **Average Price:** $139,062\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 210.5\n   - **Hospitals Nearby:** 4 within 100 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 20 km\n\nLet me know if you would like more information about any of these towns!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some preferences or criteria that you're looking for in a place to live? For example, your budget, preferred states, climate preferences, or any specific needs like schools or hospitals nearby."
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 5.276896299999862,
+    "per_turn_latency_seconds": [
+      9.566653199999564,
+      0.9871394000001601
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.9364815999997518
+  }
+}

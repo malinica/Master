@@ -1,0 +1,13 @@
+{
+  "username": "eval_procedure_20261012T055746Z",
+  "examples": [
+    {
+      "query": "Find me warm affordable towns in Florida.",
+      "expected_markers": [
+        "hospital"
+      ],
+      "reply": "Here are some warm and affordable towns in Florida that you might consider:\n\n1. **Oklawaha, Florida**\n   - **Average Price:** $23,700\n   - **Average Temperature:** 22.4 \u00b0C\n   - **Nearest Hospital:** 4 hospitals within 5 km\n   - **Schools Nearby:** \n     - Prekindergarten: 1\n     - Elementary: 49\n     - High: 24\n   - **Weather Conditions:** \n     - Humidity: 94%\n     - Wind Speed: 12.4 m/s\n     - Sunny Days: 1.0\n     - Rainy Days: 0.0\n\n2. **Northwest Mallard Ave, Florida**\n   - **Average Price:** $14,487\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Nearest Hospital:** 3 hospitals within 5 km\n   - **Schools Nearby:** \n     - Prekindergarten: 0\n     - Elementary: 31\n     - High: 19\n   - **Weather Conditions:** \n     - Humidity: 94%\n     - Wind Speed: 11.3 m/s\n     - Sunny Days: 1.0\n     - Rainy Days: 0.0\n\n3. **Azalea Ave, Florida**\n   - **Average Price:** $16,900\n   - **Average Temperature:** 23.2 \u00b0C\n   - **Nearest Hospital:** 3 hospitals within 5 km\n   - **Schools Nearby:** \n     - Prekindergarten: 0\n     - Elementary: 31\n     - High: 19\n   - **Weather Conditions:** \n     - Humidity: 91%\n     - Wind Speed: 17.3 m/s\n     - Sunny Days: 81.5\n     - Rainy Days: 42.5\n\n4. **Southeast Hart Ave, Florida**\n   - **Average Price:** $140,000\n   - **Average Temperature:** 23.2 \u00b0C\n   - **Nearest Hospital:** 3 hospitals within 5 km\n   - **Schools Nearby:** \n     - Prekindergarten: 0\n     - Elementary: 31\n     - High: 19\n   - **Weather Conditions:** \n     - Humidity: 92%\n     - Wind Speed: 16.6 m/s\n     - Sunny Days: 1.0\n     - Rainy Days: 0.0\n\n5. **Edgewood Blvd, Florida**\n   - **Average Price:** $15,500\n   - **Average Temperature:** 23.2 \u00b0C\n   - **Nearest Hospital:** 3 hospitals within 5 km\n   - **Schools Nearby:** \n     - Prekindergarten: 0\n     - Elementary: 29\n     - High: 18\n   - **Weather Conditions:** \n     - Humidity: 91%\n     - Wind Speed: 17.3 m/s\n     - Sunny Days: 81.0\n     - Rainy Days: 43.0\n\nIf you have any specific preferences or additional criteria, feel free to let me know! I will remember your preferences for future interactions."
+    }
+  ],
+  "procedure_adherence": 1.0
+}

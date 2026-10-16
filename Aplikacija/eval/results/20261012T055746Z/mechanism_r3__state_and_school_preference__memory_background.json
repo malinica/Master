@@ -1,0 +1,128 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r3_20261012T055746Z_state_and_school_preference_memory_background",
+  "user_id": 1453,
+  "thread_ids": [
+    "5669d91e-e0ff-48ac-953a-0208fbe8151d",
+    "858f204e-4ca7-4804-8369-b4cdaf106698"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona that have good schools nearby, perfect for families with kids:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 25\n     - Within 100 km: 56\n   - **Schools Nearby:**\n     - Within 10 km: 4 Prekindergarten, 121 Elementary, 63 High\n     - Within 20 km: 6 Prekindergarten, 322 Elementary, 134 High\n   - **Weather Conditions:** Humidity: 85%, Wind Speed: 30.5 m/s, Sunny Days: 1.0\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 5\n     - Within 20 km: 41\n     - Within 100 km: 108\n   - **Schools Nearby:**\n     - Within 10 km: 4 Prekindergarten, 98 Elementary, 40 High\n     - Within 20 km: 8 Prekindergarten, 309 Elementary, 123 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 23.6 m/s, Sunny Days: 1.0\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:**\n     - Within 10 km: 3 Prekindergarten, 90 Elementary, 48 High\n     - Within 20 km: 8 Prekindergarten, 298 Elementary, 139 High\n   - **Weather Conditions:** Humidity: 92%, Wind Speed: 15.4 m/s, Sunny Days: 67.5\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 37\n     - Within 100 km: 107\n   - **Schools Nearby:**\n     - Within 10 km: 3 Prekindergarten, 97 Elementary, 39 High\n     - Within 20 km: 9 Prekindergarten, 314 Elementary, 127 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 24.0 m/s, Sunny Days: 1.0\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 30\n     - Within 100 km: 56\n   - **Schools Nearby:**\n     - Within 10 km: 2 Prekindergarten, 125 Elementary, 49 High\n     - Within 20 km: 5 Prekindergarten, 329 Elementary, 137 High\n   - **Weather Conditions:** Humidity: 95%, Wind Speed: 10.2 m/s, Sunny Days: 1.0\n\nIf you need more information about any specific location or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona that I recommend for you, based on your preference for good schools nearby for families with kids:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 4\n     - Elementary: 121\n     - High: 63\n   - **Overall Score:** 1.08\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** 5 within 5 km, 41 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 4\n     - Elementary: 98\n     - High: 40\n   - **Overall Score:** 1.02\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 3\n     - Elementary: 90\n     - High: 48\n   - **Overall Score:** 0.99\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 37 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 3\n     - Elementary: 97\n     - High: 39\n   - **Overall Score:** 0.99\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 2\n     - Elementary: 125\n     - High: 49\n   - **Overall Score:** 0.96\n\nThese towns offer a variety of options in terms of price, temperature, and access to schools and hospitals. Let me know if you need more information about any of these places!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Texas or Arizona towns with good schools nearby for families with kids."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": "",
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [
+          "prekindergarten",
+          "elementary",
+          "high"
+        ],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Texas and Arizona that have good schools nearby, perfect for families with kids:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 25\n     - Within 100 km: 56\n   - **Schools Nearby:**\n     - Within 10 km: 4 Prekindergarten, 121 Elementary, 63 High\n     - Within 20 km: 6 Prekindergarten, 322 Elementary, 134 High\n   - **Weather Conditions:** Humidity: 85%, Wind Speed: 30.5 m/s, Sunny Days: 1.0\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 5\n     - Within 20 km: 41\n     - Within 100 km: 108\n   - **Schools Nearby:**\n     - Within 10 km: 4 Prekindergarten, 98 Elementary, 40 High\n     - Within 20 km: 8 Prekindergarten, 309 Elementary, 123 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 23.6 m/s, Sunny Days: 1.0\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:**\n     - Within 10 km: 3 Prekindergarten, 90 Elementary, 48 High\n     - Within 20 km: 8 Prekindergarten, 298 Elementary, 139 High\n   - **Weather Conditions:** Humidity: 92%, Wind Speed: 15.4 m/s, Sunny Days: 67.5\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 37\n     - Within 100 km: 107\n   - **Schools Nearby:**\n     - Within 10 km: 3 Prekindergarten, 97 Elementary, 39 High\n     - Within 20 km: 9 Prekindergarten, 314 Elementary, 127 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 24.0 m/s, Sunny Days: 1.0\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 30\n     - Within 100 km: 56\n   - **Schools Nearby:**\n     - Within 10 km: 2 Prekindergarten, 125 Elementary, 49 High\n     - Within 20 km: 5 Prekindergarten, 329 Elementary, 137 High\n   - **Weather Conditions:** Humidity: 95%, Wind Speed: 10.2 m/s, Sunny Days: 1.0\n\nIf you need more information about any specific location or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Texas or Arizona towns with good schools nearby for families with kids"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Texas or Arizona towns with good schools nearby for families with kids",
+          "summary": "User is looking for towns in Texas or Arizona that have good schools nearby, suitable for families with children.",
+          "score": 0.3759739612965418
+        }
+      ],
+      "profile_after_write": {
+        "notes": "",
+        "dislikes": [],
+        "price_max": 888562.0,
+        "price_min": 79630.0,
+        "school_types": [
+          "prekindergarten",
+          "elementary",
+          "high"
+        ],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Texas and Arizona that I recommend for you, based on your preference for good schools nearby for families with kids:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 4\n     - Elementary: 121\n     - High: 63\n   - **Overall Score:** 1.08\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** 5 within 5 km, 41 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 4\n     - Elementary: 98\n     - High: 40\n   - **Overall Score:** 1.02\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 3\n     - Elementary: 90\n     - High: 48\n   - **Overall Score:** 0.99\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 37 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 3\n     - Elementary: 97\n     - High: 39\n   - **Overall Score:** 0.99\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** \n     - Prekindergarten: 2\n     - Elementary: 125\n     - High: 49\n   - **Overall Score:** 0.96\n\nThese towns offer a variety of options in terms of price, temperature, and access to schools and hospitals. Let me know if you need more information about any of these places!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 8.066896250005811,
+    "per_turn_latency_seconds": [
+      9.419526799989399,
+      6.714265700022224
+    ],
+    "latency_overhead_vs_baseline_seconds": 3.807369899994228
+  }
+}

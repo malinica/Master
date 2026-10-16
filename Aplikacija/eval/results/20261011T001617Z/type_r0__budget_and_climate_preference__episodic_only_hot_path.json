@@ -1,0 +1,111 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r0_20261011T001617Z_budget_and_climate_preference_episodic_only_hot_path",
+  "user_id": 704,
+  "thread_ids": [
+    "b13e73c5-953f-4a75-8e75-6b72167dc2f8",
+    "943ec12a-4430-4f1c-a41a-f6f6a6ac1689"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "hybrid",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "I found some affordable towns for you, but please note that they have higher humidity levels than you might prefer. Here are the options:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 20 km\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Hospitals Nearby: 6 within 100 km\n   - Schools Nearby: 1 High School within 20 km\n\n3. **Zephyr Cove, Nevada**\n   - Average Price: **$2,496,508** (not affordable)\n   - Average Temperature: **16.6 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **319**\n   - Hospitals Nearby: 1 within 100 km\n   - Schools Nearby: None within 10 km\n\n4. **Youngtown, Arizona**\n   - Average Price: **$351,891** (slightly above budget)\n   - Average Temperature: **23.9 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **316**\n   - Hospitals Nearby: 3 within 5 km, 11 within 20 km\n   - Schools Nearby: 41 Elementary, 16 High Schools within 20 km\n\n5. **Yucca Valley, California**\n   - Average Price: **$349,158** (slightly above budget)\n   - Average Temperature: **20.6 \u00b0C**\n   - Humidity: **93%**\n   - Sunny Days: **296**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary, 1 High School within 10 km\n\nIf you would like to adjust your preferences or search for something else, just let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some specific preferences or criteria you're looking for in a place to live? For example, your budget, desired weather conditions, proximity to hospitals or schools, and any other factors that are important to you."
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find affordable towns in the US with low humidity and sunny weather, with a budget around $200,000."
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "Find affordable towns in the US with low humidity and sunny weather, with a budget around $200,000.",
+              "summary": "Searched for affordable towns with low humidity and sunny weather under $200,000. Found towns with average prices below $200,000 but with high humidity levels.",
+              "top_result_towns": [
+                "Yermo, California",
+                "Yucca, Arizona",
+                "Zephyr Cove, Nevada",
+                "Youngtown, Arizona",
+                "Yucca Valley, California"
+              ]
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  No results for your query, showing best available options:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yermo</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>California</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,914</b><br>Average temperature: <b>21.3 \u00b0C</b><br>Hospitals nearby"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 7bfb2e71-cc42-48af-8707-1270aa586d17"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Find affordable towns in the US with low humidity and sunny weather, with a budget around $200,000.",
+          "summary": "Searched for affordable towns with low humidity and sunny weather under $200,000. Found towns with average prices below $200,000 but with high humidity levels.",
+          "score": null
+        }
+      ],
+      "reply": "I found some affordable towns for you, but please note that they have higher humidity levels than you might prefer. Here are the options:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Hospitals Nearby: 1 within 20 km, 11 within 100 km\n   - Schools Nearby: 1 Elementary, 2 High Schools within 20 km\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Hospitals Nearby: 6 within 100 km\n   - Schools Nearby: 1 High School within 20 km\n\n3. **Zephyr Cove, Nevada**\n   - Average Price: **$2,496,508** (not affordable)\n   - Average Temperature: **16.6 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **319**\n   - Hospitals Nearby: 1 within 100 km\n   - Schools Nearby: None within 10 km\n\n4. **Youngtown, Arizona**\n   - Average Price: **$351,891** (slightly above budget)\n   - Average Temperature: **23.9 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **316**\n   - Hospitals Nearby: 3 within 5 km, 11 within 20 km\n   - Schools Nearby: 41 Elementary, 16 High Schools within 20 km\n\n5. **Yucca Valley, California**\n   - Average Price: **$349,158** (slightly above budget)\n   - Average Temperature: **20.6 \u00b0C**\n   - Humidity: **93%**\n   - Sunny Days: **296**\n   - Hospitals Nearby: 5 within 20 km, 187 within 100 km\n   - Schools Nearby: 3 Elementary, 1 High School within 10 km\n\nIf you would like to adjust your preferences or search for something else, just let me know!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "Find affordable towns in the US with low humidity and sunny weather, with a budget around $200,000.",
+          "summary": "Searched for affordable towns with low humidity and sunny weather under $200,000. Found towns with average prices below $200,000 but with high humidity levels.",
+          "score": null
+        }
+      ],
+      "reply": "Could you please provide me with some specific preferences or criteria you're looking for in a place to live? For example, your budget, desired weather conditions, proximity to hospitals or schools, and any other factors that are important to you."
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 6.025163749989588,
+    "per_turn_latency_seconds": [
+      10.60455920000095,
+      1.4457682999782264
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.8333484999893699
+  }
+}

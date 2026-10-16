@@ -1,0 +1,106 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r3_20261012T002249Z_state_and_school_preference_semantic_only_hot_path",
+  "user_id": 993,
+  "thread_ids": [
+    "783bf1e5-3db4-47db-850b-9cb18529dcbf",
+    "cdd8e938-9f51-4a17-86ee-22033c11f24d"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "I've noted that you're interested in living in Texas or Arizona and that you need a place with good schools nearby for your kids. How can I assist you further? Are there any specific price ranges or other preferences you'd like to share?"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, and any specific requirements like schools or hospitals nearby?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 3290a4b5-66fd-4740-9537-98330155baf5"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "I've noted that you're interested in living in Texas or Arizona and that you need a place with good schools nearby for your kids. How can I assist you further? Are there any specific price ranges or other preferences you'd like to share?"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, and any specific requirements like schools or hospitals nearby?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 1.6639505999919493,
+    "per_turn_latency_seconds": [
+      2.3985013000201434,
+      0.9293998999637552
+    ],
+    "latency_overhead_vs_baseline_seconds": -2.711295950022759
+  }
+}

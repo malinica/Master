@@ -1,0 +1,108 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r0_20261012T055746Z_state_and_school_preference_episodic_only_hot_path",
+  "user_id": 1284,
+  "thread_ids": [
+    "121f68e8-5187-4789-bc12-7dc4594ac611",
+    "e8d8f55c-e16d-462c-b99c-e412c6b95a51"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona with good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average price: **$476,428**\n   - Average temperature: **24.1 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 25 within 20 km\n   - Schools nearby: 121 elementary schools, 63 high schools within 10 km\n   - Overall score: **1.08**\n\n2. **LaCoste, Texas**\n   - Average price: **$888,562**\n   - Average temperature: **24.9 \u00b0C**\n   - Hospitals nearby: 5 within 5 km, 41 within 20 km\n   - Schools nearby: 98 elementary schools, 40 high schools within 10 km\n   - Overall score: **1.02**\n\n3. **Dawn, Texas**\n   - Average price: **$786,147**\n   - Average temperature: **22.6 \u00b0C**\n   - Hospitals nearby: 22 within 5 km, 38 within 20 km\n   - Schools nearby: 90 elementary schools, 48 high schools within 10 km\n   - Overall score: **0.99**\n\n4. **Houston, Texas**\n   - Average price: **$475,386**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 37 within 20 km\n   - Schools nearby: 97 elementary schools, 39 high schools within 10 km\n   - Overall score: **0.99**\n\n5. **Winslow West, Arizona**\n   - Average price: **$79,630**\n   - Average temperature: **26.8 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 30 within 20 km\n   - Schools nearby: 125 elementary schools, 49 high schools within 10 km\n   - Overall score: **0.96**\n\nIf you need more information about any specific location or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some specific preferences? For example, are you looking for certain price ranges, weather conditions, proximity to hospitals or schools, or any other specific criteria?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find towns or cities in Texas or Arizona with good schools nearby."
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "Find towns or cities in Texas or Arizona with good schools nearby.",
+              "summary": "Searched for towns in Texas or Arizona with good schools for families.",
+              "top_result_towns": [
+                "Glendale, Arizona",
+                "LaCoste, Texas",
+                "Dawn, Texas",
+                "Houston, Texas",
+                "Winslow West, Arizona"
+              ]
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 6069231a-014e-4c31-aa9c-0c00e1f3157d"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Find towns or cities in Texas or Arizona with good schools nearby.",
+          "summary": "Searched for towns in Texas or Arizona with good schools for families.",
+          "score": 0.477554028794139
+        }
+      ],
+      "reply": "Here are some towns and cities in Texas and Arizona with good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average price: **$476,428**\n   - Average temperature: **24.1 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 25 within 20 km\n   - Schools nearby: 121 elementary schools, 63 high schools within 10 km\n   - Overall score: **1.08**\n\n2. **LaCoste, Texas**\n   - Average price: **$888,562**\n   - Average temperature: **24.9 \u00b0C**\n   - Hospitals nearby: 5 within 5 km, 41 within 20 km\n   - Schools nearby: 98 elementary schools, 40 high schools within 10 km\n   - Overall score: **1.02**\n\n3. **Dawn, Texas**\n   - Average price: **$786,147**\n   - Average temperature: **22.6 \u00b0C**\n   - Hospitals nearby: 22 within 5 km, 38 within 20 km\n   - Schools nearby: 90 elementary schools, 48 high schools within 10 km\n   - Overall score: **0.99**\n\n4. **Houston, Texas**\n   - Average price: **$475,386**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 37 within 20 km\n   - Schools nearby: 97 elementary schools, 39 high schools within 10 km\n   - Overall score: **0.99**\n\n5. **Winslow West, Arizona**\n   - Average price: **$79,630**\n   - Average temperature: **26.8 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 30 within 20 km\n   - Schools nearby: 125 elementary schools, 49 high schools within 10 km\n   - Overall score: **0.96**\n\nIf you need more information about any specific location or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "Find towns or cities in Texas or Arizona with good schools nearby.",
+          "summary": "Searched for towns in Texas or Arizona with good schools for families.",
+          "score": 0.36704564681198726
+        }
+      ],
+      "reply": "To help you find the best towns, could you please provide me with some specific preferences? For example, are you looking for certain price ranges, weather conditions, proximity to hospitals or schools, or any other specific criteria?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 6.238800699968124,
+    "per_turn_latency_seconds": [
+      10.827226599969435,
+      1.6503747999668121
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.43543459998909384
+  }
+}

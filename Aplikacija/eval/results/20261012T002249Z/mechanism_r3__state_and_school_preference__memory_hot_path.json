@@ -1,0 +1,189 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r3_20261012T002249Z_state_and_school_preference_memory_hot_path",
+  "user_id": 966,
+  "thread_ids": [
+    "47aba0e9-33df-4b4d-a8c1-2e24bc5937ff",
+    "5a1a04f1-5db2-4a87-80fe-84ca5c3e0c49"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "I've successfully updated your profile to reflect your preference for living in Texas or Arizona with good schools nearby. \n\nIf you have any more questions or need further assistance, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, and any specific requirements such as the need for schools or hospitals nearby?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "update",
+            "id": ""
+          }
+        },
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns or cities in Texas or Arizona with good schools nearby."
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns or cities in Texas or Arizona with good schools nearby.",
+              "summary": "Searching for towns or cities in Texas or Arizona that have good schools nearby.",
+              "top_result_towns": []
+            },
+            "action": "create",
+            "id": ""
+          }
+        },
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "create"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns or cities in Texas or Arizona with good schools nearby.",
+              "summary": "Searching for towns or cities in Texas or Arizona that have good schools nearby.",
+              "top_result_towns": [
+                "Glendale, Arizona",
+                "LaCoste, Texas",
+                "Dawn, Texas",
+                "Houston, Texas",
+                "Winslow West, Arizona"
+              ]
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "error",
+          "content": "Error invoking tool 'update_user_profile' with kwargs {'content': {'preferred_states': ['Texas', 'Arizona'], 'wants_schools_nearby': True}, 'action': 'update', 'id': ''} with error:\n id: Input should be a valid UUID, invalid length: expected length 32 for simple format, found 0\n Please fix the error and try again."
+        },
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "error",
+          "content": "Error invoking tool 'log_search_episode' with kwargs {'content': {'query': 'towns or cities in Texas or Arizona with good schools nearby.', 'summary': 'Searching for towns or cities in Texas or Arizona that have good schools nearby.', 'top_result_towns': []}, 'action': 'create', 'id': ''} with error:\n id: Input should be a valid UUID, invalid length: expected length 32 for simple format, found 0\n Please fix the error and try again."
+        },
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 21b2d13b-cd9e-401a-8a0d-cf1d37a2ee1a"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 47aa4038-4b0c-4b01-a96e-390660efa4e1"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns or cities in Texas or Arizona with good schools nearby.",
+          "summary": "Searching for towns or cities in Texas or Arizona that have good schools nearby.",
+          "score": 0.4953565622464965
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "I've successfully updated your profile to reflect your preference for living in Texas or Arizona with good schools nearby. \n\nIf you have any more questions or need further assistance, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "towns or cities in Texas or Arizona with good schools nearby.",
+          "summary": "Searching for towns or cities in Texas or Arizona that have good schools nearby.",
+          "score": 0.37706410590466977
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, and any specific requirements such as the need for schools or hospitals nearby?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 6.39317269998719,
+    "per_turn_latency_seconds": [
+      11.385012399987318,
+      1.401332999987062
+    ],
+    "latency_overhead_vs_baseline_seconds": 1.3916050999832805
+  }
+}

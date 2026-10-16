@@ -1,0 +1,41 @@
+{
+  "axis": "mechanism",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r1_20260918T051127Z_distractor_relevant_vs_irrelevant_memory_background",
+  "user_id": 81,
+  "thread_ids": [
+    "be9110ff-9250-494d-b6c4-819b73dd7b33",
+    "031d8e69-d74c-4005-8783-03ead7765f4f"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Elementary: 4\n     - High: 2\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools nearby (within 20 km): \n     - Elementary: 7\n     - High: 2\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools nearby (within 20 km): \n     - Elementary: 2\n     - High: 2\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Elementary: 1\n     - High: 1\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Elementary: 1\n     - High: 1\n   - Overall score: **3.00**\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "It seems that there are no towns in Oregon that match your exact price criteria of $250,000. However, here are some towns in Oregon with average prices around that range:\n\n1. **Deer Island, Oregon**\n   - Average Price: **$357,891**\n   - Average Temperature: **9.3 \u00b0C**\n   - Hospitals nearby: None within 10 km\n   - Schools nearby: None within 10 km\n   - Overall score: **3.00**\n\n2. **Sweet Home, Oregon**\n   - Average Price: **$356,003**\n   - Average Temperature: **13.9 \u00b0C**\n   - Hospitals nearby: None within 10 km\n   - Schools nearby: 2 Prekindergarten, 55 Elementary, 32 High within 10 km\n   - Overall score: **3.00**\n\n3. **Klamath Falls, Oregon**\n   - Average Price: **$353,149**\n   - Average Temperature: **5.7 \u00b0C**\n   - Hospitals nearby: None within 10 km\n   - Schools nearby: 69 Elementary, 42 High within 100 km\n   - Overall score: **3.00**\n\n4. **Paisley, Oregon**\n   - Average Price: **$352,500**\n   - Average Temperature: **13.0 \u00b0C**\n   - Hospitals nearby: None within 10 km\n   - Schools nearby: 9 Elementary within 100 km\n   - Overall score: **3.00**\n\n5. **Coos Bay, Oregon**\n   - Average Price: **$352,029**\n   - Average Temperature: **9.6 \u00b0C**\n   - Hospitals nearby: None within 10 km\n   - Schools nearby: 38 Elementary, 22 High within 100 km\n   - Overall score: **3.00**\n\nIf you're flexible with your budget or have other preferences, let me know, and I can help you find more options!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 10.351800900000399,
+    "per_turn_latency_seconds": [
+      8.452593200000592,
+      12.251008600000205
+    ],
+    "latency_overhead_vs_baseline_seconds": 6.193261600000369
+  }
+}

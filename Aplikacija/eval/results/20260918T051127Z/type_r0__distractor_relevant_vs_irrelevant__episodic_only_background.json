@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "episodic_only_background",
+  "username": "eval_type_r0_20260918T051127Z_distractor_relevant_vs_irrelevant_episodic_only_background",
+  "user_id": 69,
+  "thread_ids": [
+    "0a1ad88a-8506-498f-b80d-ca74107121a3",
+    "2eb74fb9-eb24-49d6-b415-3e55ec94cbeb"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Pre-Kindergarten: 0\n     - Elementary: 4\n     - High: 2\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools nearby (within 20 km): \n     - Pre-Kindergarten: 0\n     - Elementary: 7\n     - High: 2\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools nearby (within 20 km): \n     - Pre-Kindergarten: 0\n     - Elementary: 2\n     - High: 2\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Pre-Kindergarten: 0\n     - Elementary: 1\n     - High: 1\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Pre-Kindergarten: 0\n     - Elementary: 1\n     - High: 1\n   - Overall score: **3.00**\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some specific preferences? For example, what are your budget ranges for housing, preferred weather conditions (like temperature or climate), and any important factors like proximity to hospitals or schools?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 8.470809949999875,
+    "per_turn_latency_seconds": [
+      13.484610800000155,
+      3.4570090999995955
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.889499249999972
+  }
+}

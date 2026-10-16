@@ -1,0 +1,9 @@
+{
+  "scenario_names": "all",
+  "variant_names": "all",
+  "user_prefix": "eval",
+  "llm_model": "gpt-4o-mini",
+  "axis": "all",
+  "repeats": 5,
+  "search_strategy": "similarity"
+}

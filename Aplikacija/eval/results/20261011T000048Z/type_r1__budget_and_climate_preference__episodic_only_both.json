@@ -1,0 +1,110 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_both",
+  "username": "eval_type_r1_20261011T000048Z_budget_and_climate_preference_episodic_only_both",
+  "user_id": 650,
+  "thread_ids": [
+    "35bbdc44-264a-4180-919f-0e2622a879dc",
+    "8ca6055d-b3da-4c9c-b62d-b2a8d1bb122a"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "keyword",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US with a budget around $200,000 and low humidity:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 elementary, 2 high schools within 10 km\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Hospitals nearby: 6 within 100 km\n   - Schools nearby: 1 high school within 10 km\n\n3. **Yerington, Nevada**\n   - Average Price: **$191,031**\n   - Average Temperature: **14.0 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **287.5**\n   - Hospitals nearby: 1 within 5 km, 21 within 100 km\n   - Schools nearby: 2 elementary, 1 high school within 10 km\n\n4. **Yarnell, Arizona**\n   - Average Price: **$216,352** (slightly above budget)\n   - Average Temperature: **16.0 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **278**\n   - Hospitals nearby: 21 within 100 km\n   - Schools nearby: 1 elementary within 20 km\n\n5. **Yatahey, New Mexico**\n   - Average Price: **$81,333**\n   - Average Temperature: **13.9 \u00b0C**\n   - Humidity: **87%**\n   - Sunny Days: **249**\n   - Hospitals nearby: 12 within 100 km\n   - Schools nearby: 6 elementary within 100 km\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some preferences or criteria for the places you're looking for? For example, are you interested in specific price ranges, weather conditions, proximity to hospitals or schools, or any other factors?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity",
+              "summary": "User is looking for affordable sunny towns in the US with a budget of $200,000 and low humidity.",
+              "top_result_towns": [
+                "Yermo, California",
+                "Yucca, Arizona",
+                "Yerington, Nevada",
+                "Yarnell, Arizona",
+                "Yatahey, New Mexico"
+              ]
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in California, Texas, Florida, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory e3a32939-8d58-4e4f-aa5c-25618b46d6c1"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity",
+          "summary": "User is looking for affordable sunny towns in the US with a budget of $200,000 and low humidity.",
+          "score": null
+        }
+      ],
+      "reply": "Here are some affordable sunny towns in the US with a budget around $200,000 and low humidity:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Humidity: **88%**\n   - Sunny Days: **329**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 elementary, 2 high schools within 10 km\n\n2. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Humidity: **90%**\n   - Sunny Days: **315**\n   - Hospitals nearby: 6 within 100 km\n   - Schools nearby: 1 high school within 10 km\n\n3. **Yerington, Nevada**\n   - Average Price: **$191,031**\n   - Average Temperature: **14.0 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **287.5**\n   - Hospitals nearby: 1 within 5 km, 21 within 100 km\n   - Schools nearby: 2 elementary, 1 high school within 10 km\n\n4. **Yarnell, Arizona**\n   - Average Price: **$216,352** (slightly above budget)\n   - Average Temperature: **16.0 \u00b0C**\n   - Humidity: **92%**\n   - Sunny Days: **278**\n   - Hospitals nearby: 21 within 100 km\n   - Schools nearby: 1 elementary within 20 km\n\n5. **Yatahey, New Mexico**\n   - Average Price: **$81,333**\n   - Average Temperature: **13.9 \u00b0C**\n   - Humidity: **87%**\n   - Sunny Days: **249**\n   - Hospitals nearby: 12 within 100 km\n   - Schools nearby: 6 elementary within 100 km\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in the US with a budget around $200,000 and low humidity",
+          "summary": "User is looking for affordable sunny towns in the US with a budget of $200,000 and low humidity.",
+          "score": null
+        }
+      ],
+      "reply": "Could you please provide me with some preferences or criteria for the places you're looking for? For example, are you interested in specific price ranges, weather conditions, proximity to hospitals or schools, or any other factors?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 5.932723100006115,
+    "per_turn_latency_seconds": [
+      10.708089300023858,
+      1.1573568999883719
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.3627418000251055
+  }
+}

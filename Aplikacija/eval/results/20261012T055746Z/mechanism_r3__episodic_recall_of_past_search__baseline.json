@@ -1,0 +1,71 @@
+{
+  "axis": "mechanism",
+  "scenario": "episodic_recall_of_past_search",
+  "variant": "baseline",
+  "username": "eval_mechanism_r3_20261012T055746Z_episodic_recall_of_past_search_baseline",
+  "user_id": 1459,
+  "thread_ids": [
+    "36a53a07-e6f2-49de-92eb-ed48dd0ae8a9",
+    "963de627-678d-4e71-b2b8-a04eb32584c1"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter will be starting college near Phoenix:\n\n1. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 315\n   - **Rainy Days:** 12\n\n2. **Ehrenberg, Arizona**\n   - **Average Price:** $139,600\n   - **Average Temperature:** 24.8 \u00b0C\n   - **Hospitals Nearby:** 3 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 168.5\n   - **Rainy Days:** 3.5\n\n3. **Dome Valley, Arizona**\n   - **Average Price:** $60,000\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 2 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 167\n   - **Rainy Days:** 7\n\n4. **Concho Valley, Arizona**\n   - **Average Price:** $19,035\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 2 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 167\n   - **Rainy Days:** 7\n\n5. **Dateland, Arizona**\n   - **Average Price:** $73,043\n   - **Average Temperature:** 24.0 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** 1 elementary school within 20 km\n   - **Sunny Days:** 164.5\n   - **Rainy Days:** 5\n\nThese towns offer a mix of affordability and sunny weather, making them great options for your needs. If you need more information or have specific preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What did I mention was the reason I was looking in Arizona, last time we talked?"
+      ],
+      "replies": [
+        "I'm sorry, but I don't have access to past conversations or any stored information about your previous preferences. However, if you let me know what you're looking for in Arizona or any specific criteria, I can help you find suitable towns or cities!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in Arizona"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yucca</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$65,056</b><br>Average temperature: <b>22.8 \u00b0C</b><br>Hospitals nearb"
+        }
+      ],
+      "reply": "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter will be starting college near Phoenix:\n\n1. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 315\n   - **Rainy Days:** 12\n\n2. **Ehrenberg, Arizona**\n   - **Average Price:** $139,600\n   - **Average Temperature:** 24.8 \u00b0C\n   - **Hospitals Nearby:** 3 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 168.5\n   - **Rainy Days:** 3.5\n\n3. **Dome Valley, Arizona**\n   - **Average Price:** $60,000\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 2 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 167\n   - **Rainy Days:** 7\n\n4. **Concho Valley, Arizona**\n   - **Average Price:** $19,035\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 2 within 100 km\n   - **Schools Nearby:** 1 high school within 20 km\n   - **Sunny Days:** 167\n   - **Rainy Days:** 7\n\n5. **Dateland, Arizona**\n   - **Average Price:** $73,043\n   - **Average Temperature:** 24.0 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** 1 elementary school within 20 km\n   - **Sunny Days:** 164.5\n   - **Rainy Days:** 5\n\nThese towns offer a mix of affordability and sunny weather, making them great options for your needs. If you need more information or have specific preferences, feel free to ask!"
+    },
+    {
+      "message": "What did I mention was the reason I was looking in Arizona, last time we talked?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "reply": "I'm sorry, but I don't have access to past conversations or any stored information about your previous preferences. However, if you let me know what you're looking for in Arizona or any specific criteria, I can help you find suitable towns or cities!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.838755700038746,
+    "per_turn_latency_seconds": [
+      8.727325200045016,
+      0.9501862000324763
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

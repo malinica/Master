@@ -1,0 +1,114 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "semantic_only_both",
+  "username": "eval_type_r0_20261012T002249Z_distractor_relevant_vs_irrelevant_semantic_only_both",
+  "user_id": 825,
+  "thread_ids": [
+    "7cd06eb2-caf1-4a35-8430-291cf6715357",
+    "137ae8e9-552a-458a-90b9-9868ccb27b68"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind Speed: **23.7 m/s**\n   - Overall Score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind Speed: **18.8 m/s**\n   - Overall Score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Preschool, 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind Speed: **10.5 m/s**\n   - Overall Score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind Speed: **15.8 m/s**\n   - Overall Score: **3.00**\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Preschool, 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind Speed: **14.7 m/s**\n   - Overall Score: **3.00**\n\nIf you would like more information about any of these towns or need help with something else, just let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share more about your preferences? Specifically, it would be helpful to know:\n\n1. Your budget range (minimum and maximum price).\n2. Any specific states you're interested in besides Oregon.\n3. Your preferences for weather (e.g., warm, cold, mild).\n4. Whether you want schools or hospitals nearby.\n5. Any dislikes (e.g., humidity, snow).\n\nWith this information, I can find towns that match your criteria!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Oregon"
+              ],
+              "price_max": 250000
+            },
+            "action": "create"
+          }
+        },
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget around $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 66f53168-4dce-4476-abd1-3b41f8d6b5aa"
+        },
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind Speed: **23.7 m/s**\n   - Overall Score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind Speed: **18.8 m/s**\n   - Overall Score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Preschool, 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind Speed: **10.5 m/s**\n   - Overall Score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind Speed: **15.8 m/s**\n   - Overall Score: **3.00**\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Preschool, 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind Speed: **14.7 m/s**\n   - Overall Score: **3.00**\n\nIf you would like more information about any of these towns or need help with something else, just let me know!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "To provide you with the best recommendations, could you please share more about your preferences? Specifically, it would be helpful to know:\n\n1. Your budget range (minimum and maximum price).\n2. Any specific states you're interested in besides Oregon.\n3. Your preferences for weather (e.g., warm, cold, mild).\n4. Whether you want schools or hospitals nearby.\n5. Any dislikes (e.g., humidity, snow).\n\nWith this information, I can find towns that match your criteria!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.5,
+    "behavioral_consistency": 0.5,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.974058299994795,
+    "per_turn_latency_seconds": [
+      8.369244800007436,
+      1.5788717999821529
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.698620849987492
+  }
+}

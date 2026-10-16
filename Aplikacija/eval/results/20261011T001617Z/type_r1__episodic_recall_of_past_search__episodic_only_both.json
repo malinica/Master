@@ -1,0 +1,105 @@
+{
+  "axis": "type",
+  "scenario": "episodic_recall_of_past_search",
+  "variant": "episodic_only_both",
+  "username": "eval_type_r1_20261011T001617Z_episodic_recall_of_past_search_episodic_only_both",
+  "user_id": 713,
+  "thread_ids": [
+    "74cef41e-a6cf-4d40-826d-11db6abe2eaf",
+    "a1a5492d-dc24-4fa1-8580-b967e38e24be"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "hybrid",
+  "sessions": [
+    {
+      "messages": [
+        "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter is starting college near Phoenix this fall:\n\n1. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Hospitals Nearby: **6** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **0** Prekindergarten, **0** Elementary, **1** High\n     - Within 100 km: **2** Prekindergarten, **45** Elementary, **19** High\n   - Sunny Days: **315.0**\n   - Overall Score: **2.12**\n\n2. **Ehrenberg, Arizona**\n   - Average Price: **$139,600**\n   - Average Temperature: **24.8 \u00b0C**\n   - Hospitals Nearby: **3** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **1** Prekindergarten, **3** Elementary, **1** High\n     - Within 100 km: **3** Prekindergarten, **24** Elementary, **8** High\n   - Sunny Days: **168.5**\n   - Overall Score: **1.87**\n\n3. **Dome Valley, Arizona**\n   - Average Price: **$60,000**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **1** Prekindergarten, **1** Elementary, **0** High\n     - Within 100 km: **2** Prekindergarten, **47** Elementary, **19** High\n   - Sunny Days: **167.0**\n   - Overall Score: **1.87**\n\n4. **Concho Valley, Arizona**\n   - Average Price: **$19,035**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **1** Prekindergarten, **1** Elementary, **0** High\n     - Within 100 km: **2** Prekindergarten, **47** Elementary, **19** High\n   - Sunny Days: **167.0**\n   - Overall Score: **1.87**\n\n5. **Dateland, Arizona**\n   - Average Price: **$73,043**\n   - Average Temperature: **24.0 \u00b0C**\n   - Hospitals Nearby: **1** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **0** Prekindergarten, **1** Elementary, **0** High\n     - Within 100 km: **1** Prekindergarten, **20** Elementary, **8** High\n   - Sunny Days: **164.5**\n   - Overall Score: **1.87**\n\nThese towns offer a combination of affordability, sunny weather, and access to schools and hospitals. If you need more information or have specific preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What did I mention was the reason I was looking in Arizona, last time we talked?"
+      ],
+      "replies": [
+        "You mentioned that you were looking for affordable sunny towns in Arizona because your daughter is starting college near Phoenix this fall."
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in Arizona"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "cheap sunny towns in Arizona",
+              "summary": "User is looking for affordable sunny towns in Arizona, especially since their daughter is starting college near Phoenix this fall.",
+              "top_result_towns": []
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yucca</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$65,056</b><br>Average temperature: <b>22.8 \u00b0C</b><br>Hospitals nearb"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 86a851dc-f972-44a4-8032-a9f05c532701"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona, especially since their daughter is starting college near Phoenix this fall.",
+          "score": null
+        }
+      ],
+      "reply": "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter is starting college near Phoenix this fall:\n\n1. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Hospitals Nearby: **6** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **0** Prekindergarten, **0** Elementary, **1** High\n     - Within 100 km: **2** Prekindergarten, **45** Elementary, **19** High\n   - Sunny Days: **315.0**\n   - Overall Score: **2.12**\n\n2. **Ehrenberg, Arizona**\n   - Average Price: **$139,600**\n   - Average Temperature: **24.8 \u00b0C**\n   - Hospitals Nearby: **3** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **1** Prekindergarten, **3** Elementary, **1** High\n     - Within 100 km: **3** Prekindergarten, **24** Elementary, **8** High\n   - Sunny Days: **168.5**\n   - Overall Score: **1.87**\n\n3. **Dome Valley, Arizona**\n   - Average Price: **$60,000**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **1** Prekindergarten, **1** Elementary, **0** High\n     - Within 100 km: **2** Prekindergarten, **47** Elementary, **19** High\n   - Sunny Days: **167.0**\n   - Overall Score: **1.87**\n\n4. **Concho Valley, Arizona**\n   - Average Price: **$19,035**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **1** Prekindergarten, **1** Elementary, **0** High\n     - Within 100 km: **2** Prekindergarten, **47** Elementary, **19** High\n   - Sunny Days: **167.0**\n   - Overall Score: **1.87**\n\n5. **Dateland, Arizona**\n   - Average Price: **$73,043**\n   - Average Temperature: **24.0 \u00b0C**\n   - Hospitals Nearby: **1** (within 100 km)\n   - Schools Nearby: \n     - Within 10 km: **0** Prekindergarten, **1** Elementary, **0** High\n     - Within 100 km: **1** Prekindergarten, **20** Elementary, **8** High\n   - Sunny Days: **164.5**\n   - Overall Score: **1.87**\n\nThese towns offer a combination of affordability, sunny weather, and access to schools and hospitals. If you need more information or have specific preferences, feel free to ask!"
+    },
+    {
+      "message": "What did I mention was the reason I was looking in Arizona, last time we talked?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona, especially since their daughter is starting college near Phoenix this fall.",
+          "score": null
+        }
+      ],
+      "reply": "You mentioned that you were looking for affordable sunny towns in Arizona because your daughter is starting college near Phoenix this fall."
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": 1.0,
+    "avg_latency_seconds": 7.1575568999687675,
+    "per_turn_latency_seconds": [
+      13.057824399962556,
+      1.2572893999749795
+    ],
+    "latency_overhead_vs_baseline_seconds": 2.690720649989089
+  }
+}

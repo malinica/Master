@@ -1,0 +1,71 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "baseline",
+  "username": "eval_type_r2_20261012T055746Z_distractor_relevant_vs_irrelevant_baseline",
+  "user_id": 1440,
+  "thread_ids": [
+    "ea44ec10-1119-483c-9716-9a5b73ec0097",
+    "91b4da0d-63a5-48d2-aa27-7c82801882fc"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind Speed: **23.7 m/s**\n   - Rainy Days: **1.0**\n\n2. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 9 Elementary, 7 High\n   - Humidity: **93%**\n   - Wind Speed: **14.7 m/s**\n   - Rainy Days: **1.0**\n\n3. **Union, Oregon**\n   - Average Price: **$244,172**\n   - Average Temperature: **12.6 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 4 Elementary, 1 High\n     - Within 20 km: 8 Elementary, 2 High\n   - Humidity: **83%**\n   - Wind Speed: **34.0 m/s**\n   - Rainy Days: **0.0**\n\n4. **Oakridge, Oregon**\n   - Average Price: **$243,827**\n   - Average Temperature: **15.7 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 1 Elementary, 1 High\n   - Humidity: **96%**\n   - Wind Speed: **8.9 m/s**\n   - Rainy Days: **1.0**\n\n5. **Sunny Valley, Oregon**\n   - Average Price: **$233,666**\n   - Average Temperature: **14.0 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 61 Elementary, 22 High\n     - Within 20 km: 143 Elementary, 87 High\n   - Humidity: **90%**\n   - Wind Speed: **19.3 m/s**\n   - Rainy Days: **1.0**\n\nIf you need more information or have specific preferences regarding hospitals or other amenities, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns or cities, could you please provide me with some specific preferences? For example, what are your budget considerations, preferred weather conditions, temperature range, and any requirements regarding hospitals or schools?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 57 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind Speed: **23.7 m/s**\n   - Rainy Days: **1.0**\n\n2. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 9 Elementary, 7 High\n   - Humidity: **93%**\n   - Wind Speed: **14.7 m/s**\n   - Rainy Days: **1.0**\n\n3. **Union, Oregon**\n   - Average Price: **$244,172**\n   - Average Temperature: **12.6 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 4 Elementary, 1 High\n     - Within 20 km: 8 Elementary, 2 High\n   - Humidity: **83%**\n   - Wind Speed: **34.0 m/s**\n   - Rainy Days: **0.0**\n\n4. **Oakridge, Oregon**\n   - Average Price: **$243,827**\n   - Average Temperature: **15.7 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 20 km: 1 Elementary, 1 High\n   - Humidity: **96%**\n   - Wind Speed: **8.9 m/s**\n   - Rainy Days: **1.0**\n\n5. **Sunny Valley, Oregon**\n   - Average Price: **$233,666**\n   - Average Temperature: **14.0 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 61 Elementary, 22 High\n     - Within 20 km: 143 Elementary, 87 High\n   - Humidity: **90%**\n   - Wind Speed: **19.3 m/s**\n   - Rainy Days: **1.0**\n\nIf you need more information or have specific preferences regarding hospitals or other amenities, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "reply": "To help you find the best towns or cities, could you please provide me with some specific preferences? For example, what are your budget considerations, preferred weather conditions, temperature range, and any requirements regarding hospitals or schools?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 3.9895229999965522,
+    "per_turn_latency_seconds": [
+      6.979205899988301,
+      0.9998401000048034
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "axis": "mechanism",
+  "scenario": "dislike_persists_across_three_sessions",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r3_20261012T055746Z_dislike_persists_across_three_sessions_memory_hot_path",
+  "user_id": 1456,
+  "thread_ids": [
+    "70312085-f91a-417d-8aeb-fb6f16e16003",
+    "0da486e4-71ee-4966-80b8-d6dbc54e1a5a",
+    "8d89d273-3c4d-4583-8f98-3160f0665fc2"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I hate snow and cold winters, keep that in mind for future searches."
+      ],
+      "replies": [
+        "I've noted that you dislike snow and cold winters for future searches. If you have any other preferences or needs, feel free to share!"
+      ]
+    },
+    {
+      "messages": [
+        "Any good towns for me this week?"
+      ],
+      "replies": [
+        "Here are some great towns in the US that have mild weather, no snow or cold winters, and are affordable:\n\n1. **Jack, Alabama**\n   - Average Price: **$88,560**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **25** within 100 km\n   - Schools Nearby: \n     - Elementary: **2** within 20 km\n     - High: **1** within 20 km\n   - Humidity: **93%**\n\n2. **Ravia, Oklahoma**\n   - Average Price: **$76,233**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **21** within 100 km\n   - Schools Nearby: \n     - Elementary: **5** within 20 km\n     - High: **4** within 20 km\n   - Humidity: **91%**\n\n3. **Creola, Louisiana**\n   - Average Price: **$74,242**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **30** within 100 km\n   - Schools Nearby: \n     - Elementary: **24** within 20 km\n     - High: **8** within 20 km\n   - Humidity: **92%**\n\n4. **Ionia, Missouri**\n   - Average Price: **$20,000**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **24** within 100 km\n   - Schools Nearby: \n     - Elementary: **7** within 20 km\n     - High: **3** within 20 km\n   - Humidity: **87%**\n\n5. **Lake Lafayette, Missouri**\n   - Average Price: **$15,667**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **61** within 100 km\n   - Schools Nearby: \n     - Elementary: **8** within 20 km\n     - High: **2** within 20 km\n   - Humidity: **85%**\n\nThese towns offer a combination of affordability, mild weather, and access to hospitals and schools. Let me know if you need more information about any of these places!"
+      ]
+    },
+    {
+      "messages": [
+        "What about now, anything new you'd suggest?"
+      ],
+      "replies": [
+        "Here are some towns in the US that have mild weather, no snow or cold winters, and are affordable:\n\n1. **Jack, Alabama**\n   - Average Price: **$88,560**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 25 within 100 km\n   - Schools Nearby: 2 Elementary, 1 High within 20 km\n   - Humidity: **93%**\n\n2. **Ravia, Oklahoma**\n   - Average Price: **$76,233**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 21 within 100 km\n   - Schools Nearby: 5 Elementary, 4 High within 20 km\n   - Humidity: **91%**\n\n3. **Creola, Louisiana**\n   - Average Price: **$74,242**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 30 within 100 km\n   - Schools Nearby: 24 Elementary, 8 High within 20 km\n   - Humidity: **92%**\n\n4. **Ionia, Missouri**\n   - Average Price: **$20,000**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 24 within 100 km\n   - Schools Nearby: 7 Elementary, 3 High within 20 km\n   - Humidity: **87%**\n\n5. **Lake Lafayette, Missouri**\n   - Average Price: **$15,667**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 61 within 100 km\n   - Schools Nearby: 8 Elementary, 2 High within 20 km\n   - Humidity: **85%**\n\nThese towns offer a combination of affordability, mild weather, and access to hospitals and schools. Let me know if you need more information or have other preferences!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I hate snow and cold winters, keep that in mind for future searches.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "dislikes": [
+                "snow",
+                "cold winters"
+              ]
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 17007c52-013f-421e-800b-97823a5fe70e"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "snow",
+          "cold winters"
+        ],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "I've noted that you dislike snow and cold winters for future searches. If you have any other preferences or needs, feel free to share!"
+    },
+    {
+      "message": "Any good towns for me this week?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable."
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable.",
+              "summary": "Top towns found with mild weather, no snow or cold winters, and affordable prices.",
+              "top_result_towns": [
+                "Jack, Alabama",
+                "Ravia, Oklahoma",
+                "Creola, Louisiana",
+                "Ionia, Missouri",
+                "Lake Lafayette, Missouri"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 1963 locations. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Jack</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Alabama</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,560</b><br>Average temperature: <b>21.0 \u00b0C</b><br>Hospitals nearby:<br>&nb"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 2e08d73a-68ec-4396-b39f-564e6b6beabd"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable.",
+          "summary": "Top towns found with mild weather, no snow or cold winters, and affordable prices.",
+          "score": 0.4285523321260234
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "snow",
+          "cold winters"
+        ],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some great towns in the US that have mild weather, no snow or cold winters, and are affordable:\n\n1. **Jack, Alabama**\n   - Average Price: **$88,560**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **25** within 100 km\n   - Schools Nearby: \n     - Elementary: **2** within 20 km\n     - High: **1** within 20 km\n   - Humidity: **93%**\n\n2. **Ravia, Oklahoma**\n   - Average Price: **$76,233**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **21** within 100 km\n   - Schools Nearby: \n     - Elementary: **5** within 20 km\n     - High: **4** within 20 km\n   - Humidity: **91%**\n\n3. **Creola, Louisiana**\n   - Average Price: **$74,242**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **30** within 100 km\n   - Schools Nearby: \n     - Elementary: **24** within 20 km\n     - High: **8** within 20 km\n   - Humidity: **92%**\n\n4. **Ionia, Missouri**\n   - Average Price: **$20,000**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **24** within 100 km\n   - Schools Nearby: \n     - Elementary: **7** within 20 km\n     - High: **3** within 20 km\n   - Humidity: **87%**\n\n5. **Lake Lafayette, Missouri**\n   - Average Price: **$15,667**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: **61** within 100 km\n   - Schools Nearby: \n     - Elementary: **8** within 20 km\n     - High: **2** within 20 km\n   - Humidity: **85%**\n\nThese towns offer a combination of affordability, mild weather, and access to hospitals and schools. Let me know if you need more information about any of these places!"
+    },
+    {
+      "message": "What about now, anything new you'd suggest?",
+      "session_index": 2,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable."
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable.",
+              "summary": "Top towns found with mild weather, no snow or cold winters, and affordable prices.",
+              "top_result_towns": [
+                "Jack, Alabama",
+                "Ravia, Oklahoma",
+                "Creola, Louisiana",
+                "Ionia, Missouri",
+                "Lake Lafayette, Missouri"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 1963 locations. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Jack</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Alabama</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,560</b><br>Average temperature: <b>21.0 \u00b0C</b><br>Hospitals nearby:<br>&nb"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory d5e20d1d-1e5b-42f2-951e-58cac7c5aae7"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable.",
+          "summary": "Top towns found with mild weather, no snow or cold winters, and affordable prices.",
+          "score": 0.23451159176403347
+        },
+        {
+          "query": "Find towns in the US that have mild weather, no snow or cold winters, and are affordable.",
+          "summary": "Top towns found with mild weather, no snow or cold winters, and affordable prices.",
+          "score": 0.23451159176403347
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "snow",
+          "cold winters"
+        ],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in the US that have mild weather, no snow or cold winters, and are affordable:\n\n1. **Jack, Alabama**\n   - Average Price: **$88,560**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 25 within 100 km\n   - Schools Nearby: 2 Elementary, 1 High within 20 km\n   - Humidity: **93%**\n\n2. **Ravia, Oklahoma**\n   - Average Price: **$76,233**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 21 within 100 km\n   - Schools Nearby: 5 Elementary, 4 High within 20 km\n   - Humidity: **91%**\n\n3. **Creola, Louisiana**\n   - Average Price: **$74,242**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 30 within 100 km\n   - Schools Nearby: 24 Elementary, 8 High within 20 km\n   - Humidity: **92%**\n\n4. **Ionia, Missouri**\n   - Average Price: **$20,000**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 24 within 100 km\n   - Schools Nearby: 7 Elementary, 3 High within 20 km\n   - Humidity: **87%**\n\n5. **Lake Lafayette, Missouri**\n   - Average Price: **$15,667**\n   - Average Temperature: **21.0 \u00b0C**\n   - Hospitals Nearby: 61 within 100 km\n   - Schools Nearby: 8 Elementary, 2 High within 20 km\n   - Humidity: **85%**\n\nThese towns offer a combination of affordability, mild weather, and access to hospitals and schools. Let me know if you need more information or have other preferences!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 6.9073445000103675,
+    "per_turn_latency_seconds": [
+      2.32207880000351,
+      9.463660300010815,
+      8.936294400016777
+    ],
+    "latency_overhead_vs_baseline_seconds": 5.972329233365599
+  }
+}

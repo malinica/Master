@@ -1,0 +1,51 @@
+{
+  "axis": "type",
+  "scenario": "dislike_persists_across_three_sessions",
+  "variant": "semantic_only_background",
+  "username": "eval_type_r2_20260918T051127Z_dislike_persists_across_three_sessions_semantic_only_background",
+  "user_id": 126,
+  "thread_ids": [
+    "c960c1c7-8b9b-42e6-a5c3-9eb86086e595",
+    "8a20987b-bfc8-4811-bcf2-7e1d430cf1c4",
+    "23db9e27-b612-474e-a8ec-82b53548aa6d"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I hate snow and cold winters, keep that in mind for future searches."
+      ],
+      "replies": [
+        "Got it! I'll make sure to focus on warmer locations with minimal snow and cold winters in future searches. If you have any specific preferences regarding price, weather, hospitals, or schools, feel free to share!"
+      ]
+    },
+    {
+      "messages": [
+        "Any good towns for me this week?"
+      ],
+      "replies": [
+        "Here are some great towns in the US that match your preference for warm weather with no snow or cold winters:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 10 km\n   - **Weather Conditions:** 329 sunny days, 10 rainy days, 0.5 snowy days\n\n2. **Yucca Valley, California**\n   - **Average Price:** $349,158\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Hospitals Nearby:** 5 within 20 km, 187 within 100 km\n   - **Schools Nearby:** 3 Elementary, 1 High School within 10 km\n   - **Weather Conditions:** 296 sunny days, 20.5 rainy days, 1 snowy day\n\n3. **Yettem, California**\n   - **Average Price:** $800,000\n   - **Average Temperature:** 19.5 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 26 within 100 km\n   - **Schools Nearby:** 5 Elementary, 3 High Schools within 10 km\n   - **Weather Conditions:** 307 sunny days, 31 rainy days, 1 snowy day\n\n4. **Yuba City, California**\n   - **Average Price:** $446,766\n   - **Average Temperature:** 18.7 \u00b0C\n   - **Hospitals Nearby:** Not specified\n   - **Schools Nearby:** 3 Elementary, 35 High Schools within 10 km\n   - **Weather Conditions:** 292.5 sunny days, 22.5 rainy days, 0 snowy days\n\n5. **Yosemite West, California**\n   - **Average Price:** $1,147,500\n   - **Average Temperature:** 18.0 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 52 within 20 km\n   - **Schools Nearby:** 3 Elementary, 62 High Schools within 10 km\n   - **Weather Conditions:** 291.5 sunny days, 22.5 rainy days, 0 snowy days\n\nLet me know if you need more information about any of these towns!"
+      ]
+    },
+    {
+      "messages": [
+        "What about now, anything new you'd suggest?"
+      ],
+      "replies": [
+        "Here are some warm cities in California that match your preferences for avoiding snow and cold winters:\n\n1. **Yermo, California**\n   - Average Price: **$88,914**\n   - Average Temperature: **21.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 11 within 100 km\n   - Schools nearby: 1 Elementary, 2 High Schools within 10 km\n   - Sunny Days: **329**, Rainy Days: **10**, Snowy Days: **0.5**\n\n2. **Yucca Valley, California**\n   - Average Price: **$349,158**\n   - Average Temperature: **20.6 \u00b0C**\n   - Hospitals nearby: 5 within 20 km, 187 within 100 km\n   - Schools nearby: 3 Elementary, 1 High School within 10 km\n   - Sunny Days: **296**, Rainy Days: **20.5**, Snowy Days: **1**\n\n3. **Yettem, California**\n   - Average Price: **$800,000**\n   - Average Temperature: **19.5 \u00b0C**\n   - Hospitals nearby: 2 within 20 km, 26 within 100 km\n   - Schools nearby: 5 Elementary, 3 High Schools within 10 km\n   - Sunny Days: **307**, Rainy Days: **31**, Snowy Days: **1**\n\n4. **Yuba City, California**\n   - Average Price: **$446,766**\n   - Average Temperature: **18.7 \u00b0C**\n   - Hospitals nearby: Various\n   - Schools nearby: 3 Prkindergarten, 87 Elementary, 35 High Schools within 10 km\n   - Sunny Days: **292.5**, Rainy Days: **22.5**, Snowy Days: **0**\n\n5. **Yosemite West, California**\n   - Average Price: **$1,147,500**\n   - Average Temperature: **18.0 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 52 within 20 km\n   - Schools nearby: 3 Prkindergarten, 116 Elementary, 62 High Schools within 10 km\n   - Sunny Days: **291.5**, Rainy Days: **22.5**, Snowy Days: **0**\n\nIf any of these locations catch your interest or if you have further preferences, let me know!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 5.704521233333556,
+    "per_turn_latency_seconds": [
+      2.3232183000000077,
+      7.454007099999217,
+      7.336338300001444
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.70642346666682
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "axis": "mechanism",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r3_20260918T051127Z_distractor_relevant_vs_irrelevant_memory_hot_path",
+  "user_id": 144,
+  "thread_ids": [
+    "dac2d2d7-9bf0-4fcf-8cbe-fde2dfcc7726",
+    "034331d6-a548-4a98-93ee-8a7b4d6baa89"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "I found several towns in Oregon that fit your budget of around $250,000. Here are the top five options:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 7 Elementary, 2 High\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 2 Elementary, 2 High\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 9 Elementary, 7 High\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n\nIf you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share your preferences regarding price, climate, proximity to schools or hospitals, and any dislikes you may have? You mentioned a maximum budget of $250,000 and a preference for Oregon, but any additional details would be helpful!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 5.231024249999791,
+    "per_turn_latency_seconds": [
+      9.394742099999348,
+      1.0673064000002341
+    ],
+    "latency_overhead_vs_baseline_seconds": 1.4557020499996725
+  }
+}

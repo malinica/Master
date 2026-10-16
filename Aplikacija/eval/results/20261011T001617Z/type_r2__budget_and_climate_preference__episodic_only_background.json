@@ -1,0 +1,82 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_background",
+  "username": "eval_type_r2_20261011T001617Z_budget_and_climate_preference_episodic_only_background",
+  "user_id": 733,
+  "thread_ids": [
+    "b0a2f962-b878-44f1-aa1a-3c84be3a6ccc",
+    "0b4ed710-f25b-4235-96f2-7175757ec5c7"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "hybrid",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that fit your budget of around $200,000, although please note that the humidity levels are relatively high in these areas:\n\n1. **Prairie Lea, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 26.2 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 63 within 100 km\n   - **Schools Nearby:** 1 Elementary within 10 km, 8 Elementary within 20 km\n   - **Humidity:** 93%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n2. **Garciasville, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 3 Elementary within 10 km, 8 Elementary within 20 km\n   - **Humidity:** 90%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n3. **Lozano, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 24.6 \u00b0C\n   - **Hospitals Nearby:** 4 within 20 km, 18 within 100 km\n   - **Schools Nearby:** 5 Elementary within 10 km, 41 Elementary within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n4. **Midkiff, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 23.7 \u00b0C\n   - **Hospitals Nearby:** 17 within 100 km\n   - **Schools Nearby:** 0 Elementary within 10 km\n   - **Humidity:** 89%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n5. **Holder, Florida**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 22.4 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 Elementary within 10 km, 13 Elementary within 20 km\n   - **Humidity:** 91%\n   - **Sunny Days:** 0.0\n   - **Overall Score:** 3.00\n\nIf you have any other preferences or need further assistance, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with more details about what you're looking for in a place to live? For example, do you have preferences regarding budget, weather, temperature, hospitals, schools, or any other specific criteria?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in the US with a budget of $200,000 and low humidity"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in Florida, Texas, California, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        }
+      ],
+      "episodes_found": [],
+      "reply": "Here are some affordable sunny towns in the US that fit your budget of around $200,000, although please note that the humidity levels are relatively high in these areas:\n\n1. **Prairie Lea, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 26.2 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 63 within 100 km\n   - **Schools Nearby:** 1 Elementary within 10 km, 8 Elementary within 20 km\n   - **Humidity:** 93%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n2. **Garciasville, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 3 Elementary within 10 km, 8 Elementary within 20 km\n   - **Humidity:** 90%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n3. **Lozano, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 24.6 \u00b0C\n   - **Hospitals Nearby:** 4 within 20 km, 18 within 100 km\n   - **Schools Nearby:** 5 Elementary within 10 km, 41 Elementary within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n4. **Midkiff, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 23.7 \u00b0C\n   - **Hospitals Nearby:** 17 within 100 km\n   - **Schools Nearby:** 0 Elementary within 10 km\n   - **Humidity:** 89%\n   - **Sunny Days:** 1.0\n   - **Overall Score:** 3.00\n\n5. **Holder, Florida**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 22.4 \u00b0C\n   - **Hospitals Nearby:** 2 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 Elementary within 10 km, 13 Elementary within 20 km\n   - **Humidity:** 91%\n   - **Sunny Days:** 0.0\n   - **Overall Score:** 3.00\n\nIf you have any other preferences or need further assistance, feel free to ask!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns with low humidity and a budget of $200,000",
+          "summary": "User dislikes humid weather and is looking for affordable sunny towns within a $200,000 budget.",
+          "score": null
+        }
+      ],
+      "reply": "Could you please provide me with more details about what you're looking for in a place to live? For example, do you have preferences regarding budget, weather, temperature, hospitals, schools, or any other specific criteria?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 6.13869525003247,
+    "per_turn_latency_seconds": [
+      10.16338410001481,
+      2.1140064000501297
+    ],
+    "latency_overhead_vs_baseline_seconds": 1.4157517500279937
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "axis": "type",
+  "scenario": "dislike_persists_across_three_sessions",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r0_20261012T055746Z_dislike_persists_across_three_sessions_episodic_only_hot_path",
+  "user_id": 1291,
+  "thread_ids": [
+    "65700171-2ada-4014-8501-3c801fa073d7",
+    "2b1bad85-684f-466b-abb2-8cc0bc36cadf",
+    "1532cd1a-7128-4996-b3c2-190deed2a4e3"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I hate snow and cold winters, keep that in mind for future searches."
+      ],
+      "replies": [
+        "I've noted that you dislike snow and cold winters, which indicates a preference for warmer climates. If you have any specific preferences or criteria for your next search, feel free to share!"
+      ]
+    },
+    {
+      "messages": [
+        "Any good towns for me this week?"
+      ],
+      "replies": [
+        "Could you please provide me with some specific preferences or criteria you're looking for in a town? For example, do you have preferences regarding price, weather, hospitals, schools, or any other factors?"
+      ]
+    },
+    {
+      "messages": [
+        "What about now, anything new you'd suggest?"
+      ],
+      "replies": [
+        "Could you please provide me with your preferences or criteria for finding a town or city? This could include aspects like price range, weather preferences, proximity to hospitals or schools, or any other specific requirements you have in mind."
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I hate snow and cold winters, keep that in mind for future searches.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "User dislikes snow and cold winters.",
+              "summary": "User has expressed a dislike for snow and cold winters, indicating a preference for warmer climates.",
+              "top_result_towns": []
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 73c076a2-c1ba-4d7c-8693-6db2e9e2ce68"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "User dislikes snow and cold winters.",
+          "summary": "User has expressed a dislike for snow and cold winters, indicating a preference for warmer climates.",
+          "score": 0.5095225270706547
+        }
+      ],
+      "reply": "I've noted that you dislike snow and cold winters, which indicates a preference for warmer climates. If you have any specific preferences or criteria for your next search, feel free to share!"
+    },
+    {
+      "message": "Any good towns for me this week?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "User dislikes snow and cold winters.",
+          "summary": "User has expressed a dislike for snow and cold winters, indicating a preference for warmer climates.",
+          "score": 0.245591686698161
+        }
+      ],
+      "reply": "Could you please provide me with some specific preferences or criteria you're looking for in a town? For example, do you have preferences regarding price, weather, hospitals, schools, or any other factors?"
+    },
+    {
+      "message": "What about now, anything new you'd suggest?",
+      "session_index": 2,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "User dislikes snow and cold winters.",
+          "summary": "User has expressed a dislike for snow and cold winters, indicating a preference for warmer climates.",
+          "score": 0.21918730344707538
+        }
+      ],
+      "reply": "Could you please provide me with your preferences or criteria for finding a town or city? This could include aspects like price range, weather preferences, proximity to hospitals or schools, or any other specific requirements you have in mind."
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 2.0716216333482103,
+    "per_turn_latency_seconds": [
+      3.1449637000332586,
+      1.5077850999659859,
+      1.5621161000453867
+    ],
+    "latency_overhead_vs_baseline_seconds": 1.045815600004668
+  }
+}

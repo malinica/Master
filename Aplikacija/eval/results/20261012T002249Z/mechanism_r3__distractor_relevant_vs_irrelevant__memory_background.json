@@ -1,0 +1,129 @@
+{
+  "axis": "mechanism",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r3_20261012T002249Z_distractor_relevant_vs_irrelevant_memory_background",
+  "user_id": 983,
+  "thread_ids": [
+    "1d8707f4-553a-4e3b-a4b5-1833f2d8cd46",
+    "1377f05b-9b13-40a2-a321-bd19a00f9020"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Weather: Humidity 88%, Wind speed 23.7 m/s, Rainy days: 1.0\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Weather: Humidity 91%, Wind speed 18.8 m/s, Rainy days: 0.0\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Weather: Humidity 95%, Wind speed 10.5 m/s, Sunny days: 1.0\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Weather: Humidity 92%, Wind speed 15.8 m/s, Sunny days: 109.5\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Weather: Humidity 93%, Wind speed 14.7 m/s, Rainy days: 1.0\n\nIf you need more information or have specific preferences regarding schools or hospitals, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000 and have nearby elementary and high schools:\n\n1. **Sunny Valley, Oregon**\n   - Average Price: **$233,666**\n   - Average Temperature: **14.0 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Pre-Kindergarten, 61 Elementary, 22 High\n     - Within 20 km: 4 Pre-Kindergarten, 143 Elementary, 87 High\n   - Overall Score: **1.76**\n\n2. **Donald, Oregon**\n   - Average Price: **$206,633**\n   - Average Temperature: **12.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 11 Elementary, 5 High\n     - Within 20 km: 3 Pre-Kindergarten, 46 Elementary, 11 High\n   - Overall Score: **1.60**\n\n3. **Falls City, Oregon**\n   - Average Price: **$269,212**\n   - Average Temperature: **10.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 18 Elementary, 16 High\n     - Within 20 km: 0 Pre-Kindergarten, 38 Elementary, 25 High\n   - Overall Score: **1.58**\n\n4. **Canyon City, Oregon**\n   - Average Price: **$270,244**\n   - Average Temperature: **12.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 18 Elementary, 16 High\n     - Within 20 km: 0 Pre-Kindergarten, 38 Elementary, 25 High\n   - Overall Score: **1.58**\n\n5. **Island City, Oregon**\n   - Average Price: **$294,812** (slightly above budget)\n   - Average Temperature: **10.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 18 Elementary, 16 High\n     - Within 20 km: 0 Pre-Kindergarten, 38 Elementary, 25 High\n   - Overall Score: **1.58**\n\nLet me know if you would like more information about any of these towns!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": 250000.0,
+        "school_types": [
+          "Elementary",
+          "High"
+        ],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Weather: Humidity 88%, Wind speed 23.7 m/s, Rainy days: 1.0\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Weather: Humidity 91%, Wind speed 18.8 m/s, Rainy days: 0.0\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Weather: Humidity 95%, Wind speed 10.5 m/s, Sunny days: 1.0\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Weather: Humidity 92%, Wind speed 15.8 m/s, Sunny days: 109.5\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Weather: Humidity 93%, Wind speed 14.7 m/s, Rainy days: 1.0\n\nIf you need more information or have specific preferences regarding schools or hospitals, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000, with nearby elementary and high schools."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 32 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Sunny Valley</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$233,666</b><br>Average temperature: <b>14.0 \u00b0C</b><br>Hospital"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns in Oregon with a budget of around $250,000",
+          "summary": "User is looking for towns in Oregon within a budget of $250,000.",
+          "score": 0.40516284302827776
+        },
+        {
+          "query": "User's cousin moved to Vermont",
+          "summary": "User mentioned their cousin moved to Vermont, indicating a possible family connection but not relevant to their current search.",
+          "score": 0.2635024846676455
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": 250000.0,
+        "school_types": [
+          "Elementary",
+          "High"
+        ],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000 and have nearby elementary and high schools:\n\n1. **Sunny Valley, Oregon**\n   - Average Price: **$233,666**\n   - Average Temperature: **14.0 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Pre-Kindergarten, 61 Elementary, 22 High\n     - Within 20 km: 4 Pre-Kindergarten, 143 Elementary, 87 High\n   - Overall Score: **1.76**\n\n2. **Donald, Oregon**\n   - Average Price: **$206,633**\n   - Average Temperature: **12.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 11 Elementary, 5 High\n     - Within 20 km: 3 Pre-Kindergarten, 46 Elementary, 11 High\n   - Overall Score: **1.60**\n\n3. **Falls City, Oregon**\n   - Average Price: **$269,212**\n   - Average Temperature: **10.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 18 Elementary, 16 High\n     - Within 20 km: 0 Pre-Kindergarten, 38 Elementary, 25 High\n   - Overall Score: **1.58**\n\n4. **Canyon City, Oregon**\n   - Average Price: **$270,244**\n   - Average Temperature: **12.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 18 Elementary, 16 High\n     - Within 20 km: 0 Pre-Kindergarten, 38 Elementary, 25 High\n   - Overall Score: **1.58**\n\n5. **Island City, Oregon**\n   - Average Price: **$294,812** (slightly above budget)\n   - Average Temperature: **10.8 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 0 Pre-Kindergarten, 18 Elementary, 16 High\n     - Within 20 km: 0 Pre-Kindergarten, 38 Elementary, 25 High\n   - Overall Score: **1.58**\n\nLet me know if you would like more information about any of these towns!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 7.55241480001132,
+    "per_turn_latency_seconds": [
+      7.778787899995223,
+      7.326041700027417
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.093917349993717
+  }
+}

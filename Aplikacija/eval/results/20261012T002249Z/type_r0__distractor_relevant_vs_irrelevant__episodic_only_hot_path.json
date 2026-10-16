@@ -1,0 +1,107 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r0_20261012T002249Z_distractor_relevant_vs_irrelevant_episodic_only_hot_path",
+  "user_id": 826,
+  "thread_ids": [
+    "db66143b-9862-46fc-8b1e-f8b94dd7babd",
+    "efc53ea1-72ad-47b0-83e4-762f18992468"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 146 Elementary, 80 High\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 69 Elementary, 32 High\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 59 Elementary, 30 High\n\nIf you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some preferences? For example, what is your budget, preferred weather or climate, and any specific needs regarding hospitals or schools?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns in Oregon with a budget of around $250,000",
+              "summary": "User is looking for towns in Oregon within a budget of $250,000.",
+              "top_result_towns": [
+                "Noti, Oregon",
+                "Tenmile, Oregon",
+                "Rufus, Oregon",
+                "Chiloquin, Oregon",
+                "Midland, Oregon"
+              ]
+            },
+            "action": "create"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 6f7e0ce5-41a1-48ef-b05d-f22a8026ea83"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns in Oregon with a budget of around $250,000",
+          "summary": "User is looking for towns in Oregon within a budget of $250,000.",
+          "score": 0.594225356748951
+        }
+      ],
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 146 Elementary, 80 High\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools nearby:\n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 69 Elementary, 32 High\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby:\n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 59 Elementary, 30 High\n\nIf you need more information or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "towns in Oregon with a budget of around $250,000",
+          "summary": "User is looking for towns in Oregon within a budget of $250,000.",
+          "score": 0.41901469897687915
+        }
+      ],
+      "reply": "To help you find the best towns, could you please provide me with some preferences? For example, what is your budget, preferred weather or climate, and any specific needs regarding hospitals or schools?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 4.707801900018239,
+    "per_turn_latency_seconds": [
+      8.05423479998717,
+      1.361369000049308
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.4323644500109367
+  }
+}

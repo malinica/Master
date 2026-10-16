@@ -1,0 +1,190 @@
+{
+  "axis": "mechanism",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "memory_both",
+  "username": "eval_mechanism_r1_20261012T055746Z_distractor_relevant_vs_irrelevant_memory_both",
+  "user_id": 1338,
+  "thread_ids": [
+    "9d004afd-6fe9-46c6-950c-ffb7e2470127",
+    "4d3dbe34-22b5-4911-b340-3e72d54c2e08"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: 4 Elementary, 2 High (within 10 km)\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: 7 Elementary, 2 High (within 20 km)\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: 2 Elementary, 2 High (within 20 km)\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: 1 Elementary, 1 High (within 10 km)\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: 1 Elementary, 1 High (within 10 km)\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n   - Overall score: **3.00**\n\nIf you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: 4 elementary, 2 high schools (within 10 km)\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: 7 elementary, 2 high schools (within 20 km)\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: 2 elementary, 2 high schools (within 20 km)\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: 1 elementary, 1 high school (within 10 km)\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: 1 elementary, 1 high school (within 10 km)\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n\nLet me know if you need more information about any of these towns!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Oregon"
+              ],
+              "price_max": 250000
+            },
+            "action": "create"
+          }
+        },
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns in Oregon with a budget of around $250,000",
+              "summary": "Found 44 locations in Oregon with average prices around $250,000. Top towns include Noti, Tenmile, Rufus, Chiloquin, and Midland.",
+              "top_result_towns": [
+                "Noti",
+                "Tenmile",
+                "Rufus",
+                "Chiloquin",
+                "Midland"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory e596b3db-74be-47eb-a28e-c00330d719e8"
+        },
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 3969eed4-d627-4d19-badc-dc4ad914db76"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns in Oregon with a budget of around $250,000",
+          "summary": "Found 44 locations in Oregon with average prices around $250,000. Top towns include Noti, Tenmile, Rufus, Chiloquin, and Midland.",
+          "score": 0.6126144178565823
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: 4 Elementary, 2 High (within 10 km)\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n   - Overall score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: 7 Elementary, 2 High (within 20 km)\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n   - Overall score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: 2 Elementary, 2 High (within 20 km)\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n   - Overall score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: 1 Elementary, 1 High (within 10 km)\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n   - Overall score: **3.00**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: 1 Elementary, 1 High (within 10 km)\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n   - Overall score: **3.00**\n\nIf you need more information or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of around $250,000"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns in Oregon with a budget of around $250,000",
+              "summary": "Found 44 locations in Oregon. Top towns include Noti, Tenmile, Rufus, Chiloquin, and Midland.",
+              "top_result_towns": [
+                "Noti",
+                "Tenmile",
+                "Rufus",
+                "Chiloquin",
+                "Midland"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 44 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 4c69d039-995f-4f6d-93ad-52f257f17b3f"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns in Oregon with a budget of around $250,000",
+          "summary": "Found 44 locations in Oregon. Top towns include Noti, Tenmile, Rufus, Chiloquin, and Midland.",
+          "score": 0.4152428037224375
+        },
+        {
+          "query": "towns in Oregon with a budget of around $250,000",
+          "summary": "Found 44 locations in Oregon with average prices around $250,000. Top towns include Noti, Tenmile, Rufus, Chiloquin, and Midland.",
+          "score": 0.4080387068546978
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "humidity"
+        ],
+        "price_max": 250000.0,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Oregon"
+        ],
+        "wants_schools_nearby": null,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average price: **$249,840**\n   - Average temperature: **15.6 \u00b0C**\n   - Schools nearby: 4 elementary, 2 high schools (within 10 km)\n   - Humidity: **88%**\n   - Wind speed: **23.7 m/s**\n\n2. **Tenmile, Oregon**\n   - Average price: **$250,350**\n   - Average temperature: **17.1 \u00b0C**\n   - Schools nearby: 7 elementary, 2 high schools (within 20 km)\n   - Humidity: **91%**\n   - Wind speed: **18.8 m/s**\n\n3. **Rufus, Oregon**\n   - Average price: **$252,374**\n   - Average temperature: **15.8 \u00b0C**\n   - Schools nearby: 2 elementary, 2 high schools (within 20 km)\n   - Humidity: **95%**\n   - Wind speed: **10.5 m/s**\n\n4. **Chiloquin, Oregon**\n   - Average price: **$252,646**\n   - Average temperature: **9.2 \u00b0C**\n   - Schools nearby: 1 elementary, 1 high school (within 10 km)\n   - Humidity: **92%**\n   - Wind speed: **15.8 m/s**\n\n5. **Midland, Oregon**\n   - Average price: **$246,667**\n   - Average temperature: **11.3 \u00b0C**\n   - Schools nearby: 1 elementary, 1 high school (within 10 km)\n   - Humidity: **93%**\n   - Wind speed: **14.7 m/s**\n\nLet me know if you need more information about any of these towns!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 10.7214676499716,
+    "per_turn_latency_seconds": [
+      10.580454899987672,
+      10.86248039995553
+    ],
+    "latency_overhead_vs_baseline_seconds": 5.12030984996818
+  }
+}

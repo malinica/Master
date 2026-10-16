@@ -1,0 +1,170 @@
+{
+  "results": [
+    {
+      "case": "budget_change",
+      "session_mode": "same_session",
+      "repeat": 0,
+      "username": "eval_update_budget_change_same_session_r0_20261012T002249Z",
+      "followup_reply": "Here are some towns in the US that fit your budget of around $300,000:\n\n1. **Hancock, Vermont**\n   - Average price: **$300,000**\n   - Average temperature: **4.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 23 within 100 km\n   - Schools nearby: \n     - 0 Prkindergarten, 0 Elementary, 0 High within 10 km\n     - 1 Prkindergarten, 2 Elementary, 1 High within 20 km\n     - 4 Prkindergarten, 152 Elementary, 74 High within 100 km\n   - Humidity: **88%**\n   - Overall score: **3.00**\n\n2. **Whitehouse Station, New Jersey**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: \n   - Schools nearby: \n     - 0 Prkindergarten, 3 Elementary, 1 High within 10 km\n     - 1 Prkindergarten, 29 Elementary, 13 High within 20 km\n     - 74 Prkindergarten, 2698 Elementary, 1179 High within 100 km\n   - Humidity: **90%**\n   - Overall score: **3.00**\n\n3. **Queens Village Jamaica, New York**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: 3 within 5 km, 60 within 20 km, 216 within 100 km\n   - Schools nearby: \n     - 2 Prkindergarten, 244 Elementary, 130 High within 10 km\n     - 23 Prkindergarten, 979 Elementary, 462 High within 20 km\n     - 77 Prkindergarten, 2769 Elementary, 1233 High within 100 km\n   - Humidity: **86%**\n   - Overall score: **3.00**\n\n4. **Drewryville, Virginia**\n   - Average price: **$300,000**\n   - Average temperature: **16.3 \u00b0C**\n   - Hospitals nearby: 62 within 100 km\n   - Schools nearby: \n     - 0 Prkindergarten, 0 Elementary, 0 High within 10 km\n     - 0 Prkindergarten, 4 Elementary, 0 High within 20 km\n     - 6 Prkindergarten, 355 Elementary, 166 High within 100 km\n   - Humidity: **92%**\n   - Overall score: **3.00**\n\n5. **Institute, West Virginia**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: 1 within 5 km, 7 within 20 km, 32 within 100 km\n   - Schools nearby: \n     - 0 Prkindergarten, 20 Elementary, 8 High within 10 km\n     - 1 Prkindergarten, 30 Elementary, 15 High within 20 km\n     - 4 Prkindergarten, 242 Elementary, 114 High within 100 km\n   - Humidity: **94%**\n   - Overall score: **3.00**\n\nIf you would like more information on any of these towns or have specific preferences regarding schools or hospitals, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "same_session",
+      "repeat": 1,
+      "username": "eval_update_budget_change_same_session_r1_20261012T002249Z",
+      "followup_reply": "Here are some towns in the US where you can find homes around $300,000:\n\n1. **Hancock, Vermont**\n   - Average price: **$300,000**\n   - Average temperature: **4.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 23 within 100 km\n   - Schools nearby: 1 preschool, 2 elementary, 1 high school within 20 km\n   - Humidity: **88%**\n   - Wind speed: **23.9 m/s**\n\n2. **Whitehouse Station, New Jersey**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Schools nearby: 3 elementary, 1 high school within 10 km\n   - Humidity: **90%**\n   - Wind speed: **19.0 m/s**\n\n3. **Queens Village Jamaica, New York**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: 3 within 5 km, 60 within 20 km\n   - Schools nearby: 2 preschool, 244 elementary, 130 high school within 10 km\n   - Humidity: **86%**\n   - Wind speed: **27.7 m/s**\n\n4. **Drewryville, Virginia**\n   - Average price: **$300,000**\n   - Average temperature: **16.3 \u00b0C**\n   - Hospitals nearby: 62 within 100 km\n   - Schools nearby: 4 elementary within 20 km\n   - Humidity: **92%**\n   - Wind speed: **16.4 m/s**\n\n5. **Institute, West Virginia**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: 1 within 5 km, 7 within 20 km\n   - Schools nearby: 20 elementary, 8 high school within 10 km\n   - Humidity: **94%**\n   - Wind speed: **11.0 m/s**\n\nIf you need more information about any of these towns or have specific preferences regarding schools or hospitals, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "same_session",
+      "repeat": 2,
+      "username": "eval_update_budget_change_same_session_r2_20261012T002249Z",
+      "followup_reply": "Here are some towns in the US that fit your budget of around $300,000:\n\n1. **Hancock, Vermont**\n   - Average price: **$300,000**\n   - Average temperature: **4.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 23 within 100 km\n   - Schools nearby: \n     - Within 10 km: 0 (Prekindergarten, Elementary, High)\n     - Within 20 km: 1 (Prekindergarten), 2 (Elementary), 1 (High)\n     - Within 100 km: 4 (Prekindergarten), 152 (Elementary), 74 (High)\n   - Humidity: **88%**\n   - Wind speed: **23.9 m/s**\n   - Sunny days: **1.0**\n\n2. **Whitehouse Station, New Jersey**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: \n   - Schools nearby: \n     - Within 10 km: 0 (Prekindergarten), 3 (Elementary), 1 (High)\n     - Within 20 km: 1 (Prekindergarten), 29 (Elementary), 13 (High)\n     - Within 100 km: 74 (Prekindergarten), 2698 (Elementary), 1179 (High)\n   - Humidity: **90%**\n   - Wind speed: **19.0 m/s**\n   - Sunny days: **1.0**\n\n3. **Queens Village Jamaica, New York**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: 3 within 5 km, 60 within 20 km\n   - Schools nearby: \n     - Within 10 km: 2 (Prekindergarten), 244 (Elementary), 130 (High)\n     - Within 20 km: 23 (Prekindergarten), 979 (Elementary), 462 (High)\n     - Within 100 km: 77 (Prekindergarten), 2769 (Elementary), 1233 (High)\n   - Humidity: **86%**\n   - Wind speed: **27.7 m/s**\n   - Sunny days: **1.0**\n\n4. **Drewryville, Virginia**\n   - Average price: **$300,000**\n   - Average temperature: **16.3 \u00b0C**\n   - Hospitals nearby: 62 within 100 km\n   - Schools nearby: \n     - Within 10 km: 0 (Prekindergarten, Elementary, High)\n     - Within 20 km: 0 (Prekindergarten), 4 (Elementary)\n     - Within 100 km: 6 (Prekindergarten), 355 (Elementary), 166 (High)\n   - Humidity: **92%**\n   - Wind speed: **16.4 m/s**\n   - Sunny days: **99.0**\n\n5. **Institute, West Virginia**\n   - Average price: **$300,000**\n   - Average temperature: **14.3 \u00b0C**\n   - Hospitals nearby: 1 within 5 km, 7 within 20 km\n   - Schools nearby: \n     - Within 10 km: 0 (Prekindergarten), 20 (Elementary), 8 (High)\n     - Within 20 km: 1 (Prekindergarten), 30 (Elementary), 15 (High)\n     - Within 100 km: 4 (Prekindergarten), 242 (Elementary), 114 (High)\n   - Humidity: **94%**\n   - Wind speed: **11.0 m/s**\n   - Sunny days: **1.0**\n\nIf you would like more information about any of these towns or have specific preferences, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "same_session",
+      "repeat": 3,
+      "username": "eval_update_budget_change_same_session_r3_20261012T002249Z",
+      "followup_reply": "Here are some towns in the US where you can find homes around $300,000:\n\n1. **Hancock, Vermont**\n   - Average Price: **$300,000**\n   - Average Temperature: **4.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 23 within 100 km\n   - Schools Nearby: \n     - 0 Prkindergarten, 0 Elementary, 0 High within 10 km\n     - 1 Prkindergarten, 2 Elementary, 1 High within 20 km\n   - Humidity: **88%**\n   - Wind Speed: **23.9 m/s**\n   - Overall Score: **3.00**\n\n2. **Whitehouse Station, New Jersey**\n   - Average Price: **$300,000**\n   - Average Temperature: **14.3 \u00b0C**\n   - Hospitals Nearby: \n   - Schools Nearby: \n     - 0 Prkindergarten, 3 Elementary, 1 High within 10 km\n     - 1 Prkindergarten, 29 Elementary, 13 High within 20 km\n   - Humidity: **90%**\n   - Wind Speed: **19.0 m/s**\n   - Overall Score: **3.00**\n\n3. **Queens Village Jamaica, New York**\n   - Average Price: **$300,000**\n   - Average Temperature: **14.3 \u00b0C**\n   - Hospitals Nearby: 3 within 5 km, 60 within 20 km\n   - Schools Nearby: \n     - 2 Prkindergarten, 244 Elementary, 130 High within 10 km\n   - Humidity: **86%**\n   - Wind Speed: **27.7 m/s**\n   - Overall Score: **3.00**\n\n4. **Drewryville, Virginia**\n   - Average Price: **$300,000**\n   - Average Temperature: **16.3 \u00b0C**\n   - Hospitals Nearby: 62 within 100 km\n   - Schools Nearby: \n     - 0 Prkindergarten, 0 Elementary, 0 High within 10 km\n   - Humidity: **92%**\n   - Wind Speed: **16.4 m/s**\n   - Overall Score: **3.00**\n\n5. **Institute, West Virginia**\n   - Average Price: **$300,000**\n   - Average Temperature: **14.3 \u00b0C**\n   - Hospitals Nearby: 1 within 5 km, 7 within 20 km\n   - Schools Nearby: \n     - 0 Prkindergarten, 20 Elementary, 8 High within 10 km\n   - Humidity: **94%**\n   - Wind Speed: **11.0 m/s**\n   - Overall Score: **3.00**\n\nIf you would like more information about any of these towns or have specific preferences, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "same_session",
+      "repeat": 4,
+      "username": "eval_update_budget_change_same_session_r4_20261012T002249Z",
+      "followup_reply": "Here are some towns in the US that fit your budget of around $300,000:\n\n1. **Hancock, Vermont**\n   - Average Price: **$300,000**\n   - Average Temperature: **4.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 23 within 100 km\n   - Schools Nearby: \n     - 0 Prkindergarten, 0 Elementary, 0 High within 10 km\n     - 1 Prkindergarten, 2 Elementary, 1 High within 20 km\n     - 4 Prkindergarten, 152 Elementary, 74 High within 100 km\n   - Humidity: **88%**\n   - Wind Speed: **23.9 m/s**\n   - Sunny Days: **1.0**\n\n2. **Whitehouse Station, New Jersey**\n   - Average Price: **$300,000**\n   - Average Temperature: **14.3 \u00b0C**\n   - Hospitals Nearby: \n   - Schools Nearby: \n     - 0 Prkindergarten, 3 Elementary, 1 High within 10 km\n     - 1 Prkindergarten, 29 Elementary, 13 High within 20 km\n     - 74 Prkindergarten, 2698 Elementary, 1179 High within 100 km\n   - Humidity: **90%**\n   - Wind Speed: **19.0 m/s**\n   - Sunny Days: **1.0**\n\n3. **Queens Village Jamaica, New York**\n   - Average Price: **$300,000**\n   - Average Temperature: **14.3 \u00b0C**\n   - Hospitals Nearby: 3 within 5 km, 60 within 20 km, 216 within 100 km\n   - Schools Nearby: \n     - 2 Prkindergarten, 244 Elementary, 130 High within 10 km\n     - 23 Prkindergarten, 979 Elementary, 462 High within 20 km\n     - 77 Prkindergarten, 2769 Elementary, 1233 High within 100 km\n   - Humidity: **86%**\n   - Wind Speed: **27.7 m/s**\n   - Sunny Days: **1.0**\n\n4. **Drewryville, Virginia**\n   - Average Price: **$300,000**\n   - Average Temperature: **16.3 \u00b0C**\n   - Hospitals Nearby: 62 within 100 km\n   - Schools Nearby: \n     - 0 Prkindergarten, 0 Elementary, 0 High within 10 km\n     - 0 Prkindergarten, 4 Elementary, 0 High within 20 km\n     - 6 Prkindergarten, 355 Elementary, 166 High within 100 km\n   - Humidity: **92%**\n   - Wind Speed: **16.4 m/s**\n   - Sunny Days: **99.0**\n\n5. **Institute, West Virginia**\n   - Average Price: **$300,000**\n   - Average Temperature: **14.3 \u00b0C**\n   - Hospitals Nearby: 1 within 5 km, 7 within 20 km, 32 within 100 km\n   - Schools Nearby: \n     - 0 Prkindergarten, 20 Elementary, 8 High within 10 km\n     - 1 Prkindergarten, 30 Elementary, 15 High within 20 km\n     - 4 Prkindergarten, 242 Elementary, 114 High within 100 km\n   - Humidity: **94%**\n   - Wind Speed: **11.0 m/s**\n   - Sunny Days: **1.0**\n\nIf you would like more information about any of these towns or have specific preferences, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "new_session",
+      "repeat": 0,
+      "username": "eval_update_budget_change_new_session_r0_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, desired climate, whether you need schools or hospitals nearby, and any dislikes you may have?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "new_session",
+      "repeat": 1,
+      "username": "eval_update_budget_change_new_session_r1_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, preferred states, climate, and whether you need schools or hospitals nearby?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "new_session",
+      "repeat": 2,
+      "username": "eval_update_budget_change_new_session_r2_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, desired climate, whether you need schools or hospitals nearby, and any dislikes you may have?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "new_session",
+      "repeat": 3,
+      "username": "eval_update_budget_change_new_session_r3_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, desired climate, proximity to schools or hospitals, and any dislikes you may have?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "budget_change",
+      "session_mode": "new_session",
+      "repeat": 4,
+      "username": "eval_update_budget_change_new_session_r4_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, desired climate, proximity to schools or hospitals, and any dislikes you may have?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "same_session",
+      "repeat": 0,
+      "username": "eval_update_preferred_state_change_same_session_r0_20261012T002249Z",
+      "followup_reply": "Here are some towns in Vermont that you might find interesting:\n\n1. **Braintree, Vermont**\n   - Average Price: **$1,800,000**\n   - Average Temperature: **7.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 20 within 100 km\n   - Schools Nearby: \n     - Within 10 km: 1 Prekindergarten, 1 Elementary, 1 High\n     - Within 20 km: 1 Prekindergarten, 2 Elementary, 1 High\n   - Weather: Humidity 92%, Wind Speed 16.3 m/s, Sunny Days 72.5, Rainy Days 22.5\n\n2. **Pomfret, Vermont**\n   - Average Price: **$1,712,250**\n   - Average Temperature: **3.8 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 25 within 100 km\n   - Schools Nearby: \n     - Within 20 km: 5 Elementary, 5 High\n     - Within 100 km: 7 Prekindergarten, 170 Elementary, 70 High\n   - Weather: Humidity 88%, Wind Speed 24.5 m/s, Sunny Days 1.0\n\n3. **Stowe, Vermont**\n   - Average Price: **$1,671,197**\n   - Average Temperature: **6.7 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 1 Prekindergarten, 4 Elementary, 1 High\n     - Within 100 km: 2 Prekindergarten, 110 Elementary, 56 High\n   - Weather: Humidity 89%, Wind Speed 21.1 m/s, Sunny Days 0.0\n\n4. **Stratton, Vermont**\n   - Average Price: **$1,282,174**\n   - Average Temperature: **7.2 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 35 within 100 km\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 1 High\n     - Within 100 km: 9 Prekindergarten, 318 Elementary, 153 High\n   - Weather: Humidity 87%, Wind Speed 25.7 m/s, Sunny Days 1.0\n\n5. **Norwich, Vermont**\n   - Average Price: **$1,256,227**\n   - Average Temperature: **5.5 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 6 Elementary, 4 High\n     - Within 100 km: 7 Prekindergarten, 176 Elementary, 70 High\n   - Weather: Humidity 88%, Wind Speed 23.0 m/s, Sunny Days 1.0\n\nIf you have any specific criteria or need more information about any of these towns, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "same_session",
+      "repeat": 1,
+      "username": "eval_update_preferred_state_change_same_session_r1_20261012T002249Z",
+      "followup_reply": "Here are some towns in Vermont that you might find interesting:\n\n1. **Braintree, Vermont**\n   - Average Price: **$1,800,000**\n   - Average Temperature: **7.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 20 within 100 km\n   - Schools Nearby: \n     - Within 10 km: 1 Prekindergarten, 1 Elementary, 1 High\n     - Within 20 km: 1 Prekindergarten, 2 Elementary, 1 High\n   - Weather: Humidity 92%, Wind Speed 16.3 m/s, Sunny Days 72.5, Rainy Days 22.5\n\n2. **Pomfret, Vermont**\n   - Average Price: **$1,712,250**\n   - Average Temperature: **3.8 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 25 within 100 km\n   - Schools Nearby: \n     - Within 20 km: 5 Elementary, 5 High\n     - Within 100 km: 7 Prekindergarten, 170 Elementary, 70 High\n   - Weather: Humidity 88%, Wind Speed 24.5 m/s, Sunny Days 1.0\n\n3. **Stowe, Vermont**\n   - Average Price: **$1,671,197**\n   - Average Temperature: **6.7 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 1 Prekindergarten, 4 Elementary, 1 High\n     - Within 100 km: 2 Prekindergarten, 110 Elementary, 56 High\n   - Weather: Humidity 89%, Wind Speed 21.1 m/s, Sunny Days 0.0\n\n4. **Stratton, Vermont**\n   - Average Price: **$1,282,174**\n   - Average Temperature: **7.2 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 35 within 100 km\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 1 High\n     - Within 100 km: 9 Prekindergarten, 318 Elementary, 153 High\n   - Weather: Humidity 87%, Wind Speed 25.7 m/s, Sunny Days 1.0\n\n5. **Norwich, Vermont**\n   - Average Price: **$1,256,227**\n   - Average Temperature: **5.5 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 6 Elementary, 4 High\n     - Within 100 km: 7 Prekindergarten, 176 Elementary, 70 High\n   - Weather: Humidity 88%, Wind Speed 23.0 m/s, Sunny Days 1.0\n\nIf you have any specific preferences regarding budget or other factors, let me know, and I can refine the search!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "same_session",
+      "repeat": 2,
+      "username": "eval_update_preferred_state_change_same_session_r2_20261012T002249Z",
+      "followup_reply": "Here are some towns in Vermont that you might consider:\n\n1. **Braintree, Vermont**\n   - Average Price: **$1,800,000**\n   - Average Temperature: **7.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 20 within 100 km\n   - Schools Nearby: 1 Prekindergarten, 1 Elementary, 1 High School within 10 km\n   - Humidity: **92%**\n   - Wind Speed: **16.3 m/s**\n   - Sunny Days: **72.5**\n\n2. **Pomfret, Vermont**\n   - Average Price: **$1,712,250**\n   - Average Temperature: **3.8 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 25 within 100 km\n   - Schools Nearby: 5 Elementary, 5 High Schools within 20 km\n   - Humidity: **88%**\n   - Wind Speed: **24.5 m/s**\n   - Sunny Days: **1.0**\n\n3. **Stowe, Vermont**\n   - Average Price: **$1,671,197**\n   - Average Temperature: **6.7 \u00b0C**\n   - Schools Nearby: 1 Prekindergarten, 4 Elementary, 1 High School within 20 km\n   - Humidity: **89%**\n   - Wind Speed: **21.1 m/s**\n   - Sunny Days: **0.0**\n\n4. **Stratton, Vermont**\n   - Average Price: **$1,282,174**\n   - Average Temperature: **7.2 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 35 within 100 km\n   - Schools Nearby: 2 Elementary, 1 High School within 20 km\n   - Humidity: **87%**\n   - Wind Speed: **25.7 m/s**\n   - Sunny Days: **1.0**\n\n5. **Norwich, Vermont**\n   - Average Price: **$1,256,227**\n   - Average Temperature: **5.5 \u00b0C**\n   - Schools Nearby: 6 Elementary, 4 High Schools within 10 km\n   - Humidity: **88%**\n   - Wind Speed: **23.0 m/s**\n   - Sunny Days: **1.0**\n\nIf you have any specific criteria or need more information about any of these towns, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "same_session",
+      "repeat": 3,
+      "username": "eval_update_preferred_state_change_same_session_r3_20261012T002249Z",
+      "followup_reply": "Here are some towns in Vermont that you might consider:\n\n1. **Braintree, Vermont**\n   - Average price: **$1,800,000**\n   - Average temperature: **7.3 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 20 within 100 km\n   - Schools nearby: \n     - Within 10 km: 1 Prekindergarten, 1 Elementary, 1 High\n     - Within 20 km: 1 Prekindergarten, 2 Elementary, 1 High\n   - Weather: Humidity 92%, Wind speed 16.3 m/s, Sunny days 72.5, Rainy days 22.5\n\n2. **Pomfret, Vermont**\n   - Average price: **$1,712,250**\n   - Average temperature: **3.8 \u00b0C**\n   - Hospitals nearby: 2 within 20 km, 25 within 100 km\n   - Schools nearby: \n     - Within 20 km: 5 Elementary, 5 High\n   - Weather: Humidity 88%, Wind speed 24.5 m/s, Sunny days 1.0\n\n3. **Stowe, Vermont**\n   - Average price: **$1,671,197**\n   - Average temperature: **6.7 \u00b0C**\n   - Schools nearby: \n     - Within 20 km: 1 Prekindergarten, 4 Elementary, 1 High\n   - Weather: Humidity 89%, Wind speed 21.1 m/s, Sunny days 0.0\n\n4. **Stratton, Vermont**\n   - Average price: **$1,282,174**\n   - Average temperature: **7.2 \u00b0C**\n   - Hospitals nearby: 1 within 20 km, 35 within 100 km\n   - Schools nearby: \n     - Within 20 km: 2 Elementary, 1 High\n   - Weather: Humidity 87%, Wind speed 25.7 m/s, Sunny days 1.0\n\n5. **Norwich, Vermont**\n   - Average price: **$1,256,227**\n   - Average temperature: **5.5 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 6 Elementary, 4 High\n   - Weather: Humidity 88%, Wind speed 23.0 m/s, Sunny days 1.0\n\nIf you have any specific preferences or need more information about any of these towns, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "same_session",
+      "repeat": 4,
+      "username": "eval_update_preferred_state_change_same_session_r4_20261012T002249Z",
+      "followup_reply": "Here are some towns in Vermont that you might consider:\n\n1. **Braintree, Vermont**\n   - Average Price: **$1,800,000**\n   - Average Temperature: **7.3 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 20 within 100 km\n   - Schools Nearby: \n     - Within 10 km: 1 Prekindergarten, 1 Elementary, 1 High\n     - Within 20 km: 1 Prekindergarten, 2 Elementary, 1 High\n   - Humidity: **92%**\n   - Wind Speed: **16.3 m/s**\n   - Sunny Days: **72.5**\n   - Rainy Days: **22.5**\n\n2. **Pomfret, Vermont**\n   - Average Price: **$1,712,250**\n   - Average Temperature: **3.8 \u00b0C**\n   - Hospitals Nearby: 2 within 20 km, 25 within 100 km\n   - Schools Nearby: \n     - Within 20 km: 5 Elementary, 5 High\n     - Within 100 km: 7 Prekindergarten, 170 Elementary, 70 High\n   - Humidity: **88%**\n   - Wind Speed: **24.5 m/s**\n   - Sunny Days: **1.0**\n\n3. **Stowe, Vermont**\n   - Average Price: **$1,671,197**\n   - Average Temperature: **6.7 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 1 Prekindergarten, 4 Elementary, 1 High\n     - Within 100 km: 2 Prekindergarten, 110 Elementary, 56 High\n   - Humidity: **89%**\n   - Wind Speed: **21.1 m/s**\n   - Sunny Days: **0.0**\n\n4. **Stratton, Vermont**\n   - Average Price: **$1,282,174**\n   - Average Temperature: **7.2 \u00b0C**\n   - Hospitals Nearby: 1 within 20 km, 35 within 100 km\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 1 High\n     - Within 100 km: 9 Prekindergarten, 318 Elementary, 153 High\n   - Humidity: **87%**\n   - Wind Speed: **25.7 m/s**\n   - Sunny Days: **1.0**\n\n5. **Norwich, Vermont**\n   - Average Price: **$1,256,227**\n   - Average Temperature: **5.5 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 6 Elementary, 4 High\n     - Within 100 km: 7 Prekindergarten, 176 Elementary, 70 High\n   - Humidity: **88%**\n   - Wind Speed: **23.0 m/s**\n   - Sunny Days: **1.0**\n\nIf you have any specific criteria or need more information about any of these towns, let me know!",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "new_session",
+      "repeat": 0,
+      "username": "eval_update_preferred_state_change_new_session_r0_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, proximity to hospitals or schools, and any dislikes you may have? This will help me tailor the search to your needs.",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "new_session",
+      "repeat": 1,
+      "username": "eval_update_preferred_state_change_new_session_r1_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, proximity to schools or hospitals, and any dislikes you may have? You mentioned a preference for Vermont, but additional details would help narrow down the options.",
+      "memory_update_accuracy": 1.0
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "new_session",
+      "repeat": 2,
+      "username": "eval_update_preferred_state_change_new_session_r2_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, whether you need schools or hospitals nearby, and any dislikes you might have?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "new_session",
+      "repeat": 3,
+      "username": "eval_update_preferred_state_change_new_session_r3_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding budget, climate, proximity to schools or hospitals, and any dislikes you may have?",
+      "memory_update_accuracy": 0.5
+    },
+    {
+      "case": "preferred_state_change",
+      "session_mode": "new_session",
+      "repeat": 4,
+      "username": "eval_update_preferred_state_change_new_session_r4_20261012T002249Z",
+      "followup_reply": "To provide you with the best recommendations, could you please share your preferences regarding price range, climate (like temperature preferences), and whether you want schools or hospitals nearby? Additionally, if you have any dislikes (such as humidity), please let me know!",
+      "memory_update_accuracy": 0.5
+    }
+  ],
+  "summary_by_case_and_session_mode": {
+    "budget_change/same_session": 1.0,
+    "budget_change/new_session": 0.5,
+    "preferred_state_change/same_session": 1.0,
+    "preferred_state_change/new_session": 0.6
+  }
+}

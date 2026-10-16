@@ -1,0 +1,71 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "baseline",
+  "username": "eval_type_r3_20261012T055746Z_distractor_relevant_vs_irrelevant_baseline",
+  "user_id": 1506,
+  "thread_ids": [
+    "df4fa734-63c4-4efe-aef9-49b2af8d76d9",
+    "8744e140-80f4-4cd5-b770-2e9c8f0f42d6"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 4 \n     - High: 2\n   - Overall Score: **3.00**\n\n2. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 1 \n     - High: 1\n   - Overall Score: **3.00**\n\n3. **Union, Oregon**\n   - Average Price: **$244,172**\n   - Average Temperature: **12.6 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 4 \n     - High: 1\n   - Overall Score: **3.00**\n\n4. **Oakridge, Oregon**\n   - Average Price: **$243,827**\n   - Average Temperature: **15.7 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 1 \n     - High: 1\n   - Overall Score: **3.00**\n\n5. **Sunny Valley, Oregon**\n   - Average Price: **$233,666**\n   - Average Temperature: **14.0 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 1 \n     - Elementary: 61 \n     - High: 22\n   - Overall Score: **3.00**\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some specific preferences? For example, what are your budget ranges for housing, preferred weather conditions, temperature ranges, and any requirements regarding hospitals or schools?"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Oregon with a budget of $250,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 57 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Noti</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$249,840</b><br>Average temperature: <b>15.6 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "reply": "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 4 \n     - High: 2\n   - Overall Score: **3.00**\n\n2. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 1 \n     - High: 1\n   - Overall Score: **3.00**\n\n3. **Union, Oregon**\n   - Average Price: **$244,172**\n   - Average Temperature: **12.6 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 4 \n     - High: 1\n   - Overall Score: **3.00**\n\n4. **Oakridge, Oregon**\n   - Average Price: **$243,827**\n   - Average Temperature: **15.7 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 0 \n     - Elementary: 1 \n     - High: 1\n   - Overall Score: **3.00**\n\n5. **Sunny Valley, Oregon**\n   - Average Price: **$233,666**\n   - Average Temperature: **14.0 \u00b0C**\n   - Schools nearby (within 10 km): \n     - Prkindergarten: 1 \n     - Elementary: 61 \n     - High: 22\n   - Overall Score: **3.00**\n\nIf you need more information about any of these towns or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [],
+      "tool_results": [],
+      "reply": "To help you find the best towns, could you please provide me with some specific preferences? For example, what are your budget ranges for housing, preferred weather conditions, temperature ranges, and any requirements regarding hospitals or schools?"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 5.629283999995096,
+    "per_turn_latency_seconds": [
+      10.342778899997938,
+      0.9157890999922529
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "semantic_only_background",
+  "username": "eval_type_r4_20260918T051127Z_state_and_school_preference_semantic_only_background",
+  "user_id": 185,
+  "thread_ids": [
+    "2ecb9865-cfc0-4ad8-bc6a-1f0bde0ff608",
+    "4e6daa14-5db4-4dce-bb79-57a2bf32aeaa"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 25\n     - Within 100 km: 56\n   - **Schools Nearby:** \n     - Within 10 km: 4 Prekindergarten, 121 Elementary, 63 High\n     - Within 20 km: 6 Prekindergarten, 322 Elementary, 134 High\n   - **Weather Conditions:** Humidity: 85%, Wind Speed: 30.5 m/s, Sunny Days: 1.0\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 5\n     - Within 20 km: 41\n     - Within 100 km: 108\n   - **Schools Nearby:** \n     - Within 10 km: 4 Prekindergarten, 98 Elementary, 40 High\n     - Within 20 km: 8 Prekindergarten, 309 Elementary, 123 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 23.6 m/s, Sunny Days: 1.0\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: 3 Prekindergarten, 90 Elementary, 48 High\n     - Within 20 km: 8 Prekindergarten, 298 Elementary, 139 High\n   - **Weather Conditions:** Humidity: 92%, Wind Speed: 15.4 m/s, Sunny Days: 67.5\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 37\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: 3 Prekindergarten, 97 Elementary, 39 High\n     - Within 20 km: 9 Prekindergarten, 314 Elementary, 127 High\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 24.0 m/s, Sunny Days: 1.0\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 30\n     - Within 100 km: 56\n   - **Schools Nearby:** \n     - Within 10 km: 2 Prekindergarten, 125 Elementary, 49 High\n     - Within 20 km: 5 Prekindergarten, 329 Elementary, 137 High\n   - **Weather Conditions:** Humidity: 95%, Wind Speed: 10.2 m/s, Sunny Days: 1.0\n\nIf you have any specific preferences regarding price range or other factors, let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas that meet your criteria of having nearby schools (prekindergarten, elementary, high) and hospitals:\n\n1. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **22**\n     - Within 20 km: **38**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **90**, High **48**\n     - Within 20 km: Prekindergarten **8**, Elementary **298**, High **139**\n     - Within 100 km: Prekindergarten **27**, Elementary **927**, High **416**\n   - Overall Score: **2.00**\n\n2. **Indian Gap, Texas**\n   - Average Price: **$800,000**\n   - Average Temperature: **25.7 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **8**\n     - Within 20 km: **45**\n     - Within 100 km: **134**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **1**, Elementary **76**, High **36**\n     - Within 20 km: Prekindergarten **4**, Elementary **300**, High **125**\n     - Within 100 km: Prekindergarten **30**, Elementary **1237**, High **537**\n   - Overall Score: **1.75**\n\n3. **Cranfills Gap, Texas**\n   - Average Price: **$608,843**\n   - Average Temperature: **20.3 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **8**\n     - Within 20 km: **45**\n     - Within 100 km: **134**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **1**, Elementary **76**, High **36**\n     - Within 20 km: Prekindergarten **4**, Elementary **300**, High **125**\n     - Within 100 km: Prekindergarten **30**, Elementary **1237**, High **537**\n   - Overall Score: **1.75**\n\n4. **Pecan Gap, Texas**\n   - Average Price: **$402,500**\n   - Average Temperature: **23.9 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **8**\n     - Within 20 km: **45**\n     - Within 100 km: **134**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **1**, Elementary **76**, High **36**\n     - Within 20 km: Prekindergarten **4**, Elementary **300**, High **125**\n     - Within 100 km: Prekindergarten **30**, Elementary **1237**, High **537**\n   - Overall Score: **1.75**\n\n5. **Buffalo Gap, Texas**\n   - Average Price: **$297,988**\n   - Average Temperature: **20.3 \u00b0C**\n   - Hospitals Nearby:\n     - Within 5 km: **8**\n     - Within 20 km: **45**\n     - Within 100 km: **134**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **1**, Elementary **76**, High **36**\n     - Within 20 km: Prekindergarten **4**, Elementary **300**, High **125**\n     - Within 100 km: Prekindergarten **30**, Elementary **1237**, High **537**\n   - Overall Score: **1.75**\n\nIf you have any specific preferences or need more information about any of these towns, feel free to ask!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.6666666666666666,
+    "behavioral_consistency": 0.6666666666666666,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 10.46339585000078,
+    "per_turn_latency_seconds": [
+      10.929997900000672,
+      9.996793800000887
+    ],
+    "latency_overhead_vs_baseline_seconds": 6.409507100001065
+  }
+}

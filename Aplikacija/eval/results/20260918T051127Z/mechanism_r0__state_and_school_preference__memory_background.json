@@ -1,0 +1,41 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_background",
+  "username": "eval_mechanism_r0_20260918T051127Z_state_and_school_preference_memory_background",
+  "user_id": 43,
+  "thread_ids": [
+    "42407aff-38b6-4779-a51a-719720e03014",
+    "244ba2a7-d9cd-4a97-a3aa-e28e19dee3c1"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby, making them suitable for families with children:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 25\n     - Within 100 km: 56\n   - **Schools Nearby:** \n     - Within 10 km: 4 Prekindergarten, 121 Elementary, 63 High\n     - Within 20 km: 6 Prekindergarten, 322 Elementary, 134 High\n     - Within 100 km: 16 Prekindergarten, 772 Elementary, 310 High\n   - **Overall Score:** 1.08\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 5\n     - Within 20 km: 41\n     - Within 100 km: 108\n   - **Schools Nearby:** \n     - Within 10 km: 4 Prekindergarten, 98 Elementary, 40 High\n     - Within 20 km: 8 Prekindergarten, 309 Elementary, 123 High\n     - Within 100 km: 27 Prekindergarten, 933 Elementary, 420 High\n   - **Overall Score:** 1.02\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: 3 Prekindergarten, 90 Elementary, 48 High\n     - Within 20 km: 8 Prekindergarten, 298 Elementary, 139 High\n     - Within 100 km: 27 Prekindergarten, 927 Elementary, 416 High\n   - **Overall Score:** 0.99\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 37\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: 3 Prekindergarten, 97 Elementary, 39 High\n     - Within 20 km: 9 Prekindergarten, 314 Elementary, 127 High\n     - Within 100 km: 27 Prekindergarten, 928 Elementary, 417 High\n   - **Overall Score:** 0.99\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 2\n     - Within 20 km: 30\n     - Within 100 km: 56\n   - **Schools Nearby:** \n     - Within 10 km: 2 Prekindergarten, 125 Elementary, 49 High\n     - Within 20 km: 5 Prekindergarten, 329 Elementary, 137 High\n     - Within 100 km: 16 Prekindergarten, 774 Elementary, 311 High\n   - **Overall Score:** 0.96\n\nIf you need more information about any specific location or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas that might be a good fit for you, based on your preferences for nearby schools and hospitals:\n\n1. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 22\n     - Within 20 km: 38\n     - Within 100 km: 107\n   - **Schools Nearby:** \n     - Within 10 km: Prekindergarten 3 | Elementary 90 | High 48\n     - Within 20 km: Prekindergarten 8 | Elementary 298 | High 139\n   - **Weather Conditions:** Humidity 92%, Wind Speed 15.4 m/s, Sunny Days 67.5, Rainy Days 53.0\n\n2. **Indian Gap, Texas**\n   - **Average Price:** $800,000\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 45\n     - Within 100 km: 134\n   - **Schools Nearby:** \n     - Within 10 km: Prekindergarten 1 | Elementary 76 | High 36\n     - Within 20 km: Prekindergarten 4 | Elementary 300 | High 125\n\n3. **Cranfills Gap, Texas**\n   - **Average Price:** $608,843\n   - **Average Temperature:** 20.3 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 45\n     - Within 100 km: 134\n   - **Schools Nearby:** \n     - Within 10 km: Prekindergarten 1 | Elementary 76 | High 36\n     - Within 20 km: Prekindergarten 4 | Elementary 300 | High 125\n\n4. **Pecan Gap, Texas**\n   - **Average Price:** $402,500\n   - **Average Temperature:** 23.9 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 45\n     - Within 100 km: 134\n   - **Schools Nearby:** \n     - Within 10 km: Prekindergarten 1 | Elementary 76 | High 36\n     - Within 20 km: Prekindergarten 4 | Elementary 300 | High 125\n\n5. **Buffalo Gap, Texas**\n   - **Average Price:** $297,988\n   - **Average Temperature:** 20.3 \u00b0C\n   - **Hospitals Nearby:** \n     - Within 5 km: 8\n     - Within 20 km: 45\n     - Within 100 km: 134\n   - **Schools Nearby:** \n     - Within 10 km: Prekindergarten 1 | Elementary 76 | High 36\n     - Within 20 km: Prekindergarten 4 | Elementary 300 | High 125\n\nIf you have any specific preferences regarding price or temperature, let me know, and I can refine the search further!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.6666666666666666,
+    "behavioral_consistency": 0.6666666666666666,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 12.104713849999825,
+    "per_turn_latency_seconds": [
+      11.892694299999675,
+      12.316733399999976
+    ],
+    "latency_overhead_vs_baseline_seconds": 7.996422799999891
+  }
+}

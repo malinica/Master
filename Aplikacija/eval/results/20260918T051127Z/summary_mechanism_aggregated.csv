@@ -1,0 +1,13 @@
+scenario,variant,agent_variant,extraction_mode,memory_types,n_repeats,memory_accuracy_mean,memory_accuracy_stdev,behavioral_consistency_mean,behavioral_consistency_stdev,task_success_rate_mean,task_success_rate_stdev,false_memory_rate_mean,false_memory_rate_stdev,avg_latency_seconds_mean,avg_latency_seconds_stdev,latency_overhead_vs_baseline_seconds_mean,latency_overhead_vs_baseline_seconds_stdev
+budget_and_climate_preference,baseline,baseline,,,5,0.0,0.0,0.0,0.0,1.0,0.0,,,4.214,0.539,,
+budget_and_climate_preference,memory_hot_path,memory,hot_path,,5,0.4,0.224,0.4,0.224,1.0,0.0,,,8.011,2.325,3.796,2.262
+budget_and_climate_preference,memory_background,memory,background,,5,0.9,0.224,0.9,0.224,1.0,0.0,,,12.444,1.274,8.229,1.247
+state_and_school_preference,baseline,baseline,,,5,0.333,0.0,0.333,0.0,1.0,0.0,,,4.113,0.168,,
+state_and_school_preference,memory_hot_path,memory,hot_path,,4,0.333,0.0,0.333,0.0,1.0,0.0,,,5.123,0.527,1.035,0.67
+state_and_school_preference,memory_background,memory,background,,5,0.867,0.182,0.867,0.182,1.0,0.0,,,10.993,1.846,6.88,1.858
+dislike_persists_across_three_sessions,baseline,baseline,,,5,0.0,0.0,0.0,0.0,1.0,0.0,,,1.094,0.206,,
+dislike_persists_across_three_sessions,memory_hot_path,memory,hot_path,,5,0.3,0.447,0.0,0.0,1.0,0.0,,,2.158,1.384,1.064,1.376
+dislike_persists_across_three_sessions,memory_background,memory,background,,5,1.0,0.0,0.8,0.274,1.0,0.0,,,9.273,0.589,8.179,0.623
+distractor_relevant_vs_irrelevant,baseline,baseline,,,5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,4.034,0.502,,
+distractor_relevant_vs_irrelevant,memory_hot_path,memory,hot_path,,5,0.4,0.548,0.4,0.548,1.0,0.0,0.0,0.0,5.962,1.536,1.928,1.834
+distractor_relevant_vs_irrelevant,memory_background,memory,background,,5,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,11.501,1.079,7.467,1.394

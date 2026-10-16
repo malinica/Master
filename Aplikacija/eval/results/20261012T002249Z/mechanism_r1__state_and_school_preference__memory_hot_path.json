@@ -1,0 +1,210 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r1_20261012T002249Z_state_and_school_preference_memory_hot_path",
+  "user_id": 834,
+  "thread_ids": [
+    "a87a66c4-2e20-4dd3-8d2f-0753407165ba",
+    "3d4a48d5-2ab3-4c66-8af3-ed04de2841da"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona with good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average price: **$476,428**\n   - Average temperature: **24.1 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 25 within 20 km\n   - Schools nearby: 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n   - Humidity: **85%**\n\n2. **LaCoste, Texas**\n   - Average price: **$888,562**\n   - Average temperature: **24.9 \u00b0C**\n   - Hospitals nearby: 5 within 5 km, 41 within 20 km\n   - Schools nearby: 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n   - Humidity: **88%**\n\n3. **Dawn, Texas**\n   - Average price: **$786,147**\n   - Average temperature: **22.6 \u00b0C**\n   - Hospitals nearby: 22 within 5 km, 38 within 20 km\n   - Schools nearby: 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n   - Humidity: **92%**\n\n4. **Houston, Texas**\n   - Average price: **$475,386**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 37 within 20 km\n   - Schools nearby: 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n   - Humidity: **88%**\n\n5. **Winslow West, Arizona**\n   - Average price: **$79,630**\n   - Average temperature: **26.8 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 30 within 20 km\n   - Schools nearby: 2 Prekindergarten, 125 Elementary, 49 High Schools within 10 km\n   - Humidity: **95%**\n\nIf you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **25**\n     - Within 100 km: **56**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **121**, High **63**\n   - Overall Score: **1.08**\n\n2. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **5**\n     - Within 20 km: **41**\n     - Within 100 km: **108**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **98**, High **40**\n   - Overall Score: **1.02**\n\n3. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **22**\n     - Within 20 km: **38**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **90**, High **48**\n   - Overall Score: **0.99**\n\n4. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **8**\n     - Within 20 km: **37**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **97**, High **39**\n   - Overall Score: **0.99**\n\n5. **Winslow West, Arizona**\n   - Average Price: **$79,630**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **30**\n     - Within 100 km: **56**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **2**, Elementary **125**, High **49**\n   - Overall Score: **0.96**\n\nIf you would like more information about any of these locations or have other preferences, feel free to ask!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns or cities in Texas or Arizona with good schools nearby"
+          }
+        },
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "update",
+            "id": ""
+          }
+        },
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "create"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns or cities in Texas or Arizona with good schools nearby",
+              "summary": "Found 10 locations in Texas and Arizona with good schools nearby. Top 5 results provided.",
+              "top_result_towns": [
+                "Glendale, Arizona",
+                "LaCoste, Texas",
+                "Dawn, Texas",
+                "Houston, Texas",
+                "Winslow West, Arizona"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        },
+        {
+          "name": "update_user_profile",
+          "status": "error",
+          "content": "Error invoking tool 'update_user_profile' with kwargs {'content': {'preferred_states': ['Texas', 'Arizona'], 'wants_schools_nearby': True}, 'action': 'update', 'id': ''} with error:\n id: Input should be a valid UUID, invalid length: expected length 32 for simple format, found 0\n Please fix the error and try again."
+        },
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 68e20cd3-d43d-4e75-b3e9-b5ffe52e0b25"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory f99761ef-8d9e-4596-abc9-9844e04223a7"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns or cities in Texas or Arizona with good schools nearby",
+          "summary": "Found 10 locations in Texas and Arizona with good schools nearby. Top 5 results provided.",
+          "score": 0.513286228850525
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns and cities in Texas and Arizona with good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average price: **$476,428**\n   - Average temperature: **24.1 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 25 within 20 km\n   - Schools nearby: 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n   - Humidity: **85%**\n\n2. **LaCoste, Texas**\n   - Average price: **$888,562**\n   - Average temperature: **24.9 \u00b0C**\n   - Hospitals nearby: 5 within 5 km, 41 within 20 km\n   - Schools nearby: 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n   - Humidity: **88%**\n\n3. **Dawn, Texas**\n   - Average price: **$786,147**\n   - Average temperature: **22.6 \u00b0C**\n   - Hospitals nearby: 22 within 5 km, 38 within 20 km\n   - Schools nearby: 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n   - Humidity: **92%**\n\n4. **Houston, Texas**\n   - Average price: **$475,386**\n   - Average temperature: **24.7 \u00b0C**\n   - Hospitals nearby: 8 within 5 km, 37 within 20 km\n   - Schools nearby: 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n   - Humidity: **88%**\n\n5. **Winslow West, Arizona**\n   - Average price: **$79,630**\n   - Average temperature: **26.8 \u00b0C**\n   - Hospitals nearby: 2 within 5 km, 30 within 20 km\n   - Schools nearby: 2 Prekindergarten, 125 Elementary, 49 High Schools within 10 km\n   - Humidity: **95%**\n\nIf you need more information or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns or cities in Texas or Arizona with good schools nearby"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns or cities in Texas or Arizona with good schools nearby",
+              "summary": "Found 10 locations in Texas and Arizona with good schools nearby. Top 5 results provided.",
+              "top_result_towns": [
+                "Glendale, Arizona",
+                "LaCoste, Texas",
+                "Dawn, Texas",
+                "Houston, Texas",
+                "Winslow West, Arizona"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 5a8dd79d-816b-4392-bc89-d2ff783c7753"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns or cities in Texas or Arizona with good schools nearby",
+          "summary": "Found 10 locations in Texas and Arizona with good schools nearby. Top 5 results provided.",
+          "score": 0.3736918724517855
+        },
+        {
+          "query": "towns or cities in Texas or Arizona with good schools nearby",
+          "summary": "Found 10 locations in Texas and Arizona with good schools nearby. Top 5 results provided.",
+          "score": 0.3736918724517855
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **25**\n     - Within 100 km: **56**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **121**, High **63**\n   - Overall Score: **1.08**\n\n2. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **5**\n     - Within 20 km: **41**\n     - Within 100 km: **108**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **4**, Elementary **98**, High **40**\n   - Overall Score: **1.02**\n\n3. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **22**\n     - Within 20 km: **38**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **90**, High **48**\n   - Overall Score: **0.99**\n\n4. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **8**\n     - Within 20 km: **37**\n     - Within 100 km: **107**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **3**, Elementary **97**, High **39**\n   - Overall Score: **0.99**\n\n5. **Winslow West, Arizona**\n   - Average Price: **$79,630**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby: \n     - Within 5 km: **2**\n     - Within 20 km: **30**\n     - Within 100 km: **56**\n   - Schools Nearby:\n     - Within 10 km: Prekindergarten **2**, Elementary **125**, High **49**\n   - Overall Score: **0.96**\n\nIf you would like more information about any of these locations or have other preferences, feel free to ask!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 9.872216900024796,
+    "per_turn_latency_seconds": [
+      10.904658000043128,
+      8.839775800006464
+    ],
+    "latency_overhead_vs_baseline_seconds": 5.636571500042919
+  }
+}

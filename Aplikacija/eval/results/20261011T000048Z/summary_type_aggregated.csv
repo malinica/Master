@@ -1,0 +1,15 @@
+scenario,variant,agent_variant,extraction_mode,memory_types,n_repeats,memory_accuracy_mean,memory_accuracy_stdev,memory_accuracy_strict_mean,memory_accuracy_strict_stdev,behavioral_consistency_mean,behavioral_consistency_stdev,task_success_rate_mean,task_success_rate_stdev,false_memory_rate_mean,false_memory_rate_stdev,episodic_retrieval_accuracy_mean,episodic_retrieval_accuracy_stdev,avg_latency_seconds_mean,avg_latency_seconds_stdev,latency_overhead_vs_baseline_seconds_mean,latency_overhead_vs_baseline_seconds_stdev
+episodic_recall_of_past_search,baseline,baseline,,,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,4.761,0.291,,
+episodic_recall_of_past_search,semantic_only_hot_path,memory,hot_path,semantic,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,4.991,0.469,0.23,0.5
+episodic_recall_of_past_search,semantic_only_background,memory,background,semantic,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,,,,,5.213,0.814,0.453,0.621
+episodic_recall_of_past_search,semantic_only_both,memory,both,semantic,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,,,,,4.827,0.757,0.066,0.614
+episodic_recall_of_past_search,episodic_only_hot_path,memory,hot_path,episodic,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,,,1.0,0.0,5.129,0.665,0.368,0.643
+episodic_recall_of_past_search,episodic_only_background,memory,background,episodic,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,,,1.0,0.0,4.534,0.568,-0.227,0.408
+episodic_recall_of_past_search,episodic_only_both,memory,both,episodic,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,,,1.0,0.0,5.351,0.698,0.59,0.732
+budget_and_climate_preference,baseline,baseline,,,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,6.018,0.702,,
+budget_and_climate_preference,semantic_only_hot_path,memory,hot_path,semantic,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,6.2,1.037,0.182,1.027
+budget_and_climate_preference,semantic_only_background,memory,background,semantic,5,0.6,0.224,0.2,0.447,0.6,0.224,1.0,0.0,,,,,10.009,0.97,3.991,0.92
+budget_and_climate_preference,semantic_only_both,memory,both,semantic,5,0.4,0.224,0.0,0.0,0.4,0.224,1.0,0.0,,,,,5.938,0.428,-0.08,0.733
+budget_and_climate_preference,episodic_only_hot_path,memory,hot_path,episodic,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,6.045,0.267,0.027,0.718
+budget_and_climate_preference,episodic_only_background,memory,background,episodic,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,5.502,0.412,-0.516,0.7
+budget_and_climate_preference,episodic_only_both,memory,both,episodic,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,,5.923,0.42,-0.096,0.68

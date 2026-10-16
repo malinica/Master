@@ -1,0 +1,166 @@
+{
+  "axis": "type",
+  "scenario": "episodic_disambiguation_of_two_searches",
+  "variant": "episodic_only_both",
+  "username": "eval_type_r0_20261012T002249Z_episodic_disambiguation_of_two_searches_episodic_only_both",
+  "user_id": 821,
+  "thread_ids": [
+    "5355e543-c47b-4f1c-9e3e-45b0a3450b25",
+    "5bb50464-2289-4b5e-baf2-210d8fdaa2f1",
+    "d7e38c22-fc65-487a-85be-7d4ad13086fc"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter is starting college near Phoenix this fall:\n\n1. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Hospitals Nearby: **6** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **1** (within 10 km)\n     - Elementary Schools: **0**\n   - Sunny Days: **315**\n   - Rainy Days: **12**\n   - Overall Score: **2.12**\n\n2. **Ehrenberg, Arizona**\n   - Average Price: **$139,600**\n   - Average Temperature: **24.8 \u00b0C**\n   - Hospitals Nearby: **3** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **1** (within 10 km)\n     - Elementary Schools: **3**\n   - Sunny Days: **168.5**\n   - Rainy Days: **3.5**\n   - Overall Score: **1.87**\n\n3. **Dome Valley, Arizona**\n   - Average Price: **$60,000**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **0** (within 10 km)\n     - Elementary Schools: **1**\n   - Sunny Days: **167**\n   - Rainy Days: **7**\n   - Overall Score: **1.87**\n\n4. **Concho Valley, Arizona**\n   - Average Price: **$19,035**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **0** (within 10 km)\n     - Elementary Schools: **1**\n   - Sunny Days: **167**\n   - Rainy Days: **7**\n   - Overall Score: **1.87**\n\n5. **Dateland, Arizona**\n   - Average Price: **$73,043**\n   - Average Temperature: **24.0 \u00b0C**\n   - Hospitals Nearby: **1** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **0** (within 10 km)\n     - Elementary Schools: **1**\n   - Sunny Days: **164.5**\n   - Rainy Days: **5**\n   - Overall Score: **1.87**\n\nThese towns offer a combination of affordability, sunny weather, and proximity to schools and hospitals. If you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "Now find me cheap towns in Oregon. I'm planning to open a bakery there."
+      ],
+      "replies": [
+        "Here are some affordable towns in Oregon where you could consider opening a bakery:\n\n1. **Bay City, Oregon**\n   - Average price: **$141,453**\n   - Average temperature: **12.8 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 18 Elementary, 16 High\n     - Within 20 km: 38 Elementary, 25 High\n   - Weather: \n     - Humidity: 92%\n     - Wind speed: 15.8 m/s\n     - Sunny days: 103.5\n     - Rainy days: 41.0\n\n2. **Silver Lake, Oregon**\n   - Average price: **$129,000**\n   - Average temperature: **10.3 \u00b0C**\n   - Schools nearby: \n     - Within 100 km: 7 Elementary\n   - Weather: \n     - Humidity: 91%\n     - Wind speed: 18.6 m/s\n     - Sunny days: 1.0\n\n3. **Forest Heights, Oregon**\n   - Average price: **$125,000**\n   - Average temperature: **9.1 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 5 High\n     - Within 100 km: 251 Elementary, 117 High\n   - Weather: \n     - Humidity: 93%\n     - Wind speed: 14.8 m/s\n\n4. **Butte Falls, Oregon**\n   - Average price: **$124,500**\n   - Average temperature: **9.7 \u00b0C**\n   - Schools nearby: \n     - Within 100 km: 69 Elementary, 42 High\n   - Weather: \n     - Humidity: 94%\n     - Wind speed: 12.2 m/s\n     - Sunny days: 104.5\n\n5. **Condon, Oregon**\n   - Average price: **$119,667**\n   - Average temperature: **10.4 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 32 Elementary, 17 High\n   - Weather: \n     - Humidity: 89%\n     - Wind speed: 21.0 m/s\n     - Sunny days: 106.5\n\nThese towns offer a range of prices and school options, making them suitable for your bakery venture. If you need more information or have specific preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "Remind me why I was looking in Oregon last time"
+      ],
+      "replies": [
+        "You were looking for affordable towns in Oregon to open a bakery."
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "Find me cheap sunny towns in Arizona. I'm looking today specifically because my daughter is starting college near Phoenix this fall.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in Arizona"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "cheap sunny towns in Arizona",
+              "summary": "User is looking for affordable sunny towns in Arizona as their daughter is starting college near Phoenix this fall.",
+              "top_result_towns": []
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 5 locations in Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yucca</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$65,056</b><br>Average temperature: <b>22.8 \u00b0C</b><br>Hospitals nearb"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 042e6d09-e35c-4ac8-9aeb-55ba1c5c5340"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona as their daughter is starting college near Phoenix this fall.",
+          "score": 0.6799726526157984
+        }
+      ],
+      "reply": "Here are some affordable sunny towns in Arizona that you might consider, especially since your daughter is starting college near Phoenix this fall:\n\n1. **Yucca, Arizona**\n   - Average Price: **$65,056**\n   - Average Temperature: **22.8 \u00b0C**\n   - Hospitals Nearby: **6** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **1** (within 10 km)\n     - Elementary Schools: **0**\n   - Sunny Days: **315**\n   - Rainy Days: **12**\n   - Overall Score: **2.12**\n\n2. **Ehrenberg, Arizona**\n   - Average Price: **$139,600**\n   - Average Temperature: **24.8 \u00b0C**\n   - Hospitals Nearby: **3** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **1** (within 10 km)\n     - Elementary Schools: **3**\n   - Sunny Days: **168.5**\n   - Rainy Days: **3.5**\n   - Overall Score: **1.87**\n\n3. **Dome Valley, Arizona**\n   - Average Price: **$60,000**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **0** (within 10 km)\n     - Elementary Schools: **1**\n   - Sunny Days: **167**\n   - Rainy Days: **7**\n   - Overall Score: **1.87**\n\n4. **Concho Valley, Arizona**\n   - Average Price: **$19,035**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: **2** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **0** (within 10 km)\n     - Elementary Schools: **1**\n   - Sunny Days: **167**\n   - Rainy Days: **7**\n   - Overall Score: **1.87**\n\n5. **Dateland, Arizona**\n   - Average Price: **$73,043**\n   - Average Temperature: **24.0 \u00b0C**\n   - Hospitals Nearby: **1** (within 100 km)\n   - Schools Nearby: \n     - High Schools: **0** (within 10 km)\n     - Elementary Schools: **1**\n   - Sunny Days: **164.5**\n   - Rainy Days: **5**\n   - Overall Score: **1.87**\n\nThese towns offer a combination of affordability, sunny weather, and proximity to schools and hospitals. If you need more information or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "Now find me cheap towns in Oregon. I'm planning to open a bakery there.",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap towns in Oregon for opening a bakery"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "cheap towns in Oregon for opening a bakery",
+              "summary": "User is looking for affordable towns in Oregon to open a bakery.",
+              "top_result_towns": []
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 28 locations in Oregon. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Bay City</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Oregon</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$141,453</b><br>Average temperature: <b>12.8 \u00b0C</b><br>Hospitals ne"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory 580d9998-e5a9-458e-990e-58196ad86b96"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "cheap towns in Oregon for opening a bakery",
+          "summary": "User is looking for affordable towns in Oregon to open a bakery.",
+          "score": 0.6351280672420011
+        },
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona as their daughter is starting college near Phoenix this fall.",
+          "score": 0.3332635111575981
+        }
+      ],
+      "reply": "Here are some affordable towns in Oregon where you could consider opening a bakery:\n\n1. **Bay City, Oregon**\n   - Average price: **$141,453**\n   - Average temperature: **12.8 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 18 Elementary, 16 High\n     - Within 20 km: 38 Elementary, 25 High\n   - Weather: \n     - Humidity: 92%\n     - Wind speed: 15.8 m/s\n     - Sunny days: 103.5\n     - Rainy days: 41.0\n\n2. **Silver Lake, Oregon**\n   - Average price: **$129,000**\n   - Average temperature: **10.3 \u00b0C**\n   - Schools nearby: \n     - Within 100 km: 7 Elementary\n   - Weather: \n     - Humidity: 91%\n     - Wind speed: 18.6 m/s\n     - Sunny days: 1.0\n\n3. **Forest Heights, Oregon**\n   - Average price: **$125,000**\n   - Average temperature: **9.1 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 4 Elementary, 5 High\n     - Within 100 km: 251 Elementary, 117 High\n   - Weather: \n     - Humidity: 93%\n     - Wind speed: 14.8 m/s\n\n4. **Butte Falls, Oregon**\n   - Average price: **$124,500**\n   - Average temperature: **9.7 \u00b0C**\n   - Schools nearby: \n     - Within 100 km: 69 Elementary, 42 High\n   - Weather: \n     - Humidity: 94%\n     - Wind speed: 12.2 m/s\n     - Sunny days: 104.5\n\n5. **Condon, Oregon**\n   - Average price: **$119,667**\n   - Average temperature: **10.4 \u00b0C**\n   - Schools nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 32 Elementary, 17 High\n   - Weather: \n     - Humidity: 89%\n     - Wind speed: 21.0 m/s\n     - Sunny days: 106.5\n\nThese towns offer a range of prices and school options, making them suitable for your bakery venture. If you need more information or have specific preferences, feel free to ask!"
+    },
+    {
+      "message": "Remind me why I was looking in Oregon last time",
+      "session_index": 2,
+      "tool_calls": [],
+      "tool_results": [],
+      "episodes_found": [
+        {
+          "query": "cheap towns in Oregon for opening a bakery",
+          "summary": "User is looking for affordable towns in Oregon to open a bakery.",
+          "score": 0.34398718123345984
+        },
+        {
+          "query": "cheap sunny towns in Arizona",
+          "summary": "User is looking for affordable sunny towns in Arizona as their daughter is starting college near Phoenix this fall.",
+          "score": 0.25016715497083686
+        }
+      ],
+      "reply": "You were looking for affordable towns in Oregon to open a bakery."
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 1.0,
+    "behavioral_consistency": 1.0,
+    "false_memory_rate": 0.0,
+    "episodic_retrieval_accuracy": 1.0,
+    "avg_latency_seconds": 6.3536010000001015,
+    "per_turn_latency_seconds": [
+      8.14444679999724,
+      9.599125000007916,
+      1.317231199995149
+    ],
+    "latency_overhead_vs_baseline_seconds": 1.85624343335318
+  }
+}

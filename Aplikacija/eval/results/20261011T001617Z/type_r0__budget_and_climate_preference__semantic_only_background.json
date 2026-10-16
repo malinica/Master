@@ -1,0 +1,113 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "semantic_only_background",
+  "username": "eval_type_r0_20261011T001617Z_budget_and_climate_preference_semantic_only_background",
+  "user_id": 702,
+  "thread_ids": [
+    "91350a3a-da2c-4ceb-9705-c911e419f3c6",
+    "6a53fb17-383e-4107-be10-d3574505e3ae"
+  ],
+  "background_mechanism": "asyncio_task",
+  "search_strategy": "hybrid",
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that may fit your preferences, although please note that the humidity levels are relatively high in these areas:\n\n1. **Prairie Lea, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 26.2 \u00b0C\n   - **Humidity:** 93%\n   - **Hospitals Nearby:** 2 within 20 km, 63 within 100 km\n   - **Schools Nearby:** 1 elementary school within 10 km, 8 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n2. **Garciasville, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Humidity:** 90%\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 3 elementary schools within 10 km, 8 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n3. **Lozano, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 24.6 \u00b0C\n   - **Humidity:** 92%\n   - **Hospitals Nearby:** 4 within 20 km, 18 within 100 km\n   - **Schools Nearby:** 5 elementary schools within 10 km, 41 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n4. **Midkiff, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 23.7 \u00b0C\n   - **Humidity:** 89%\n   - **Hospitals Nearby:** 17 within 100 km\n   - **Schools Nearby:** No schools within 10 km or 20 km, but 4 preschools and 66 elementary schools within 100 km\n   - **Sunny Days:** 1.0\n\n5. **Holder, Florida**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 22.4 \u00b0C\n   - **Humidity:** 91%\n   - **Hospitals Nearby:** 2 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 elementary schools within 10 km, 13 elementary schools within 20 km\n   - **Sunny Days:** 0.0\n\nWhile these towns are within your budget and generally sunny, they do have higher humidity levels. If you would like to refine your search further or explore other options, just let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Here are some options for towns and cities in the US that might suit your preferences, although they may not fully meet the criteria for low humidity:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 10 km\n   - **Weather Conditions:** Humidity: 88%, Sunny Days: 329, Rainy Days: 10\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High School within 10 km\n   - **Weather Conditions:** Humidity: 90%, Sunny Days: 315, Rainy Days: 12\n\n3. **Zephyr Cove, Nevada**\n   - **Average Price:** $2,496,508 (exceeds budget)\n   - **Average Temperature:** 16.6 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** 0 Elementary or High Schools within 10 km\n   - **Weather Conditions:** Humidity: 88%, Sunny Days: 319.5, Rainy Days: 4.5\n\n4. **Youngtown, Arizona**\n   - **Average Price:** $351,891 (exceeds budget)\n   - **Average Temperature:** 23.9 \u00b0C\n   - **Hospitals Nearby:** 3 within 5 km\n   - **Schools Nearby:** 41 Elementary, 16 High Schools within 10 km\n   - **Weather Conditions:** Humidity: 92%, Sunny Days: 316, Rainy Days: 22.5\n\n5. **Yucca Valley, California**\n   - **Average Price:** $349,158 (exceeds budget)\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Hospitals Nearby:** 5 within 20 km\n   - **Schools Nearby:** 3 Elementary, 1 High School within 10 km\n   - **Weather Conditions:** Humidity: 93%, Sunny Days: 296, Rainy Days: 20.5\n\nWhile these options provide some insights, please note that the humidity levels are higher than your preference. If you would like to adjust your criteria or explore other options, let me know!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "cheap sunny towns in the US with low humidity and a budget around $200,000"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  Showing price-matched results in Florida, Texas, California, New York, Pennsylvania, Illinois, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oregon, Oklahoma, Connecticut, Utah, Iowa, Nevada, Arkansas, Mississippi, Kansas, New Mexico, Nebraska, West Virginia, Idaho, Hawaii, New Hampshire, Maine, Montana, Rhode Island, Delawar"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "humid weather"
+        ],
+        "price_max": 200000.0,
+        "price_min": 200000.0,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": "sunny",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some affordable sunny towns in the US that may fit your preferences, although please note that the humidity levels are relatively high in these areas:\n\n1. **Prairie Lea, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 26.2 \u00b0C\n   - **Humidity:** 93%\n   - **Hospitals Nearby:** 2 within 20 km, 63 within 100 km\n   - **Schools Nearby:** 1 elementary school within 10 km, 8 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n2. **Garciasville, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Humidity:** 90%\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 3 elementary schools within 10 km, 8 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n3. **Lozano, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 24.6 \u00b0C\n   - **Humidity:** 92%\n   - **Hospitals Nearby:** 4 within 20 km, 18 within 100 km\n   - **Schools Nearby:** 5 elementary schools within 10 km, 41 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n4. **Midkiff, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 23.7 \u00b0C\n   - **Humidity:** 89%\n   - **Hospitals Nearby:** 17 within 100 km\n   - **Schools Nearby:** No schools within 10 km or 20 km, but 4 preschools and 66 elementary schools within 100 km\n   - **Sunny Days:** 1.0\n\n5. **Holder, Florida**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 22.4 \u00b0C\n   - **Humidity:** 91%\n   - **Hospitals Nearby:** 2 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 elementary schools within 10 km, 13 elementary schools within 20 km\n   - **Sunny Days:** 0.0\n\nWhile these towns are within your budget and generally sunny, they do have higher humidity levels. If you would like to refine your search further or explore other options, just let me know!"
+    },
+    {
+      "message": "Find me some good places to live.",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns or cities in the US with a maximum price of $200,000, sunny weather, and low humidity."
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": "  No results for your query, showing best available options:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Yermo</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>California</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$88,914</b><br>Average temperature: <b>21.3 \u00b0C</b><br>Hospitals nearby"
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [
+          "humid weather"
+        ],
+        "price_max": 200000.0,
+        "price_min": 200000.0,
+        "school_types": [],
+        "preferred_states": [],
+        "wants_schools_nearby": null,
+        "temperature_preference": "sunny",
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some options for towns and cities in the US that might suit your preferences, although they may not fully meet the criteria for low humidity:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 10 km\n   - **Weather Conditions:** Humidity: 88%, Sunny Days: 329, Rainy Days: 10\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High School within 10 km\n   - **Weather Conditions:** Humidity: 90%, Sunny Days: 315, Rainy Days: 12\n\n3. **Zephyr Cove, Nevada**\n   - **Average Price:** $2,496,508 (exceeds budget)\n   - **Average Temperature:** 16.6 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** 0 Elementary or High Schools within 10 km\n   - **Weather Conditions:** Humidity: 88%, Sunny Days: 319.5, Rainy Days: 4.5\n\n4. **Youngtown, Arizona**\n   - **Average Price:** $351,891 (exceeds budget)\n   - **Average Temperature:** 23.9 \u00b0C\n   - **Hospitals Nearby:** 3 within 5 km\n   - **Schools Nearby:** 41 Elementary, 16 High Schools within 10 km\n   - **Weather Conditions:** Humidity: 92%, Sunny Days: 316, Rainy Days: 22.5\n\n5. **Yucca Valley, California**\n   - **Average Price:** $349,158 (exceeds budget)\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Hospitals Nearby:** 5 within 20 km\n   - **Schools Nearby:** 3 Elementary, 1 High School within 10 km\n   - **Weather Conditions:** Humidity: 93%, Sunny Days: 296, Rainy Days: 20.5\n\nWhile these options provide some insights, please note that the humidity levels are higher than your preference. If you would like to adjust your criteria or explore other options, let me know!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.5,
+    "memory_accuracy_strict": 0.0,
+    "behavioral_consistency": 0.5,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 9.711872400017455,
+    "per_turn_latency_seconds": [
+      10.369797600025777,
+      9.053947200009134
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.520057150017237
+  }
+}

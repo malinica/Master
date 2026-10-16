@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r3_20260918T051127Z_distractor_relevant_vs_irrelevant_semantic_only_hot_path",
+  "user_id": 162,
+  "thread_ids": [
+    "4bda9192-02f6-4722-b4ff-61f881de430d",
+    "e516e1ba-699b-4bb7-bb9a-2ec79fd02ac0"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n   - Humidity: **88%**\n   - Wind Speed: **23.7 m/s**\n   - Overall Score: **3.00**\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Humidity: **91%**\n   - Wind Speed: **18.8 m/s**\n   - Overall Score: **3.00**\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 69 Elementary, 32 High\n   - Humidity: **95%**\n   - Wind Speed: **10.5 m/s**\n   - Overall Score: **3.00**\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Humidity: **92%**\n   - Wind Speed: **15.8 m/s**\n   - Overall Score: **3.00**\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 59 Elementary, 30 High\n   - Humidity: **93%**\n   - Wind Speed: **14.7 m/s**\n   - Overall Score: **3.00**\n\nIf you would like more information about any of these towns or need further assistance, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share more about your preferences? Specifically, it would be helpful to know:\n\n1. Your budget range (if you want to adjust the current maximum of $250,000).\n2. Any specific climate preferences (e.g., warm, cold, mild).\n3. Whether you want schools and hospitals nearby.\n4. Any dislikes (e.g., humidity, snow).\n\nFeel free to share any other details that are important to you!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.5,
+    "behavioral_consistency": 0.5,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 4.689851250000174,
+    "per_turn_latency_seconds": [
+      8.010161099999095,
+      1.3695414000012534
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.7673136000012164
+  }
+}

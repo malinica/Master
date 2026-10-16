@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "semantic_only_hot_path",
+  "username": "eval_type_r1_20260918T051127Z_distractor_relevant_vs_irrelevant_semantic_only_hot_path",
+  "user_id": 98,
+  "thread_ids": [
+    "52ceebf9-ec50-486b-9046-247d53f5cbfa",
+    "7fd72c6c-2b6b-4409-941e-2801fff91cba"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "I've noted that your budget is around $250,000 and that you're interested in towns in Oregon. How can I assist you further? Would you like to know about specific features like schools or hospitals in those towns?"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share your preferences regarding price, weather, hospitals, schools, or any other specific requirements you have in mind?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 1.5534131000003981,
+    "per_turn_latency_seconds": [
+      2.2511672000000544,
+      0.8556590000007418
+    ],
+    "latency_overhead_vs_baseline_seconds": -1.6667317499995988
+  }
+}

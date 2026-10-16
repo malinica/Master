@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "semantic_only_background",
+  "username": "eval_type_r1_20260918T051127Z_budget_and_climate_preference_semantic_only_background",
+  "user_id": 84,
+  "thread_ids": [
+    "6e3709b8-8d34-4319-bb60-0ad2bf70ed51",
+    "e30b9e1c-8b56-4993-a5ce-40db3357079e"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some towns that fit your criteria of being affordable and sunny, although they do have higher humidity levels than you might prefer:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 Elementary, 2 High Schools within 20 km\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High School within 20 km\n\n3. **Zephyr Cove, Nevada**\n   - **Average Price:** $2,496,508 (this is significantly above your budget)\n   - **Average Temperature:** 16.6 \u00b0C\n   - **Humidity:** 88%\n   - **Sunny Days:** 319\n   - **Hospitals Nearby:** 1 within 100 km\n\n4. **Youngtown, Arizona**\n   - **Average Price:** $351,891 (also above your budget)\n   - **Average Temperature:** 23.9 \u00b0C\n   - **Humidity:** 92%\n   - **Sunny Days:** 316\n   - **Hospitals Nearby:** 3 within 5 km, 11 within 20 km\n\n5. **Yucca Valley, California**\n   - **Average Price:** $349,158 (above your budget)\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Humidity:** 93%\n   - **Sunny Days:** 296\n   - **Hospitals Nearby:** 5 within 20 km, 187 within 100 km\n\nWhile these towns are sunny and affordable, they do have higher humidity levels. If you're open to adjusting your humidity preference or budget, let me know, and I can help find more options!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Here are some towns and cities in the US that might be of interest to you, based on your preferences for sunny weather and a maximum price of $200,000:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 Elementary school, 2 High schools within 20 km\n   - **Weather Conditions:** 329 sunny days, 88% humidity\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 High school within 20 km\n   - **Weather Conditions:** 315 sunny days, 90% humidity\n\n3. **Zephyr Cove, Nevada**\n   - **Average Price:** $2,496,508 (exceeds budget)\n   - **Average Temperature:** 16.6 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** 19 Elementary schools within 100 km\n   - **Weather Conditions:** 319 sunny days, 88% humidity\n\n4. **Youngtown, Arizona**\n   - **Average Price:** $351,891 (exceeds budget)\n   - **Average Temperature:** 23.9 \u00b0C\n   - **Hospitals Nearby:** 3 within 5 km, 11 within 20 km\n   - **Schools Nearby:** 41 Elementary schools within 10 km\n   - **Weather Conditions:** 316 sunny days, 92% humidity\n\n5. **Yucca Valley, California**\n   - **Average Price:** $349,158 (exceeds budget)\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Hospitals Nearby:** 5 within 20 km, 187 within 100 km\n   - **Schools Nearby:** 3 Elementary schools within 10 km\n   - **Weather Conditions:** 296 sunny days, 93% humidity\n\nPlease note that some options exceed your budget. If you would like to refine your search or explore other options, let me know!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 1.0,
+    "behavioral_consistency": 1.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 8.09887420000041,
+    "per_turn_latency_seconds": [
+      8.73989150000034,
+      7.457856900000479
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.671258000000307
+  }
+}

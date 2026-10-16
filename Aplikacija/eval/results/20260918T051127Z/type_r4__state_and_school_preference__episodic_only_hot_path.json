@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r4_20260918T051127Z_state_and_school_preference_episodic_only_hot_path",
+  "user_id": 186,
+  "thread_ids": [
+    "64af750b-5512-48a1-b092-ea4c9b488579",
+    "5701bb36-df6f-46ec-b6c4-8efbe03b5176"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns in Texas and Arizona with good schools nearby, suitable for families with kids:\n\n1. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: 2 (within 5 km), 25 (within 20 km)\n   - Schools Nearby: \n     - Prekindergarten: 4 | Elementary: 121 | High: 63 (within 10 km)\n     - Prekindergarten: 6 | Elementary: 322 | High: 134 (within 20 km)\n\n2. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: 5 (within 5 km), 41 (within 20 km)\n   - Schools Nearby: \n     - Prekindergarten: 4 | Elementary: 98 | High: 40 (within 10 km)\n     - Prekindergarten: 8 | Elementary: 309 | High: 123 (within 20 km)\n\n3. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: 22 (within 5 km), 38 (within 20 km)\n   - Schools Nearby: \n     - Prekindergarten: 3 | Elementary: 90 | High: 48 (within 10 km)\n     - Prekindergarten: 8 | Elementary: 298 | High: 139 (within 20 km)\n\n4. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: 8 (within 5 km), 37 (within 20 km)\n   - Schools Nearby: \n     - Prekindergarten: 3 | Elementary: 97 | High: 39 (within 10 km)\n     - Prekindergarten: 9 | Elementary: 314 | High: 127 (within 20 km)\n\n5. **Winslow West, Arizona**\n   - Average Price: **$79,630**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby: 2 (within 5 km), 30 (within 20 km)\n   - Schools Nearby: \n     - Prekindergarten: 2 | Elementary: 125 | High: 49 (within 10 km)\n     - Prekindergarten: 5 | Elementary: 329 | High: 137 (within 20 km)\n\nIf you need more information about any of these places or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To provide you with the best recommendations, could you please share your preferences regarding price, weather, temperature, hospitals, and schools? This information will help me find towns that suit your needs."
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.3333333333333333,
+    "behavioral_consistency": 0.3333333333333333,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 4.8865374999995765,
+    "per_turn_latency_seconds": [
+      8.269087299999228,
+      1.503987699999925
+    ],
+    "latency_overhead_vs_baseline_seconds": 0.832648749999862
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "axis": "mechanism",
+  "scenario": "state_and_school_preference",
+  "variant": "memory_hot_path",
+  "username": "eval_mechanism_r3_20261012T055746Z_state_and_school_preference_memory_hot_path",
+  "user_id": 1452,
+  "thread_ids": [
+    "fd0ecd21-4390-4123-8124-2ea211f1be72",
+    "f88a3833-1236-4b71-aafb-f2831d9ca97f"
+  ],
+  "search_strategy": "similarity",
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 4 | Elementary: 121 | High: 63 (within 10 km)\n   - **Weather Conditions:** Humidity: 85%, Wind Speed: 30.5 m/s\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** 5 within 5 km, 41 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 4 | Elementary: 98 | High: 40 (within 10 km)\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 23.6 m/s\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 3 | Elementary: 90 | High: 48 (within 10 km)\n   - **Weather Conditions:** Humidity: 92%, Wind Speed: 15.4 m/s\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 37 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 3 | Elementary: 97 | High: 39 (within 10 km)\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 24.0 m/s\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 2 | Elementary: 125 | High: 49 (within 10 km)\n   - **Weather Conditions:** Humidity: 95%, Wind Speed: 10.2 m/s\n\nThese locations have been selected based on your preference for good schools nearby. If you need more information or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "Here are some towns in Texas that I recommend based on your preferences for having schools and hospitals nearby:\n\n1. **Dawn, Texas**\n   - Average Price: $786,147\n   - Average Temperature: 22.6 \u00b0C\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 90 Elementary, 48 High within 10 km\n\n2. **Indian Gap, Texas**\n   - Average Price: $800,000\n   - Average Temperature: 25.7 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\n3. **Cranfills Gap, Texas**\n   - Average Price: $608,843\n   - Average Temperature: 20.3 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\n4. **Pecan Gap, Texas**\n   - Average Price: $402,500\n   - Average Temperature: 23.9 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\n5. **Buffalo Gap, Texas**\n   - Average Price: $297,988\n   - Average Temperature: 20.3 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\nIf you have any specific preferences regarding budget or temperature, feel free to share, and I can refine the search further!"
+      ]
+    }
+  ],
+  "turn_logs": [
+    {
+      "message": "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids.",
+      "session_index": 0,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns or cities in Texas or Arizona with good schools nearby"
+          }
+        },
+        {
+          "name": "update_user_profile",
+          "args": {
+            "content": {
+              "preferred_states": [
+                "Texas",
+                "Arizona"
+              ],
+              "wants_schools_nearby": true
+            },
+            "action": "create",
+            "id": null
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 10 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Glendale</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Arizona</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$476,428</b><br>Average temperature: <b>24.1 \u00b0C</b><br>Hos"
+        },
+        {
+          "name": "update_user_profile",
+          "status": "success",
+          "content": "created memory 813d8316-b20d-490b-b176-94380e71df89"
+        }
+      ],
+      "episodes_found": [],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - **Average Price:** $476,428\n   - **Average Temperature:** 24.1 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 25 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 4 | Elementary: 121 | High: 63 (within 10 km)\n   - **Weather Conditions:** Humidity: 85%, Wind Speed: 30.5 m/s\n\n2. **LaCoste, Texas**\n   - **Average Price:** $888,562\n   - **Average Temperature:** 24.9 \u00b0C\n   - **Hospitals Nearby:** 5 within 5 km, 41 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 4 | Elementary: 98 | High: 40 (within 10 km)\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 23.6 m/s\n\n3. **Dawn, Texas**\n   - **Average Price:** $786,147\n   - **Average Temperature:** 22.6 \u00b0C\n   - **Hospitals Nearby:** 22 within 5 km, 38 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 3 | Elementary: 90 | High: 48 (within 10 km)\n   - **Weather Conditions:** Humidity: 92%, Wind Speed: 15.4 m/s\n\n4. **Houston, Texas**\n   - **Average Price:** $475,386\n   - **Average Temperature:** 24.7 \u00b0C\n   - **Hospitals Nearby:** 8 within 5 km, 37 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 3 | Elementary: 97 | High: 39 (within 10 km)\n   - **Weather Conditions:** Humidity: 88%, Wind Speed: 24.0 m/s\n\n5. **Winslow West, Arizona**\n   - **Average Price:** $79,630\n   - **Average Temperature:** 26.8 \u00b0C\n   - **Hospitals Nearby:** 2 within 5 km, 30 within 20 km\n   - **Schools Nearby:** \n     - Prkindergarten: 2 | Elementary: 125 | High: 49 (within 10 km)\n   - **Weather Conditions:** Humidity: 95%, Wind Speed: 10.2 m/s\n\nThese locations have been selected based on your preference for good schools nearby. If you need more information or have other preferences, feel free to ask!"
+    },
+    {
+      "message": "What towns would you recommend for me?",
+      "session_index": 1,
+      "tool_calls": [
+        {
+          "name": "real_estate_search",
+          "args": {
+            "query": "towns in Texas and Arizona with schools and hospitals nearby"
+          }
+        },
+        {
+          "name": "log_search_episode",
+          "args": {
+            "content": {
+              "query": "towns in Texas and Arizona with schools and hospitals nearby",
+              "summary": "Recommended towns in Texas and Arizona that have schools and hospitals nearby.",
+              "top_result_towns": [
+                "Dawn, Texas",
+                "Indian Gap, Texas",
+                "Cranfills Gap, Texas",
+                "Pecan Gap, Texas",
+                "Buffalo Gap, Texas"
+              ]
+            }
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "real_estate_search",
+          "status": "success",
+          "content": " Found 1533 locations in Texas, Arizona. Top 5 according to your criteria:\n<div style='margin-bottom:14px;'><div style='font-weight:700; font-size:1.05rem;'><span style='color:#FF9843;'>1.</span> <span style='color:#3468C0;'>Dawn</span><span style='color:#86A7FC;'>,&nbsp;</span><span style='color:#86A7FC;'>Texas</span></div><div style='margin-left:14px;margin-top:6px;font-size:0.92rem;color:#374151;line-height:1.5;'>Average price: <b>$786,147</b><br>Average temperature: <b>22.6 \u00b0C</b><br>Hospita"
+        },
+        {
+          "name": "log_search_episode",
+          "status": "success",
+          "content": "created memory ce76183f-3116-42d9-b4e3-7a5b0278cfe9"
+        }
+      ],
+      "episodes_found": [
+        {
+          "query": "towns in Texas and Arizona with schools and hospitals nearby",
+          "summary": "Recommended towns in Texas and Arizona that have schools and hospitals nearby.",
+          "score": 0.4007540621545582
+        }
+      ],
+      "profile_after_write": {
+        "notes": null,
+        "dislikes": [],
+        "price_max": null,
+        "price_min": null,
+        "school_types": [],
+        "preferred_states": [
+          "Texas",
+          "Arizona"
+        ],
+        "wants_schools_nearby": true,
+        "temperature_preference": null,
+        "wants_hospitals_nearby": null
+      },
+      "reply": "Here are some towns in Texas that I recommend based on your preferences for having schools and hospitals nearby:\n\n1. **Dawn, Texas**\n   - Average Price: $786,147\n   - Average Temperature: 22.6 \u00b0C\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 90 Elementary, 48 High within 10 km\n\n2. **Indian Gap, Texas**\n   - Average Price: $800,000\n   - Average Temperature: 25.7 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\n3. **Cranfills Gap, Texas**\n   - Average Price: $608,843\n   - Average Temperature: 20.3 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\n4. **Pecan Gap, Texas**\n   - Average Price: $402,500\n   - Average Temperature: 23.9 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\n5. **Buffalo Gap, Texas**\n   - Average Price: $297,988\n   - Average Temperature: 20.3 \u00b0C\n   - Hospitals Nearby: 8 within 5 km, 45 within 20 km\n   - Schools Nearby: 76 Elementary, 36 High within 10 km\n\nIf you have any specific preferences regarding budget or temperature, feel free to share, and I can refine the search further!"
+    }
+  ],
+  "metrics": {
+    "memory_accuracy_strict": 0.5,
+    "behavioral_consistency": 0.5,
+    "false_memory_rate": null,
+    "episodic_retrieval_accuracy": null,
+    "avg_latency_seconds": 8.692095400008839,
+    "per_turn_latency_seconds": [
+      8.373146500030998,
+      9.011044299986679
+    ],
+    "latency_overhead_vs_baseline_seconds": 4.432569049997255
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r3_20260918T051127Z_budget_and_climate_preference_episodic_only_hot_path",
+  "user_id": 149,
+  "thread_ids": [
+    "d17734a9-dac2-4d03-8e91-ee02ce86b416",
+    "6cd22e3a-b9a7-4cf0-8fb7-9d56866f8476"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable towns that are sunny, although they have higher humidity levels than you might prefer:\n\n1. **Yermo, California**\n   - **Average Price:** $88,914\n   - **Average Temperature:** 21.3 \u00b0C\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 1 elementary school within 10 km, 5 elementary schools within 20 km\n   - **Humidity:** 88%\n   - **Sunny Days:** 329\n   - **Rainy Days:** 10\n\n2. **Yucca, Arizona**\n   - **Average Price:** $65,056\n   - **Average Temperature:** 22.8 \u00b0C\n   - **Hospitals Nearby:** 6 within 100 km\n   - **Schools Nearby:** 1 high school within 10 km\n   - **Humidity:** 90%\n   - **Sunny Days:** 315\n   - **Rainy Days:** 12\n\n3. **Zephyr Cove, Nevada**\n   - **Average Price:** $2,496,508 (not within budget)\n   - **Average Temperature:** 16.6 \u00b0C\n   - **Hospitals Nearby:** 1 within 100 km\n   - **Schools Nearby:** No schools within 10 km\n   - **Humidity:** 88%\n   - **Sunny Days:** 319\n   - **Rainy Days:** 4\n\n4. **Youngtown, Arizona**\n   - **Average Price:** $351,891 (slightly above budget)\n   - **Average Temperature:** 23.9 \u00b0C\n   - **Hospitals Nearby:** 3 within 5 km\n   - **Schools Nearby:** 41 elementary schools within 20 km\n   - **Humidity:** 92%\n   - **Sunny Days:** 316\n   - **Rainy Days:** 22\n\n5. **Yucca Valley, California**\n   - **Average Price:** $349,158 (slightly above budget)\n   - **Average Temperature:** 20.6 \u00b0C\n   - **Hospitals Nearby:** 5 within 20 km\n   - **Schools Nearby:** 3 elementary schools within 10 km\n   - **Humidity:** 93%\n   - **Sunny Days:** 296\n   - **Rainy Days:** 20\n\nWhile these towns may not fully meet your humidity preference, they are among the more affordable options with sunny weather. If you would like to refine your search further or explore other options, just let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with more details about what you're looking for in a place to live? For example, do you have preferences regarding price, weather, temperature, hospitals, schools, or any other specific criteria?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 3.8735870000009527,
+    "per_turn_latency_seconds": [
+      6.751145300000644,
+      0.9960287000012613
+    ],
+    "latency_overhead_vs_baseline_seconds": -1.5151513999981034
+  }
+}

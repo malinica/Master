@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "state_and_school_preference",
+  "variant": "episodic_only_hot_path",
+  "username": "eval_type_r2_20260918T051127Z_state_and_school_preference_episodic_only_hot_path",
+  "user_id": 122,
+  "thread_ids": [
+    "ab5678b6-7fe4-4924-a574-8c9524630cf7",
+    "f815f1d1-49f0-4cad-9eec-99c137f4583c"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I'm only interested in Texas or Arizona, and I need a place with good schools nearby since I have kids."
+      ],
+      "replies": [
+        "Here are some towns and cities in Texas and Arizona that have good schools nearby:\n\n1. **Glendale, Arizona**\n   - Average Price: **$476,428**\n   - Average Temperature: **24.1 \u00b0C**\n   - Hospitals Nearby: 2 within 5 km, 25 within 20 km\n   - Schools Nearby: 4 Prekindergarten, 121 Elementary, 63 High Schools within 10 km\n\n2. **LaCoste, Texas**\n   - Average Price: **$888,562**\n   - Average Temperature: **24.9 \u00b0C**\n   - Hospitals Nearby: 5 within 5 km, 41 within 20 km\n   - Schools Nearby: 4 Prekindergarten, 98 Elementary, 40 High Schools within 10 km\n\n3. **Dawn, Texas**\n   - Average Price: **$786,147**\n   - Average Temperature: **22.6 \u00b0C**\n   - Hospitals Nearby: 22 within 5 km, 38 within 20 km\n   - Schools Nearby: 3 Prekindergarten, 90 Elementary, 48 High Schools within 10 km\n\n4. **Houston, Texas**\n   - Average Price: **$475,386**\n   - Average Temperature: **24.7 \u00b0C**\n   - Hospitals Nearby: 8 within 5 km, 37 within 20 km\n   - Schools Nearby: 3 Prekindergarten, 97 Elementary, 39 High Schools within 10 km\n\n5. **Winslow West, Arizona**\n   - Average Price: **$79,630**\n   - Average Temperature: **26.8 \u00b0C**\n   - Hospitals Nearby: 2 within 5 km, 30 within 20 km\n   - Schools Nearby: 2 Prekindergarten, 125 Elementary, 49 High Schools within 10 km\n\nIf you need more information about any of these locations or have other preferences, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some preferences? For example, what is your budget for housing? Are there specific weather conditions you prefer? How important are hospitals and schools in your decision? Any other factors you'd like me to consider?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.3333333333333333,
+    "behavioral_consistency": 0.3333333333333333,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 3.875510099999701,
+    "per_turn_latency_seconds": [
+      6.759588799999619,
+      0.991431399999783
+    ],
+    "latency_overhead_vs_baseline_seconds": -1.2234601000009206
+  }
+}

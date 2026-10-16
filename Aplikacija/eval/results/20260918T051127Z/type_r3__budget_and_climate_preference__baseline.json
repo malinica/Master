@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "budget_and_climate_preference",
+  "variant": "baseline",
+  "username": "eval_type_r3_20260918T051127Z_budget_and_climate_preference_baseline",
+  "user_id": 146,
+  "thread_ids": [
+    "d5632e87-d482-4893-ab5f-6fa3f692744b",
+    "fadfc918-cf02-4bd1-abcd-616af91085eb"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "I really don't like humid weather and my budget is usually around $200,000. Find me some cheap sunny towns."
+      ],
+      "replies": [
+        "Here are some affordable sunny towns in the US that may fit your preferences, although please note that the humidity levels are relatively high:\n\n1. **Prairie Lea, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 26.2 \u00b0C\n   - **Humidity:** 93%\n   - **Hospitals Nearby:** 2 within 20 km, 63 within 100 km\n   - **Schools Nearby:** 1 elementary school within 10 km, 8 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n2. **Garciasville, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 25.7 \u00b0C\n   - **Humidity:** 90%\n   - **Hospitals Nearby:** 1 within 20 km, 11 within 100 km\n   - **Schools Nearby:** 3 elementary schools within 10 km, 8 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n3. **Lozano, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 24.6 \u00b0C\n   - **Humidity:** 92%\n   - **Hospitals Nearby:** 4 within 20 km, 18 within 100 km\n   - **Schools Nearby:** 5 elementary schools within 10 km, 41 elementary schools within 20 km\n   - **Sunny Days:** 1.0\n\n4. **Midkiff, Texas**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 23.7 \u00b0C\n   - **Humidity:** 89%\n   - **Hospitals Nearby:** 17 within 100 km\n   - **Schools Nearby:** No schools within 10 km\n   - **Sunny Days:** 1.0\n\n5. **Holder, Florida**\n   - **Average Price:** $200,000\n   - **Average Temperature:** 22.4 \u00b0C\n   - **Humidity:** 91%\n   - **Hospitals Nearby:** 2 within 20 km, 39 within 100 km\n   - **Schools Nearby:** 2 elementary schools within 10 km, 13 elementary schools within 20 km\n   - **Sunny Days:** 0.0\n\nWhile these towns are within your budget, they do have higher humidity levels. If you would like to explore more options or refine your search further, just let me know!"
+      ]
+    },
+    {
+      "messages": [
+        "Find me some good places to live."
+      ],
+      "replies": [
+        "Could you please provide me with some specific preferences or criteria you're looking for in a place to live? For example, are you looking for certain price ranges, weather conditions, proximity to hospitals or schools, or any other specific features?"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": null,
+    "avg_latency_seconds": 5.388738399999056,
+    "per_turn_latency_seconds": [
+      9.772555899999134,
+      1.0049208999989787
+    ],
+    "latency_overhead_vs_baseline_seconds": null
+  }
+}

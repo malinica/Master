@@ -1,0 +1,41 @@
+{
+  "axis": "type",
+  "scenario": "distractor_relevant_vs_irrelevant",
+  "variant": "episodic_only_background",
+  "username": "eval_type_r1_20260918T051127Z_distractor_relevant_vs_irrelevant_episodic_only_background",
+  "user_id": 101,
+  "thread_ids": [
+    "10dd8e3b-aed0-4170-a268-e45d923689bf",
+    "af019c01-2d42-4a6b-ade7-d5d9495c10ed"
+  ],
+  "sessions": [
+    {
+      "messages": [
+        "My budget is around $250,000 and I only want to see towns in Oregon. By the way, my cousin just moved to Vermont, not that it matters for me."
+      ],
+      "replies": [
+        "Here are some towns in Oregon that fit your budget of around $250,000:\n\n1. **Noti, Oregon**\n   - Average Price: **$249,840**\n   - Average Temperature: **15.6 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 4 Elementary, 2 High\n     - Within 20 km: 6 Elementary, 3 High\n     - Within 100 km: 2 Prekindergarten, 146 Elementary, 80 High\n   - Weather: Humidity 88%, Wind Speed 23.7 m/s, 1 Rainy Day\n\n2. **Tenmile, Oregon**\n   - Average Price: **$250,350**\n   - Average Temperature: **17.1 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 7 Elementary, 2 High\n     - Within 100 km: 67 Elementary, 37 High\n   - Weather: Humidity 91%, Wind Speed 18.8 m/s, 0 Rainy Days\n\n3. **Rufus, Oregon**\n   - Average Price: **$252,374**\n   - Average Temperature: **15.8 \u00b0C**\n   - Schools Nearby: \n     - Within 20 km: 2 Elementary, 2 High\n     - Within 100 km: 4 Prekindergarten, 69 Elementary, 32 High\n   - Weather: Humidity 95%, Wind Speed 10.5 m/s, 1 Sunny Day\n\n4. **Chiloquin, Oregon**\n   - Average Price: **$252,646**\n   - Average Temperature: **9.2 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 51 Elementary, 26 High\n   - Weather: Humidity 92%, Wind Speed 15.8 m/s, 8.5 Rainy Days\n\n5. **Midland, Oregon**\n   - Average Price: **$246,667**\n   - Average Temperature: **11.3 \u00b0C**\n   - Schools Nearby: \n     - Within 10 km: 1 Elementary, 1 High\n     - Within 100 km: 1 Prekindergarten, 59 Elementary, 30 High\n   - Weather: Humidity 93%, Wind Speed 14.7 m/s, 1 Rainy Day\n\nIf you need more information or have specific preferences regarding schools or hospitals, feel free to ask!"
+      ]
+    },
+    {
+      "messages": [
+        "What towns would you recommend for me?"
+      ],
+      "replies": [
+        "To help you find the best towns, could you please provide me with some specific preferences? For example, what is your budget for housing, what kind of weather do you prefer, are there any specific amenities like hospitals or schools that are important to you? Any additional details will help me narrow down the options!"
+      ]
+    }
+  ],
+  "metrics": {
+    "memory_accuracy": 0.0,
+    "behavioral_consistency": 0.0,
+    "task_success_rate": 1.0,
+    "false_memory_rate": 0.0,
+    "avg_latency_seconds": 6.042793199999778,
+    "per_turn_latency_seconds": [
+      8.731900799999494,
+      3.3536856000000625
+    ],
+    "latency_overhead_vs_baseline_seconds": 2.822648349999781
+  }
+}

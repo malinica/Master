@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: sir_agent_postgres
+    ports:
+      - "5435:5432"
+    environment:
+      POSTGRES_USER: ${PG_USER:-sir_agent}
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-sir_agent_pw}
+      POSTGRES_DB: ${PG_DB:-sir_agent}
+    volumes:
+      - sir_agent_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER:-sir_agent}"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  sir_agent_pgdata:
